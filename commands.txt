@@ -1,0 +1,23 @@
+#### sasa2000/cosmos-reason2-2b-text-only (Reasoning 2B Model)
+VLLM_USE_FLASHINFER_SAMPLER=0 HF_HUB_OFFLINE=1 .venv/bin/python3 -m vllm.entrypoints.openai.api_server \
+  --model sasa2000/cosmos-reason2-2b-text-only \
+  --max-model-len 4096 \
+  --port 8000 \
+  --gpu-memory-utilization 0.50 \
+  --chat-template-content-format string
+
+#### Qwen2.5-7B-Instruct-AWQ (4-bit 7B Model)
+VLLM_USE_FLASHINFER_SAMPLER=0 HF_HUB_OFFLINE=1 .venv/bin/python3 -m vllm.entrypoints.openai.api_server \
+  --model Qwen/Qwen2.5-7B-Instruct-AWQ \
+  --max-model-len 8192 \
+  --port 8000 \
+  --gpu-memory-utilization 0.55
+
+#### SmolLM2-1.7B-Instruct (1.7B Model)
+VLLM_USE_FLASHINFER_SAMPLER=0 HF_HUB_OFFLINE=1 .venv/bin/python3 -m vllm.entrypoints.openai.api_server \
+  --model HuggingFaceTB/SmolLM2-1.7B-Instruct \
+  --max-model-len 8192 \
+  --port 8000 \
+  --gpu-memory-utilization 0.35
+
+

@@ -1,0 +1,145 @@
+=================================================================
+FAILURE ANALYSIS SUMMARY (Total Errors: 1516 / 2260)
+=================================================================
+
+Top 15 Most Frequently Failing Gold Chunks:
+  • Chunk c000000: 5 error(s)
+  • Chunk c000002: 5 error(s)
+  • Chunk c000003: 5 error(s)
+  • Chunk c000005: 5 error(s)
+  • Chunk c000011: 5 error(s)
+  • Chunk c000013: 5 error(s)
+  • Chunk c000024: 5 error(s)
+  • Chunk c000025: 5 error(s)
+  • Chunk c000026: 5 error(s)
+  • Chunk c000027: 5 error(s)
+  • Chunk c000028: 5 error(s)
+  • Chunk c000029: 5 error(s)
+  • Chunk c000035: 5 error(s)
+  • Chunk c000037: 5 error(s)
+  • Chunk c000043: 5 error(s)
+
+-----------------------------------------------------------------
+Random Representative Sample of 30 Failures (Across Full Corpus):
+-----------------------------------------------------------------
+
+Query:           "On which page can you find details about driving collaboration?"
+Predicted Chunk: c000441 (Semantic ID: 4-1-1-3-0-0)
+Gold Chunk:      c000392
+--------------------------------------------------
+Query:           "How many times does FCW appear in the table with a deceleration of 5 km/h?"
+Predicted Chunk: c000066 (Semantic ID: 1-2-1-2-1-0)
+Gold Chunk:      c000067
+--------------------------------------------------
+Query:           "What is the VUT longitudinal path error when the EMT's front is stationary at 25 km/h and the VUT's front moves to 60 km/h relative to the EMT?"
+Predicted Chunk: c000305 (Semantic ID: 3-2-3-2-0-0)
+Gold Chunk:      c000014
+--------------------------------------------------
+Query:           "How many calibration runs are required according to the passage?"
+Predicted Chunk: c000329 (Semantic ID: 3-1-2-3-0)
+Gold Chunk:      c000165
+--------------------------------------------------
+Query:           "What is the default status of Emergency Lane Keeping (ELK) according to the passage?"
+Predicted Chunk: c000410 (Semantic ID: 4-0-2-1-0)
+Gold Chunk:      c000150
+--------------------------------------------------
+Query:           "What is the status of CMRb for acceleration in car-to-PTW scenarios?"
+Predicted Chunk: c000148 (Semantic ID: 1-2-3-3-0-0)
+Gold Chunk:      c000136
+--------------------------------------------------
+Query:           "How many different speeds are listed in the first column of the table?"
+Predicted Chunk: c000209 (Semantic ID: 1-3-1-2-0-0)
+Gold Chunk:      c000087
+--------------------------------------------------
+Query:           "manufacturer responsibilities"
+Predicted Chunk: c000472 (Semantic ID: 3-3-3-2-2-0)
+Gold Chunk:      c000474
+--------------------------------------------------
+Query:           "How long is the stabilization period required after the acceleration phase for the EMT?"
+Predicted Chunk: c000036 (Semantic ID: 3-0-1-3-0-0)
+Gold Chunk:      c000061
+--------------------------------------------------
+Query:           "If a system scores 18 points, can it receive additional points under this assessment criterion?"
+Predicted Chunk: c000403 (Semantic ID: 4-1-1-0-0)
+Gold Chunk:      c000423
+--------------------------------------------------
+Query:           "How far should the car travel during the calibration phase of the VUT pre-test conditioning?"
+Predicted Chunk: c000178 (Semantic ID: 3-1-1-2-0-0)
+Gold Chunk:      c000320
+--------------------------------------------------
+Query:           "What is the maximum allowable deviation of the vehicle speed from the reference speed profile in the CMRb scenario?"
+Predicted Chunk: c000251 (Semantic ID: 3-0-3-3-0-0)
+Gold Chunk:      c000052
+--------------------------------------------------
+Query:           "Which type of lane departure collision scenario is not explicitly mentioned in the passage?"
+Predicted Chunk: c000282 (Semantic ID: 0-1-3-0-0)
+Gold Chunk:      c000360
+--------------------------------------------------
+Query:           "What is the requirement for the Quick Start Guide to be considered valid?"
+Predicted Chunk: c000408 (Semantic ID: 4-0-0-0-0)
+Gold Chunk:      c000243
+--------------------------------------------------
+Query:           "What are the key reference points for defining the virtual box dimensions for EBT in crash avoidance testing?"
+Predicted Chunk: c000021 (Semantic ID: 1-2-2-3-3-0)
+Gold Chunk:      c000020
+--------------------------------------------------
+Query:           "target percentage VUT width"
+Predicted Chunk: c000018 (Semantic ID: 1-2-2-3-2-0)
+Gold Chunk:      c000019
+--------------------------------------------------
+Query:           "Can you provide the total impact location for car-to-motorcycle crossing in both standard and extended configurations?"
+Predicted Chunk: c000030 (Semantic ID: 2-3-1-3-1-0)
+Gold Chunk:      c000056
+--------------------------------------------------
+Query:           "How many scenarios are listed under Frontal Collisions > A.1 Car-to-Car Scenarios?"
+Predicted Chunk: c000148 (Semantic ID: 1-2-3-3-0-0)
+Gold Chunk:      c000134
+--------------------------------------------------
+Query:           "Which parameter does not have a value listed for CBNA in the table?"
+Predicted Chunk: c000121 (Semantic ID: 3-3-3-4-0)
+Gold Chunk:      c000142
+--------------------------------------------------
+Query:           "ELK and LDW simultaneous testing"
+Predicted Chunk: c000342 (Semantic ID: 3-2-2-4-0)
+Gold Chunk:      c000291
+--------------------------------------------------
+Query:           "What is the probability value at 72 km/h for the ELK Overtaking scenario in the given table?"
+Predicted Chunk: c000362 (Semantic ID: 0-0-1-4-0)
+Gold Chunk:      c000369
+--------------------------------------------------
+Query:           "How many rows are dedicated to each VUT speed in the table provided?"
+Predicted Chunk: c000179 (Semantic ID: 3-1-1-1-0-0)
+Gold Chunk:      c000015
+--------------------------------------------------
+Query:           "For which types of lane markings does the continuous intervention condition apply?"
+Predicted Chunk: c000201 (Semantic ID: 1-1-3-1-0-0)
+Gold Chunk:      c000336
+--------------------------------------------------
+Query:           "How is the total score calculated for the Standard Range in each scenario?"
+Predicted Chunk: c000351 (Semantic ID: 3-3-1-3-0)
+Gold Chunk:      c000122
+--------------------------------------------------
+Query:           "How many points are awarded for the ACC/AEB CAR-TO-CAR scenario in the table?"
+Predicted Chunk: c000458 (Semantic ID: 3-3-3-3-0-0)
+Gold Chunk:      c000460
+--------------------------------------------------
+Query:           "What is the duration of a microsleep episode as described in the passage?"
+Predicted Chunk: c000236 (Semantic ID: 2-2-1-1-0)
+Gold Chunk:      c000398
+--------------------------------------------------
+Query:           "What is the role of the Vehicle Manufacturer in determining the placement of blocking materials during the test?"
+Predicted Chunk: c000101 (Semantic ID: 1-2-1-3-0-0)
+Gold Chunk:      c000446
+--------------------------------------------------
+Query:           "How many points are awarded if a system's name includes 'assist'?"
+Predicted Chunk: c000406 (Semantic ID: 4-0-0-1-0)
+Gold Chunk:      c000242
+--------------------------------------------------
+Query:           "Does the passage indicate that all scenarios for ES are included in the tests?"
+Predicted Chunk: c000201 (Semantic ID: 1-1-3-1-0-0)
+Gold Chunk:      c000134
+--------------------------------------------------
+Query:           "How soon after a speed limit change should the vehicle start slowing down to meet the criteria?"
+Predicted Chunk: c000434 (Semantic ID: 4-2-2-2-0)
+Gold Chunk:      c000258
+--------------------------------------------------

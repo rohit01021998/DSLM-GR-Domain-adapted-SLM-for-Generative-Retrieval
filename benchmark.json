@@ -1,0 +1,502 @@
+[
+  {
+    "id": "1",
+    "question": "What does VUT stand for in the Assisted Driving protocol?",
+    "answer": "Vehicle under test[cite: 1]."
+  },
+  {
+    "id": "2",
+    "question": "What does GVT stand for in the Assisted Driving protocol?",
+    "answer": "Global Vehicle Target[cite: 1]."
+  },
+  {
+    "id": "3",
+    "question": "In the Assisted Driving Cut-out test, what does SOV stand for?",
+    "answer": "Secondary Other Vehicle[cite: 1]."
+  },
+  {
+    "id": "4",
+    "question": "What is the definition of the Speed Limit Information Function (SLIF)?",
+    "answer": "A function with which the vehicle knows and communicates the speed limit[cite: 1]."
+  },
+  {
+    "id": "5",
+    "question": "How is Intelligent Adaptive Cruise Control (iACC) defined?",
+    "answer": "iACC is an ACC combined with SLIF, where the speed is set by the SLIF with or without driver confirmation[cite: 1]."
+  },
+  {
+    "id": "6",
+    "question": "What is the minimum design maximum speed for a Real Motorcycle target used in Blind-Spot Monitoring Tests?",
+    "answer": "At least 80km/h[cite: 1]."
+  },
+  {
+    "id": "7",
+    "question": "What is the grading requirement to achieve a \"VERY GOOD\" score in the Highway and Interurban Assist Systems grading?",
+    "answer": ">= 160 points (>= 80%)[cite: 1]."
+  },
+  {
+    "id": "8",
+    "question": "How many points are awarded if a system name contains the word \"assistant\", \"assistance\", or \"assist\"?",
+    "answer": "10 points[cite: 1]."
+  },
+  {
+    "id": "9",
+    "question": "What words are strictly forbidden from being used in a system name under the Assisted Driving protocol?",
+    "answer": "\"auto\", \"automatic\", \"automated\", \"pilot\", or \"self-drive\"[cite: 1]."
+  },
+  {
+    "id": "10",
+    "question": "How many points are awarded if the marketing material correctly describes the system functionality?",
+    "answer": "5 points[cite: 1]."
+  },
+  {
+    "id": "11",
+    "question": "What is the total point value available for the Continuous System Status Indicator?",
+    "answer": "20 points[cite: 1]."
+  },
+  {
+    "id": "12",
+    "question": "What specific color must be used on the Continuous System Status Indicator to denote Assisted Mode?",
+    "answer": "Green[cite: 1]."
+  },
+  {
+    "id": "13",
+    "question": "What is the recommended decibel range for an additional acoustic indication during a system status change?",
+    "answer": "50~90 dB[cite: 1]."
+  },
+  {
+    "id": "14",
+    "question": "How many points are awarded for a system that robustly detects if the driver's hands are on the steering wheel during Assisted Mode?",
+    "answer": "5 points[cite: 1]."
+  },
+  {
+    "id": "15",
+    "question": "How soon must Assisted Mode be deactivated if the Driver State Monitoring system becomes unavailable due to a complete blockage?",
+    "answer": "No later than 10 seconds[cite: 1]."
+  },
+  {
+    "id": "16",
+    "question": "How many repetitive visual distraction instances lead to a controllable Assisted Mode lock-out?",
+    "answer": "3 repetitive instances[cite: 1]."
+  },
+  {
+    "id": "17",
+    "question": "What is the maximum time window within which repetitive distractions will trigger an Assisted Mode lock-out?",
+    "answer": "30 minutes[cite: 1]."
+  },
+  {
+    "id": "18",
+    "question": "What frequency is applied when steering the full sine wave during the Pothole Test?",
+    "answer": "0.25Hz[cite: 1]."
+  },
+  {
+    "id": "19",
+    "question": "What is the target Distance To Lane Edge (DTLE) for the steering amplitude in the Pothole Test?",
+    "answer": "+15 \u00b15cm[cite: 1]."
+  },
+  {
+    "id": "20",
+    "question": "What is the target Distance To Lane Edge (DTLE) for the steering amplitude in the Partial Lane Change Test?",
+    "answer": "-50 \u00b15 cm[cite: 1]."
+  },
+  {
+    "id": "21",
+    "question": "How many points are awarded for override response if a vehicle has an absolute override torque of <5Nm and meets all conditions?",
+    "answer": "20 points[cite: 1]."
+  },
+  {
+    "id": "22",
+    "question": "How much time does a driver have to confirm an offered lower speed limit for it to be considered adopted \"in time\"?",
+    "answer": "1.5 seconds[cite: 1]."
+  },
+  {
+    "id": "23",
+    "question": "What Time To Collision (TTC) is used for the Cut-out tests to verify Safety Backup?",
+    "answer": "2s[cite: 1]."
+  },
+  {
+    "id": "24",
+    "question": "What is the total maximum sub-points available for the Car-to-Car Rear Stationary (CCRs) test in the ACC/AEB evaluation?",
+    "answer": "8 points[cite: 1]."
+  },
+  {
+    "id": "25",
+    "question": "How long must a vehicle be driven with a blocked sensor before attempting an assistance system activation at start-up?",
+    "answer": "2 minutes[cite: 1]."
+  },
+  {
+    "id": "26",
+    "question": "How many points are awarded to systems able to successfully provide a warning and intervention immediately after detecting a microsleep?",
+    "answer": "5 points[cite: 1]."
+  },
+  {
+    "id": "27",
+    "question": "How many points are awarded to systems able to successfully provide a warning and intervention immediately after detecting sleep?",
+    "answer": "5 points[cite: 1]."
+  },
+  {
+    "id": "28",
+    "question": "How many points are awarded if an unresponsive driver is detected by indirect sensing such as prolonged steering inactivity?",
+    "answer": "10 points[cite: 1]."
+  },
+  {
+    "id": "29",
+    "question": "How many bonus points are awarded for an advanced response that changes lanes to an emergency lane for an unresponsive driver?",
+    "answer": "5 points[cite: 1]."
+  },
+  {
+    "id": "30",
+    "question": "To score 5 points in the S-Bend test, an LKA intervention must prevent the vehicle from crossing the lane marking by more than what distance?",
+    "answer": "0.4m[cite: 1]."
+  },
+  {
+    "id": "31",
+    "question": "How many points are awarded for a successful Car-to-Car intentional lane change test in the Safety Backup LSS evaluation?",
+    "answer": "2.5 points[cite: 1]."
+  },
+  {
+    "id": "32",
+    "question": "By what maximum percentage can a long distraction warning timing threshold be relaxed under context-based vehicle response strategies?",
+    "answer": "150%[cite: 1]."
+  },
+  {
+    "id": "33",
+    "question": "What defines a Transient driver state?",
+    "answer": "A state during which the driver's focus on the primary task of driving/controlling the vehicle is temporarily reduced, but can be immediately reversed[cite: 1]."
+  },
+  {
+    "id": "34",
+    "question": "What does PBC stand for in the Frontal Collisions protocol?",
+    "answer": "Peak Braking Coefficient[cite: 2]."
+  },
+  {
+    "id": "35",
+    "question": "Which ISO standard specifies the Euro NCAP Bicyclist Target (EBTa)?",
+    "answer": "ISO 19206-4:2020[cite: 2]."
+  },
+  {
+    "id": "36",
+    "question": "Which ISO standard specifies the Euro NCAP Pedestrian Target (EPTa)?",
+    "answer": "ISO 19206-2:2018[cite: 2]."
+  },
+  {
+    "id": "37",
+    "question": "How is Vehicle width defined in the Frontal Collisions protocol?",
+    "answer": "The widest point of the vehicle ignoring the rear-view mirrors, side marker lamps, tyre pressure indicators, direction indicator lamps, position lamps, flexible mud-guards and the deflected part of the tyre side-walls[cite: 2]."
+  },
+  {
+    "id": "38",
+    "question": "What does CPFA stand for?",
+    "answer": "Car-to-Pedestrian Farside Adult[cite: 2]."
+  },
+  {
+    "id": "39",
+    "question": "At what frequency must all dynamic data be sampled and recorded?",
+    "answer": "At least 100Hz[cite: 2]."
+  },
+  {
+    "id": "40",
+    "question": "What is the required measurement accuracy for VUT and target speed?",
+    "answer": "0.1km/h[cite: 2]."
+  },
+  {
+    "id": "41",
+    "question": "What type of filter must be applied to acceleration, yaw rate, and steering wheel velocity data?",
+    "answer": "A 12-pole phase less Butterworth filter with a cut off frequency of 10Hz[cite: 2]."
+  },
+  {
+    "id": "42",
+    "question": "What is the maximum permitted longitudinal slope for the test track surface?",
+    "answer": "\u00b11%[cite: 2]."
+  },
+  {
+    "id": "43",
+    "question": "What is the maximum permitted lateral slope for the test track surface?",
+    "answer": "\u00b13%[cite: 2]."
+  },
+  {
+    "id": "44",
+    "question": "What is the minimal Peak Braking Coefficient (PBC) required for the test track surface?",
+    "answer": "0.9[cite: 2]."
+  },
+  {
+    "id": "45",
+    "question": "Within what ambient temperature range must Frontal Collision tests be conducted?",
+    "answer": "Above 5\u00b0C and below 40\u00b0C[cite: 2]."
+  },
+  {
+    "id": "46",
+    "question": "What is the minimum horizontal visibility at ground level required for testing?",
+    "answer": "Greater than 1km[cite: 2]."
+  },
+  {
+    "id": "47",
+    "question": "What is the maximum allowable wind speed during Frontal Collision testing?",
+    "answer": "10m/s[cite: 2]."
+  },
+  {
+    "id": "48",
+    "question": "What is the minimum ambient illumination required for daylight testing?",
+    "answer": "In excess of 2000 lux[cite: 2]."
+  },
+  {
+    "id": "49",
+    "question": "To what capacity must the fuel tank be filled before measuring the unladen kerb mass?",
+    "answer": "At least 90%[cite: 2]."
+  },
+  {
+    "id": "50",
+    "question": "What is the required interior load mass that is added to the unladen kerb mass for testing?",
+    "answer": "200 kg[cite: 2]."
+  },
+  {
+    "id": "51",
+    "question": "What is the Time Headway used for Car-to-Car Rear Braking (CCRb) scenarios?",
+    "answer": "1.0s[cite: 2]."
+  },
+  {
+    "id": "52",
+    "question": "What is the target deceleration used for Car-to-Car Rear Braking (CCRb) scenarios?",
+    "answer": "-4m/s^2[cite: 2]."
+  },
+  {
+    "id": "53",
+    "question": "What is the minimum speed from which an AEB Pedestrian system must operate in the CPNA-75 scenario?",
+    "answer": "10 km/h[cite: 2]."
+  },
+  {
+    "id": "54",
+    "question": "In the CCCscp obstructed scenario, what is the gap distance between parked obscuration vehicles?",
+    "answer": "1m apart[cite: 2]."
+  },
+  {
+    "id": "55",
+    "question": "What is the starting point (T0) relative to Time To Collision for most Frontal Collision test scenarios?",
+    "answer": "TTC = 4s[cite: 2]."
+  },
+  {
+    "id": "56",
+    "question": "What is the required VUT Time Error boundary condition for synchronization in the CCCscp scenario?",
+    "answer": "\u00b1[0.1]s[cite: 2]."
+  },
+  {
+    "id": "57",
+    "question": "When must the direction indicator be applied before T_steer in the CCFtap scenario?",
+    "answer": "1.0s \u00b1 0.5s[cite: 2]."
+  },
+  {
+    "id": "58",
+    "question": "What is the maximum allowed VUT lateral deviation tolerance for CPTA and CBTA scenarios?",
+    "answer": "0 \u00b1 0.1 m[cite: 2]."
+  },
+  {
+    "id": "59",
+    "question": "What is the default delay time for the braking robot reacting to an FCW to account for driver reaction?",
+    "answer": "1.2 seconds[cite: 2]."
+  },
+  {
+    "id": "60",
+    "question": "What maximum brake level is applied by the braking robot during an FCW test?",
+    "answer": "-4 m/s^2 - 0.50 m/s^2[cite: 2]."
+  },
+  {
+    "id": "61",
+    "question": "How long is the stabilization phase following the target acceleration phase in crossing scenarios?",
+    "answer": "0.5s[cite: 2]."
+  },
+  {
+    "id": "62",
+    "question": "At what TTC must steady-state conditions be met for the GVT in the CCCscp scenario?",
+    "answer": "3.5s TTC[cite: 2]."
+  },
+  {
+    "id": "63",
+    "question": "What impact speed tolerance is applied to the verification tests?",
+    "answer": "2 km/h[cite: 2]."
+  },
+  {
+    "id": "64",
+    "question": "If the relative impact speed reduction is evaluated to be within the red colour band, what does this indicate?",
+    "answer": "The impact speed was > 30 km/h or no reduction was made, resulting in 0 points[cite: 2]."
+  },
+  {
+    "id": "65",
+    "question": "For the AEB CCRs scenario, up to what maximum test speed must full avoidance be achieved to be eligible for scoring?",
+    "answer": "20 km/h[cite: 2]."
+  },
+  {
+    "id": "66",
+    "question": "What vehicle category should the smaller obstruction vehicle be according to the Frontal Collisions protocol?",
+    "answer": "Small Family Car[cite: 2]."
+  },
+  {
+    "id": "67",
+    "question": "What vehicle category should the larger obstruction vehicle be according to the Frontal Collisions protocol?",
+    "answer": "Small SUV[cite: 2]."
+  },
+  {
+    "id": "68",
+    "question": "According to the Lane Departure protocol, what ASTM method is used to measure the Peak Braking Coefficient (PBC)?",
+    "answer": "ASTM Method E 1337-90 (reapproved 1996)[cite: 3]."
+  },
+  {
+    "id": "69",
+    "question": "At what specific speed is the Peak Braking Coefficient (PBC) measured using the ASTM reference tyre?",
+    "answer": "64.4 km/h[cite: 3]."
+  },
+  {
+    "id": "70",
+    "question": "What does ELK stand for in the Lane Departure protocol?",
+    "answer": "Emergency Lane Keeping[cite: 3]."
+  },
+  {
+    "id": "71",
+    "question": "What does LKA stand for in the Lane Departure protocol?",
+    "answer": "Lane Keeping Assist[cite: 3]."
+  },
+  {
+    "id": "72",
+    "question": "What does DTLE stand for in the Lane Departure protocol?",
+    "answer": "Distance To Lane Edge[cite: 3]."
+  },
+  {
+    "id": "73",
+    "question": "What is the required measurement accuracy for the VUT heading angle in Lane Departure tests?",
+    "answer": "0.1\u00b0[cite: 3]."
+  },
+  {
+    "id": "74",
+    "question": "What is the specified test lane width when measured from the inside edge of the lane marking?",
+    "answer": "3.5 to 3.7m[cite: 3]."
+  },
+  {
+    "id": "75",
+    "question": "What distance must exist between the inner edge of the lane marking and the road edge?",
+    "answer": "0.20 to 0.30m[cite: 3]."
+  },
+  {
+    "id": "76",
+    "question": "What is the minimum length of lane marking that must remain ahead of the vehicle after a Lane Departure test is complete?",
+    "answer": "At least 20m[cite: 3]."
+  },
+  {
+    "id": "77",
+    "question": "During tyre conditioning, what is the exact diameter of the circle the vehicle must drive around?",
+    "answer": "30m[cite: 3]."
+  },
+  {
+    "id": "78",
+    "question": "At what speed must the vehicle drive during the sinusoidal tyre conditioning passes?",
+    "answer": "56km/h[cite: 3]."
+  },
+  {
+    "id": "79",
+    "question": "What frequency is used for the sinusoidal steering input during tyre conditioning?",
+    "answer": "1Hz[cite: 3]."
+  },
+  {
+    "id": "80",
+    "question": "How many runs must be performed for a system check before actual Lane Departure testing begins?",
+    "answer": "A maximum of ten runs[cite: 3]."
+  },
+  {
+    "id": "81",
+    "question": "What is the specific limit value for DTLE in Lane Departure - ELK Road Edge tests?",
+    "answer": "-0.1m[cite: 3]."
+  },
+  {
+    "id": "82",
+    "question": "At what lateral speed must the Continuous Intervention Driveability testing be conducted?",
+    "answer": "0.5m/s[cite: 3]."
+  },
+  {
+    "id": "83",
+    "question": "What is the maximum allowed overriding torque during an active lane support system intervention to satisfy the Driveability requirement?",
+    "answer": "3.0Nm + [0.5Nm][cite: 3]."
+  },
+  {
+    "id": "84",
+    "question": "For steering response tests >=70km/h at a lateral speed of 0.2m/s, what is the maximum allowed steering wheel velocity?",
+    "answer": "\u00b120\u00b0/sec[cite: 3]."
+  },
+  {
+    "id": "85",
+    "question": "For steering response tests >=70km/h at a lateral speed of 0.6m/s, what is the maximum allowed steering wheel velocity?",
+    "answer": "\u00b140\u00b0/sec[cite: 3]."
+  },
+  {
+    "id": "86",
+    "question": "What lateral velocity range is used for unintentional lane changes in the ELK Car-to-Car Overtaking tests?",
+    "answer": "0.3 to 0.6m/s[cite: 3]."
+  },
+  {
+    "id": "87",
+    "question": "What lateral velocity range is used for intentional lane changes in the ELK Car-to-Car Overtaking tests?",
+    "answer": "0.5 to 0.7m/s[cite: 3]."
+  },
+  {
+    "id": "88",
+    "question": "In the ELK Car-to-Car Oncoming scenario, what is the lateral distance of the target's path from the inner side of the centre dashed lane marking?",
+    "answer": "1.5m[cite: 3]."
+  },
+  {
+    "id": "89",
+    "question": "In the ELK Car-to-Motorcyclist Oncoming scenario, what is the lateral distance of the target's path from the inner side of the centre dashed lane marking?",
+    "answer": "1.00m[cite: 3]."
+  },
+  {
+    "id": "90",
+    "question": "What is the synchronized impact location for the ELK Car-to-Car Oncoming scenario?",
+    "answer": "90%[cite: 3]."
+  },
+  {
+    "id": "91",
+    "question": "What is the synchronized impact location for the ELK Car-to-Motorcyclist Oncoming scenario?",
+    "answer": "110%[cite: 3]."
+  },
+  {
+    "id": "92",
+    "question": "What is the minimum required lateral separation between the VUT and the EMT to avoid failing the ELK test?",
+    "answer": ">0.3m[cite: 3]."
+  },
+  {
+    "id": "93",
+    "question": "At what specific TTC is an ELK test assumed to have failed if no system intervention is observed?",
+    "answer": "TTC = 0.8s[cite: 3]."
+  },
+  {
+    "id": "94",
+    "question": "How many points are awarded for a PASS (Avoidance) in the ELK Car & PTW Standard Range tests?",
+    "answer": "1 point[cite: 3]."
+  },
+  {
+    "id": "95",
+    "question": "What percentage of the total available score in the Standard Range must be achieved to be eligible for Extended Range scoring?",
+    "answer": ">=25%[cite: 3]."
+  },
+  {
+    "id": "96",
+    "question": "How many maximum points are available specifically for the Driveability assessment within the Single Vehicle tests?",
+    "answer": "2 points[cite: 3]."
+  },
+  {
+    "id": "97",
+    "question": "How many maximum points are available specifically for the Driver State Link assessment within the Single Vehicle tests?",
+    "answer": "3 points[cite: 3]."
+  },
+  {
+    "id": "98",
+    "question": "How quickly must the Lane Support sensitivity revert to its nominal setting after the Driver Status Monitoring system detects degraded performance?",
+    "answer": "< 1 second[cite: 3]."
+  },
+  {
+    "id": "99",
+    "question": "What does BSM stand for in the Lane Departure protocol?",
+    "answer": "Blind Spot Monitoring[cite: 3]."
+  },
+  {
+    "id": "100",
+    "question": "How is a Driver Intention Monitoring system defined in the Lane Departure protocol?",
+    "answer": "A system that is effective at distinguishing intentional from unintentional lane crossing and suppressing undesired interventions and/or warnings[cite: 3]."
+  }
+]

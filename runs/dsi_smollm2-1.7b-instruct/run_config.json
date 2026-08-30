@@ -1,0 +1,9 @@
+{
+  "run_name": "dsi_smollm2-1.7b-instruct",
+  "epochs": 20,
+  "lr": 0.0002,
+  "batch_size": 64,
+  "best_val_hits1": 0.255,
+  "model_name": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "encoder_name": "BAAI/bge-large-en-v1.5"
+}

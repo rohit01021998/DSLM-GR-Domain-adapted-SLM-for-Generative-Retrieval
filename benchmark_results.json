@@ -1,0 +1,6102 @@
+[
+  {
+    "id": "1",
+    "question": "What does VUT stand for in the Assisted Driving protocol?",
+    "reference_answer": "Vehicle under test[cite: 1].",
+    "generated_answer": "VUT stands for Vehicle Under Test.",
+    "rephrased_query": "VUT in Assisted Driving",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000418",
+        "semantic_id": "4-0-1-0-0",
+        "score": 0.167
+      },
+      {
+        "chunk_id": "c000423",
+        "semantic_id": "4-0-1-1-0",
+        "score": 0.153
+      },
+      {
+        "chunk_id": "c000401",
+        "semantic_id": "4-0-0-3-0",
+        "score": 0.139
+      },
+      {
+        "chunk_id": "c000448",
+        "semantic_id": "4-3-1-2-0",
+        "score": 0.139
+      },
+      {
+        "chunk_id": "c000449",
+        "semantic_id": "4-3-1-1-0",
+        "score": 0.125
+      },
+      {
+        "chunk_id": "c000417",
+        "semantic_id": "4-0-1-2-0",
+        "score": 0.125
+      },
+      {
+        "chunk_id": "c000427",
+        "semantic_id": "4-3-2-2-0",
+        "score": 0.122
+      },
+      {
+        "chunk_id": "c000420",
+        "semantic_id": "4-0-0-4-0",
+        "score": 0.114
+      },
+      {
+        "chunk_id": "c000450",
+        "semantic_id": "4-3-1-0-0",
+        "score": 0.113
+      },
+      {
+        "chunk_id": "c000416",
+        "semantic_id": "4-0-1-3-0",
+        "score": 0.111
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 4.76
+  },
+  {
+    "id": "2",
+    "question": "What does GVT stand for in the Assisted Driving protocol?",
+    "reference_answer": "Global Vehicle Target[cite: 1].",
+    "generated_answer": "GVT stands for \"Governing Vehicle Test.\"",
+    "rephrased_query": "GVT Assisted Driving",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000418",
+        "semantic_id": "4-0-1-0-0",
+        "score": 0.158
+      },
+      {
+        "chunk_id": "c000393",
+        "semantic_id": "4-1-1-3-3-0",
+        "score": 0.139
+      },
+      {
+        "chunk_id": "c000388",
+        "semantic_id": "4-1-2-0-0",
+        "score": 0.13
+      },
+      {
+        "chunk_id": "c000441",
+        "semantic_id": "4-1-1-3-0-0",
+        "score": 0.127
+      },
+      {
+        "chunk_id": "c000401",
+        "semantic_id": "4-0-0-3-0",
+        "score": 0.127
+      },
+      {
+        "chunk_id": "c000420",
+        "semantic_id": "4-0-0-4-0",
+        "score": 0.121
+      },
+      {
+        "chunk_id": "c000469",
+        "semantic_id": "4-1-1-3-1-0",
+        "score": 0.119
+      },
+      {
+        "chunk_id": "c000391",
+        "semantic_id": "4-1-2-1-0",
+        "score": 0.117
+      },
+      {
+        "chunk_id": "c000041",
+        "semantic_id": "3-0-1-4-0",
+        "score": 0.113
+      },
+      {
+        "chunk_id": "c000392",
+        "semantic_id": "4-1-1-3-2-0",
+        "score": 0.105
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 4.93
+  },
+  {
+    "id": "5",
+    "question": "How is Intelligent Adaptive Cruise Control (iACC) defined?",
+    "reference_answer": "iACC is an ACC combined with SLIF, where the speed is set by the SLIF with or without driver confirmation[cite: 1].",
+    "generated_answer": "Intelligent Adaptive Cruise Control (iACC) is an Adaptive Cruise Control combined with the Speed Limit Information Function (SLIF), where the speed is set by the SLIF with or without driver confirmation.",
+    "rephrased_query": "How is Intelligent Adaptive Cruise Control (iACC) defined",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000395",
+        "semantic_id": "4-4-0-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000436",
+        "semantic_id": "4-1-0-2-0",
+        "score": 0.16
+      },
+      {
+        "chunk_id": "c000432",
+        "semantic_id": "4-3-0-1",
+        "score": 0.16
+      },
+      {
+        "chunk_id": "c000405",
+        "semantic_id": "4-1-0-3-0",
+        "score": 0.129
+      },
+      {
+        "chunk_id": "c000424",
+        "semantic_id": "4-1-1-1-0",
+        "score": 0.125
+      },
+      {
+        "chunk_id": "c000431",
+        "semantic_id": "1-4-0-2-0",
+        "score": 0.124
+      },
+      {
+        "chunk_id": "c000406",
+        "semantic_id": "4-0-0-1-0",
+        "score": 0.121
+      },
+      {
+        "chunk_id": "c000442",
+        "semantic_id": "4-1-0-1-0",
+        "score": 0.108
+      },
+      {
+        "chunk_id": "c000402",
+        "semantic_id": "4-1-0-0-0",
+        "score": 0.101
+      },
+      {
+        "chunk_id": "c000449",
+        "semantic_id": "4-3-1-1-0",
+        "score": 0.099
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 5.24
+  },
+  {
+    "id": "7",
+    "question": "What is the grading requirement to achieve a \"VERY GOOD\" score in the Highway and Interurban Assist Systems grading?",
+    "reference_answer": ">= 160 points (>= 80%)[cite: 1].",
+    "generated_answer": "\u2265 160 points (\u2265 80%)",
+    "rephrased_query": "Highway and Interurban Assist Systems, VUT, VERY GOOD",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000403",
+        "semantic_id": "4-1-1-0-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000391",
+        "semantic_id": "4-1-2-1-0",
+        "score": 0.146
+      },
+      {
+        "chunk_id": "c000441",
+        "semantic_id": "4-1-1-3-0-0",
+        "score": 0.133
+      },
+      {
+        "chunk_id": "c000388",
+        "semantic_id": "4-1-2-0-0",
+        "score": 0.127
+      },
+      {
+        "chunk_id": "c000392",
+        "semantic_id": "4-1-1-3-2-0",
+        "score": 0.122
+      },
+      {
+        "chunk_id": "c000393",
+        "semantic_id": "4-1-1-3-3-0",
+        "score": 0.122
+      },
+      {
+        "chunk_id": "c000469",
+        "semantic_id": "4-1-1-3-1-0",
+        "score": 0.119
+      },
+      {
+        "chunk_id": "c000457",
+        "semantic_id": "4-2-1-1-0",
+        "score": 0.112
+      },
+      {
+        "chunk_id": "c000426",
+        "semantic_id": "4-3-2-1-0",
+        "score": 0.108
+      },
+      {
+        "chunk_id": "c000390",
+        "semantic_id": "4-1-2-2-0",
+        "score": 0.106
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 5.88
+  },
+  {
+    "id": "15",
+    "question": "How soon must Assisted Mode be deactivated if the Driver State Monitoring system becomes unavailable due to a complete blockage?",
+    "reference_answer": "No later than 10 seconds[cite: 1].",
+    "generated_answer": "No later than 10 seconds from the point the DSM becomes unavailable due to a complete blockage.",
+    "rephrased_query": "Assisted Mode deactivation timing Driver State Monitoring unavailable complete blockage",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000418",
+        "semantic_id": "4-0-1-0-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000416",
+        "semantic_id": "4-0-1-3-0",
+        "score": 0.16
+      },
+      {
+        "chunk_id": "c000419",
+        "semantic_id": "4-0-3-0-0",
+        "score": 0.15
+      },
+      {
+        "chunk_id": "c000397",
+        "semantic_id": "4-0-4-0",
+        "score": 0.134
+      },
+      {
+        "chunk_id": "c000451",
+        "semantic_id": "4-0-3-3-0",
+        "score": 0.129
+      },
+      {
+        "chunk_id": "c000420",
+        "semantic_id": "4-0-0-4-0",
+        "score": 0.125
+      },
+      {
+        "chunk_id": "c000423",
+        "semantic_id": "4-0-1-1-0",
+        "score": 0.124
+      },
+      {
+        "chunk_id": "c000398",
+        "semantic_id": "4-0-3-4-0",
+        "score": 0.106
+      },
+      {
+        "chunk_id": "c000452",
+        "semantic_id": "4-0-3-2-0",
+        "score": 0.098
+      },
+      {
+        "chunk_id": "c000279",
+        "semantic_id": "3-4-1-0-0",
+        "score": 0.097
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 6.01
+  },
+  {
+    "id": "9",
+    "question": "What words are strictly forbidden from being used in a system name under the Assisted Driving protocol?",
+    "reference_answer": "\"auto\", \"automatic\", \"automated\", \"pilot\", or \"self-drive\"[cite: 1].",
+    "generated_answer": "The following words are strictly forbidden from being used in a system name under the Assisted Driving protocol: auto, automatic, automated, pilot, self-drive.",
+    "rephrased_query": "assisted driving protocol prohibited words",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000388",
+        "semantic_id": "4-1-2-0-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000418",
+        "semantic_id": "4-0-1-0-0",
+        "score": 0.155
+      },
+      {
+        "chunk_id": "c000401",
+        "semantic_id": "4-0-0-3-0",
+        "score": 0.155
+      },
+      {
+        "chunk_id": "c000420",
+        "semantic_id": "4-0-0-4-0",
+        "score": 0.154
+      },
+      {
+        "chunk_id": "c000390",
+        "semantic_id": "4-1-2-2-0",
+        "score": 0.133
+      },
+      {
+        "chunk_id": "c000442",
+        "semantic_id": "4-1-0-1-0",
+        "score": 0.121
+      },
+      {
+        "chunk_id": "c000391",
+        "semantic_id": "4-1-2-1-0",
+        "score": 0.114
+      },
+      {
+        "chunk_id": "c000441",
+        "semantic_id": "4-1-1-3-0-0",
+        "score": 0.106
+      },
+      {
+        "chunk_id": "c000393",
+        "semantic_id": "4-1-1-3-3-0",
+        "score": 0.1
+      },
+      {
+        "chunk_id": "c000423",
+        "semantic_id": "4-0-1-1-0",
+        "score": 0.093
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 6.37
+  },
+  {
+    "id": "11",
+    "question": "What is the total point value available for the Continuous System Status Indicator?",
+    "reference_answer": "20 points[cite: 1].",
+    "generated_answer": "20",
+    "rephrased_query": "Continuous System Status Indicator total point value",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000412",
+        "semantic_id": "4-0-2-1-1",
+        "score": 0.174
+      },
+      {
+        "chunk_id": "c000410",
+        "semantic_id": "4-0-2-1-0",
+        "score": 0.174
+      },
+      {
+        "chunk_id": "c000404",
+        "semantic_id": "1-4-0-1-0",
+        "score": 0.154
+      },
+      {
+        "chunk_id": "c000413",
+        "semantic_id": "4-0-2-0-0",
+        "score": 0.143
+      },
+      {
+        "chunk_id": "c000411",
+        "semantic_id": "4-0-2-3-0",
+        "score": 0.133
+      },
+      {
+        "chunk_id": "c000429",
+        "semantic_id": "4-1-1-1-1",
+        "score": 0.118
+      },
+      {
+        "chunk_id": "c000424",
+        "semantic_id": "4-1-1-1-0",
+        "score": 0.106
+      },
+      {
+        "chunk_id": "c000423",
+        "semantic_id": "4-0-1-1-0",
+        "score": 0.103
+      },
+      {
+        "chunk_id": "c000288",
+        "semantic_id": "3-4-1-1-0",
+        "score": 0.099
+      },
+      {
+        "chunk_id": "c000200",
+        "semantic_id": "1-1-3-1-1-0",
+        "score": 0.096
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 6.73
+  },
+  {
+    "id": "6",
+    "question": "What is the minimum design maximum speed for a Real Motorcycle target used in Blind-Spot Monitoring Tests?",
+    "reference_answer": "At least 80km/h[cite: 1].",
+    "generated_answer": "The minimum design maximum speed for a Real Motorcycle target used in Blind-Spot Monitoring Tests is at least 80km/h.",
+    "rephrased_query": "Real Motorcycle Blind-Spot Monitoring Tests minimum design maximum speed",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000251",
+        "semantic_id": "3-0-3-3-0-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000395",
+        "semantic_id": "4-4-0-0",
+        "score": 0.16
+      },
+      {
+        "chunk_id": "c000007",
+        "semantic_id": "3-1-1-4-0",
+        "score": 0.16
+      },
+      {
+        "chunk_id": "c000345",
+        "semantic_id": "3-2-4-1",
+        "score": 0.143
+      },
+      {
+        "chunk_id": "c000311",
+        "semantic_id": "3-2-4-0",
+        "score": 0.129
+      },
+      {
+        "chunk_id": "c000252",
+        "semantic_id": "3-2-2-1-0",
+        "score": 0.113
+      },
+      {
+        "chunk_id": "c000330",
+        "semantic_id": "3-2-1-1-0-0",
+        "score": 0.112
+      },
+      {
+        "chunk_id": "c000327",
+        "semantic_id": "3-2-3-1-0",
+        "score": 0.108
+      },
+      {
+        "chunk_id": "c000006",
+        "semantic_id": "3-0-3-3-2-0",
+        "score": 0.108
+      },
+      {
+        "chunk_id": "c000349",
+        "semantic_id": "3-3-2-1-0-0",
+        "score": 0.106
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 7.12
+  },
+  {
+    "id": "8",
+    "question": "How many points are awarded if a system name contains the word \"assistant\", \"assistance\", or \"assist\"?",
+    "reference_answer": "10 points[cite: 1].",
+    "generated_answer": "10 points are awarded if a system name contains the word \"assistant\", \"assistance\", or \"assist\"",
+    "rephrased_query": "points awarded system name contains assistant assistance assist",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000406",
+        "semantic_id": "4-0-0-1-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000409",
+        "semantic_id": "4-0-0-2-0",
+        "score": 0.16
+      },
+      {
+        "chunk_id": "c000408",
+        "semantic_id": "4-0-0-0-0",
+        "score": 0.139
+      },
+      {
+        "chunk_id": "c000413",
+        "semantic_id": "4-0-2-0-0",
+        "score": 0.136
+      },
+      {
+        "chunk_id": "c000410",
+        "semantic_id": "4-0-2-1-0",
+        "score": 0.115
+      },
+      {
+        "chunk_id": "c000401",
+        "semantic_id": "4-0-0-3-0",
+        "score": 0.115
+      },
+      {
+        "chunk_id": "c000404",
+        "semantic_id": "1-4-0-1-0",
+        "score": 0.115
+      },
+      {
+        "chunk_id": "c000411",
+        "semantic_id": "4-0-2-3-0",
+        "score": 0.114
+      },
+      {
+        "chunk_id": "c000423",
+        "semantic_id": "4-0-1-1-0",
+        "score": 0.109
+      },
+      {
+        "chunk_id": "c000442",
+        "semantic_id": "4-1-0-1-0",
+        "score": 0.106
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 7.2
+  },
+  {
+    "id": "4",
+    "question": "What is the definition of the Speed Limit Information Function (SLIF)?",
+    "reference_answer": "A function with which the vehicle knows and communicates the speed limit[cite: 1].",
+    "generated_answer": "The Speed Limit Information Function (SLIF) is a function with which the vehicle knows and communicates the speed limit.",
+    "rephrased_query": "speed limit information function (slif)",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000475",
+        "semantic_id": "4-2-2-1-0",
+        "score": 0.168
+      },
+      {
+        "chunk_id": "c000395",
+        "semantic_id": "4-4-0-0",
+        "score": 0.168
+      },
+      {
+        "chunk_id": "c000434",
+        "semantic_id": "4-2-2-2-0",
+        "score": 0.167
+      },
+      {
+        "chunk_id": "c000435",
+        "semantic_id": "4-2-2-0-0",
+        "score": 0.138
+      },
+      {
+        "chunk_id": "c000432",
+        "semantic_id": "4-3-0-1",
+        "score": 0.13
+      },
+      {
+        "chunk_id": "c000410",
+        "semantic_id": "4-0-2-1-0",
+        "score": 0.129
+      },
+      {
+        "chunk_id": "c000457",
+        "semantic_id": "4-2-1-1-0",
+        "score": 0.106
+      },
+      {
+        "chunk_id": "c000390",
+        "semantic_id": "4-1-2-2-0",
+        "score": 0.1
+      },
+      {
+        "chunk_id": "c000427",
+        "semantic_id": "4-3-2-2-0",
+        "score": 0.098
+      },
+      {
+        "chunk_id": "c000066",
+        "semantic_id": "1-2-1-2-1-0",
+        "score": 0.097
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 7.39
+  },
+  {
+    "id": "16",
+    "question": "How many repetitive visual distraction instances lead to a controllable Assisted Mode lock-out?",
+    "reference_answer": "3 repetitive instances[cite: 1].",
+    "generated_answer": "3",
+    "rephrased_query": "repetitive visual distraction instances leading to controllable Assisted Mode lock-out",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000423",
+        "semantic_id": "4-0-1-1-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000417",
+        "semantic_id": "4-0-1-2-0",
+        "score": 0.15
+      },
+      {
+        "chunk_id": "c000415",
+        "semantic_id": "4-0-2-2-0",
+        "score": 0.144
+      },
+      {
+        "chunk_id": "c000418",
+        "semantic_id": "4-0-1-0-0",
+        "score": 0.143
+      },
+      {
+        "chunk_id": "c000416",
+        "semantic_id": "4-0-1-3-0",
+        "score": 0.139
+      },
+      {
+        "chunk_id": "c000419",
+        "semantic_id": "4-0-3-0-0",
+        "score": 0.139
+      },
+      {
+        "chunk_id": "c000451",
+        "semantic_id": "4-0-3-3-0",
+        "score": 0.121
+      },
+      {
+        "chunk_id": "c000452",
+        "semantic_id": "4-0-3-2-0",
+        "score": 0.109
+      },
+      {
+        "chunk_id": "c000410",
+        "semantic_id": "4-0-2-1-0",
+        "score": 0.108
+      },
+      {
+        "chunk_id": "c000411",
+        "semantic_id": "4-0-2-3-0",
+        "score": 0.103
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 7.63
+  },
+  {
+    "id": "3",
+    "question": "In the Assisted Driving Cut-out test, what does SOV stand for?",
+    "reference_answer": "Secondary Other Vehicle[cite: 1].",
+    "generated_answer": "SOV stands for Safety On-vehicle.",
+    "rephrased_query": "In the Assisted Driving Cut-out test, what does SOV stand for?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000467",
+        "semantic_id": "4-4-2-1",
+        "score": 0.16
+      },
+      {
+        "chunk_id": "c000466",
+        "semantic_id": "4-4-3-0",
+        "score": 0.158
+      },
+      {
+        "chunk_id": "c000438",
+        "semantic_id": "1-4-2-1-0",
+        "score": 0.153
+      },
+      {
+        "chunk_id": "c000463",
+        "semantic_id": "4-4-2-0",
+        "score": 0.148
+      },
+      {
+        "chunk_id": "c000462",
+        "semantic_id": "1-4-3-0",
+        "score": 0.142
+      },
+      {
+        "chunk_id": "c000437",
+        "semantic_id": "1-4-2-2-0",
+        "score": 0.13
+      },
+      {
+        "chunk_id": "c000461",
+        "semantic_id": "4-4-4-0",
+        "score": 0.122
+      },
+      {
+        "chunk_id": "c000464",
+        "semantic_id": "1-4-2-0-0",
+        "score": 0.115
+      },
+      {
+        "chunk_id": "c000410",
+        "semantic_id": "4-0-2-1-0",
+        "score": 0.098
+      },
+      {
+        "chunk_id": "c000426",
+        "semantic_id": "4-3-2-1-0",
+        "score": 0.091
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 7.66
+  },
+  {
+    "id": "13",
+    "question": "What is the recommended decibel range for an additional acoustic indication during a system status change?",
+    "reference_answer": "50~90 dB[cite: 1].",
+    "generated_answer": "50 to 90 dB.",
+    "rephrased_query": "recommended decibel range additional acoustic indication system status change",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000413",
+        "semantic_id": "4-0-2-0-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000410",
+        "semantic_id": "4-0-2-1-0",
+        "score": 0.16
+      },
+      {
+        "chunk_id": "c000411",
+        "semantic_id": "4-0-2-3-0",
+        "score": 0.148
+      },
+      {
+        "chunk_id": "c000414",
+        "semantic_id": "4-1-1-2-0",
+        "score": 0.146
+      },
+      {
+        "chunk_id": "c000412",
+        "semantic_id": "4-0-2-1-1",
+        "score": 0.133
+      },
+      {
+        "chunk_id": "c000444",
+        "semantic_id": "4-0-2-4-0",
+        "score": 0.121
+      },
+      {
+        "chunk_id": "c000454",
+        "semantic_id": "4-0-3-1-0",
+        "score": 0.118
+      },
+      {
+        "chunk_id": "c000408",
+        "semantic_id": "4-0-0-0-0",
+        "score": 0.111
+      },
+      {
+        "chunk_id": "c000419",
+        "semantic_id": "4-0-3-0-0",
+        "score": 0.1
+      },
+      {
+        "chunk_id": "c000415",
+        "semantic_id": "4-0-2-2-0",
+        "score": 0.096
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 7.57
+  },
+  {
+    "id": "10",
+    "question": "How many points are awarded if the marketing material correctly describes the system functionality?",
+    "reference_answer": "5 points[cite: 1].",
+    "generated_answer": "5 points are awarded if the marketing material correctly describes the system functionality.",
+    "rephrased_query": "Marketing material description points VUT",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000407",
+        "semantic_id": "4-3-0-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000447",
+        "semantic_id": "4-3-1-3-0",
+        "score": 0.167
+      },
+      {
+        "chunk_id": "c000449",
+        "semantic_id": "4-3-1-1-0",
+        "score": 0.154
+      },
+      {
+        "chunk_id": "c000448",
+        "semantic_id": "4-3-1-2-0",
+        "score": 0.143
+      },
+      {
+        "chunk_id": "c000450",
+        "semantic_id": "4-3-1-0-0",
+        "score": 0.125
+      },
+      {
+        "chunk_id": "c000404",
+        "semantic_id": "1-4-0-1-0",
+        "score": 0.121
+      },
+      {
+        "chunk_id": "c000405",
+        "semantic_id": "4-1-0-3-0",
+        "score": 0.119
+      },
+      {
+        "chunk_id": "c000432",
+        "semantic_id": "4-3-0-1",
+        "score": 0.11
+      },
+      {
+        "chunk_id": "c000044",
+        "semantic_id": "1-3-0-0-0",
+        "score": 0.103
+      },
+      {
+        "chunk_id": "c000470",
+        "semantic_id": "4-3-2-0-0",
+        "score": 0.103
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 7.5
+  },
+  {
+    "id": "14",
+    "question": "How many points are awarded for a system that robustly detects if the driver's hands are on the steering wheel during Assisted Mode?",
+    "reference_answer": "5 points[cite: 1].",
+    "generated_answer": "5 points.",
+    "rephrased_query": "Assisted Mode steering wheel detection points",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000416",
+        "semantic_id": "4-0-1-3-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000451",
+        "semantic_id": "4-0-3-3-0",
+        "score": 0.148
+      },
+      {
+        "chunk_id": "c000423",
+        "semantic_id": "4-0-1-1-0",
+        "score": 0.146
+      },
+      {
+        "chunk_id": "c000418",
+        "semantic_id": "4-0-1-0-0",
+        "score": 0.144
+      },
+      {
+        "chunk_id": "c000420",
+        "semantic_id": "4-0-0-4-0",
+        "score": 0.136
+      },
+      {
+        "chunk_id": "c000454",
+        "semantic_id": "4-0-3-1-0",
+        "score": 0.13
+      },
+      {
+        "chunk_id": "c000269",
+        "semantic_id": "3-2-1-4-0",
+        "score": 0.115
+      },
+      {
+        "chunk_id": "c000417",
+        "semantic_id": "4-0-1-2-0",
+        "score": 0.114
+      },
+      {
+        "chunk_id": "c000452",
+        "semantic_id": "4-0-3-2-0",
+        "score": 0.111
+      },
+      {
+        "chunk_id": "c000007",
+        "semantic_id": "3-1-1-4-0",
+        "score": 0.104
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 7.55
+  },
+  {
+    "id": "17",
+    "question": "What is the maximum time window within which repetitive distractions will trigger an Assisted Mode lock-out?",
+    "reference_answer": "30 minutes[cite: 1].",
+    "generated_answer": "The maximum time window within which repetitive distractions will trigger an Assisted Mode lock-out is not greater than 30 minutes.",
+    "rephrased_query": "Assisted Mode lock-out time window repetitive distractions",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000423",
+        "semantic_id": "4-0-1-1-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000418",
+        "semantic_id": "4-0-1-0-0",
+        "score": 0.154
+      },
+      {
+        "chunk_id": "c000416",
+        "semantic_id": "4-0-1-3-0",
+        "score": 0.15
+      },
+      {
+        "chunk_id": "c000415",
+        "semantic_id": "4-0-2-2-0",
+        "score": 0.146
+      },
+      {
+        "chunk_id": "c000417",
+        "semantic_id": "4-0-1-2-0",
+        "score": 0.117
+      },
+      {
+        "chunk_id": "c000419",
+        "semantic_id": "4-0-3-0-0",
+        "score": 0.117
+      },
+      {
+        "chunk_id": "c000451",
+        "semantic_id": "4-0-3-3-0",
+        "score": 0.115
+      },
+      {
+        "chunk_id": "c000452",
+        "semantic_id": "4-0-3-2-0",
+        "score": 0.114
+      },
+      {
+        "chunk_id": "c000410",
+        "semantic_id": "4-0-2-1-0",
+        "score": 0.101
+      },
+      {
+        "chunk_id": "c000412",
+        "semantic_id": "4-0-2-1-1",
+        "score": 0.099
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 7.51
+  },
+  {
+    "id": "12",
+    "question": "What specific color must be used on the Continuous System Status Indicator to denote Assisted Mode?",
+    "reference_answer": "Green[cite: 1].",
+    "generated_answer": "The color green must be used on the Continuous System Status Indicator to denote Assisted Mode.",
+    "rephrased_query": "Assisted Mode Continuous System Status Indicator color requirement",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000412",
+        "semantic_id": "4-0-2-1-1",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000410",
+        "semantic_id": "4-0-2-1-0",
+        "score": 0.167
+      },
+      {
+        "chunk_id": "c000404",
+        "semantic_id": "1-4-0-1-0",
+        "score": 0.148
+      },
+      {
+        "chunk_id": "c000411",
+        "semantic_id": "4-0-2-3-0",
+        "score": 0.138
+      },
+      {
+        "chunk_id": "c000284",
+        "semantic_id": "3-2-1-1-1-0",
+        "score": 0.136
+      },
+      {
+        "chunk_id": "c000413",
+        "semantic_id": "4-0-2-0-0",
+        "score": 0.129
+      },
+      {
+        "chunk_id": "c000423",
+        "semantic_id": "4-0-1-1-0",
+        "score": 0.111
+      },
+      {
+        "chunk_id": "c000246",
+        "semantic_id": "3-3-3-2-4-0",
+        "score": 0.101
+      },
+      {
+        "chunk_id": "c000426",
+        "semantic_id": "4-3-2-1-0",
+        "score": 0.098
+      },
+      {
+        "chunk_id": "c000418",
+        "semantic_id": "4-0-1-0-0",
+        "score": 0.096
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 6.87
+  },
+  {
+    "id": "18",
+    "question": "What frequency is applied when steering the full sine wave during the Pothole Test?",
+    "reference_answer": "0.25Hz[cite: 1].",
+    "generated_answer": "0.25Hz",
+    "rephrased_query": "full sine wave steering Pothole Test frequency",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000427",
+        "semantic_id": "4-3-2-2-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000426",
+        "semantic_id": "4-3-2-1-0",
+        "score": 0.167
+      },
+      {
+        "chunk_id": "c000425",
+        "semantic_id": "4-3-4-0",
+        "score": 0.148
+      },
+      {
+        "chunk_id": "c000470",
+        "semantic_id": "4-3-2-0-0",
+        "score": 0.136
+      },
+      {
+        "chunk_id": "c000430",
+        "semantic_id": "4-3-3-0",
+        "score": 0.13
+      },
+      {
+        "chunk_id": "c000429",
+        "semantic_id": "4-1-1-1-1",
+        "score": 0.125
+      },
+      {
+        "chunk_id": "c000428",
+        "semantic_id": "4-3-4-1",
+        "score": 0.122
+      },
+      {
+        "chunk_id": "c000449",
+        "semantic_id": "4-3-1-1-0",
+        "score": 0.112
+      },
+      {
+        "chunk_id": "c000457",
+        "semantic_id": "4-2-1-1-0",
+        "score": 0.098
+      },
+      {
+        "chunk_id": "c000450",
+        "semantic_id": "4-3-1-0-0",
+        "score": 0.093
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 7.04
+  },
+  {
+    "id": "19",
+    "question": "What is the target Distance To Lane Edge (DTLE) for the steering amplitude in the Pothole Test?",
+    "reference_answer": "+15 \u00b15cm[cite: 1].",
+    "generated_answer": "-50\u00b15 cm",
+    "rephrased_query": "target DTLE for steering amplitude in pothole test",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000427",
+        "semantic_id": "4-3-2-2-0",
+        "score": 0.174
+      },
+      {
+        "chunk_id": "c000428",
+        "semantic_id": "4-3-4-1",
+        "score": 0.168
+      },
+      {
+        "chunk_id": "c000426",
+        "semantic_id": "4-3-2-1-0",
+        "score": 0.16
+      },
+      {
+        "chunk_id": "c000470",
+        "semantic_id": "4-3-2-0-0",
+        "score": 0.138
+      },
+      {
+        "chunk_id": "c000425",
+        "semantic_id": "4-3-4-0",
+        "score": 0.127
+      },
+      {
+        "chunk_id": "c000449",
+        "semantic_id": "4-3-1-1-0",
+        "score": 0.118
+      },
+      {
+        "chunk_id": "c000254",
+        "semantic_id": "3-0-0-0-0",
+        "score": 0.113
+      },
+      {
+        "chunk_id": "c000448",
+        "semantic_id": "4-3-1-2-0",
+        "score": 0.112
+      },
+      {
+        "chunk_id": "c000253",
+        "semantic_id": "3-0-0-1-1",
+        "score": 0.1
+      },
+      {
+        "chunk_id": "c000450",
+        "semantic_id": "4-3-1-0-0",
+        "score": 0.1
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 7.94
+  },
+  {
+    "id": "20",
+    "question": "What is the target Distance To Lane Edge (DTLE) for the steering amplitude in the Partial Lane Change Test?",
+    "reference_answer": "-50 \u00b15 cm[cite: 1].",
+    "generated_answer": "-50\u00b15 cm",
+    "rephrased_query": "target DTLE for steering amplitude in Partial Lane Change Test",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000428",
+        "semantic_id": "4-3-4-1",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000427",
+        "semantic_id": "4-3-2-2-0",
+        "score": 0.16
+      },
+      {
+        "chunk_id": "c000426",
+        "semantic_id": "4-3-2-1-0",
+        "score": 0.155
+      },
+      {
+        "chunk_id": "c000430",
+        "semantic_id": "4-3-3-0",
+        "score": 0.13
+      },
+      {
+        "chunk_id": "c000470",
+        "semantic_id": "4-3-2-0-0",
+        "score": 0.121
+      },
+      {
+        "chunk_id": "c000471",
+        "semantic_id": "4-3-3-1",
+        "score": 0.119
+      },
+      {
+        "chunk_id": "c000449",
+        "semantic_id": "4-3-1-1-0",
+        "score": 0.119
+      },
+      {
+        "chunk_id": "c000081",
+        "semantic_id": "3-0-1-1-0",
+        "score": 0.114
+      },
+      {
+        "chunk_id": "c000338",
+        "semantic_id": "3-4-3-1-0",
+        "score": 0.109
+      },
+      {
+        "chunk_id": "c000425",
+        "semantic_id": "4-3-4-0",
+        "score": 0.104
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 8.26
+  },
+  {
+    "id": "21",
+    "question": "How many points are awarded for override response if a vehicle has an absolute override torque of <5Nm and meets all conditions?",
+    "reference_answer": "20 points[cite: 1].",
+    "generated_answer": "20 points are awarded for the reaction of the system if the following conditions are met: the Lane Centering function provides continuous steering assistance throughout the pothole maneuver, the system may suppress steering assistance during the partial lane change maneuver but automatically resumes continuous steering assistance after the vehicle is manually or automatically brought back in the original lane, and the system shall suppress steering assistance when conducting a full lane change maneuver and automatically resumes continuous steering assistance after the vehicle is in the adjacent lane.",
+    "rephrased_query": "absolute override torque <5Nm, override response points",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000424",
+        "semantic_id": "4-1-1-1-0",
+        "score": 0.174
+      },
+      {
+        "chunk_id": "c000430",
+        "semantic_id": "4-3-3-0",
+        "score": 0.174
+      },
+      {
+        "chunk_id": "c000429",
+        "semantic_id": "4-1-1-1-1",
+        "score": 0.148
+      },
+      {
+        "chunk_id": "c000471",
+        "semantic_id": "4-3-3-1",
+        "score": 0.127
+      },
+      {
+        "chunk_id": "c000427",
+        "semantic_id": "4-3-2-2-0",
+        "score": 0.118
+      },
+      {
+        "chunk_id": "c000428",
+        "semantic_id": "4-3-4-1",
+        "score": 0.117
+      },
+      {
+        "chunk_id": "c000403",
+        "semantic_id": "4-1-1-0-0",
+        "score": 0.114
+      },
+      {
+        "chunk_id": "c000404",
+        "semantic_id": "1-4-0-1-0",
+        "score": 0.112
+      },
+      {
+        "chunk_id": "c000441",
+        "semantic_id": "4-1-1-3-0-0",
+        "score": 0.102
+      },
+      {
+        "chunk_id": "c000470",
+        "semantic_id": "4-3-2-0-0",
+        "score": 0.102
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 8.22
+  },
+  {
+    "id": "22",
+    "question": "How much time does a driver have to confirm an offered lower speed limit for it to be considered adopted \"in time\"?",
+    "reference_answer": "1.5 seconds[cite: 1].",
+    "generated_answer": "The driver must give the confirmation action 1.5 seconds after the lower limit is offered for it to be considered adopted \"in time.\"",
+    "rephrased_query": "Lower speed limit confirmation time adopted",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000475",
+        "semantic_id": "4-2-2-1-0",
+        "score": 0.174
+      },
+      {
+        "chunk_id": "c000434",
+        "semantic_id": "4-2-2-2-0",
+        "score": 0.174
+      },
+      {
+        "chunk_id": "c000435",
+        "semantic_id": "4-2-2-0-0",
+        "score": 0.144
+      },
+      {
+        "chunk_id": "c000450",
+        "semantic_id": "4-3-1-0-0",
+        "score": 0.118
+      },
+      {
+        "chunk_id": "c000395",
+        "semantic_id": "4-4-0-0",
+        "score": 0.115
+      },
+      {
+        "chunk_id": "c000432",
+        "semantic_id": "4-3-0-1",
+        "score": 0.115
+      },
+      {
+        "chunk_id": "c000457",
+        "semantic_id": "4-2-1-1-0",
+        "score": 0.113
+      },
+      {
+        "chunk_id": "c000427",
+        "semantic_id": "4-3-2-2-0",
+        "score": 0.112
+      },
+      {
+        "chunk_id": "c000449",
+        "semantic_id": "4-3-1-1-0",
+        "score": 0.111
+      },
+      {
+        "chunk_id": "c000448",
+        "semantic_id": "4-3-1-2-0",
+        "score": 0.111
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 8.3
+  },
+  {
+    "id": "23",
+    "question": "What Time To Collision (TTC) is used for the Cut-out tests to verify Safety Backup?",
+    "reference_answer": "2s[cite: 1].",
+    "generated_answer": "The lead vehicle shall cut-out at a TTC of 2s instead of 3s as in ACC Performance.",
+    "rephrased_query": "Cut-out tests TTC safety backup",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000467",
+        "semantic_id": "4-4-2-1",
+        "score": 0.174
+      },
+      {
+        "chunk_id": "c000466",
+        "semantic_id": "4-4-3-0",
+        "score": 0.168
+      },
+      {
+        "chunk_id": "c000463",
+        "semantic_id": "4-4-2-0",
+        "score": 0.16
+      },
+      {
+        "chunk_id": "c000461",
+        "semantic_id": "4-4-4-0",
+        "score": 0.143
+      },
+      {
+        "chunk_id": "c000438",
+        "semantic_id": "1-4-2-1-0",
+        "score": 0.125
+      },
+      {
+        "chunk_id": "c000462",
+        "semantic_id": "1-4-3-0",
+        "score": 0.122
+      },
+      {
+        "chunk_id": "c000464",
+        "semantic_id": "1-4-2-0-0",
+        "score": 0.115
+      },
+      {
+        "chunk_id": "c000443",
+        "semantic_id": "1-4-0-0-0",
+        "score": 0.115
+      },
+      {
+        "chunk_id": "c000437",
+        "semantic_id": "1-4-2-2-0",
+        "score": 0.114
+      },
+      {
+        "chunk_id": "c000426",
+        "semantic_id": "4-3-2-1-0",
+        "score": 0.093
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 8.56
+  },
+  {
+    "id": "24",
+    "question": "What is the total maximum sub-points available for the Car-to-Car Rear Stationary (CCRs) test in the ACC/AEB evaluation?",
+    "reference_answer": "8 points[cite: 1].",
+    "generated_answer": "The total maximum sub-points available for the Car-to-Car Rear Stationary (CCRs) test in the ACC/AEB evaluation is 8.",
+    "rephrased_query": "total maximum sub-points CCRS ACC/AEB",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000460",
+        "semantic_id": "4-1-3-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000468",
+        "semantic_id": "4-1-3-1",
+        "score": 0.16
+      },
+      {
+        "chunk_id": "c000465",
+        "semantic_id": "4-4-1-0",
+        "score": 0.15
+      },
+      {
+        "chunk_id": "c000464",
+        "semantic_id": "1-4-2-0-0",
+        "score": 0.148
+      },
+      {
+        "chunk_id": "c000220",
+        "semantic_id": "1-1-3-4-0",
+        "score": 0.125
+      },
+      {
+        "chunk_id": "c000274",
+        "semantic_id": "3-1-3-3-0",
+        "score": 0.118
+      },
+      {
+        "chunk_id": "c000201",
+        "semantic_id": "1-1-3-1-0-0",
+        "score": 0.115
+      },
+      {
+        "chunk_id": "c000055",
+        "semantic_id": "3-1-3-2-0",
+        "score": 0.111
+      },
+      {
+        "chunk_id": "c000067",
+        "semantic_id": "3-3-3-1-0",
+        "score": 0.108
+      },
+      {
+        "chunk_id": "c000196",
+        "semantic_id": "1-1-3-2-0",
+        "score": 0.103
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 8.82
+  },
+  {
+    "id": "25",
+    "question": "How long must a vehicle be driven with a blocked sensor before attempting an assistance system activation at start-up?",
+    "reference_answer": "2 minutes[cite: 1].",
+    "generated_answer": "A vehicle must be driven for 2 minutes with the sensor blocked at start-up before attempting an assistance system activation.",
+    "rephrased_query": "blocked sensor duration at start-up",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000447",
+        "semantic_id": "4-3-1-3-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000449",
+        "semantic_id": "4-3-1-1-0",
+        "score": 0.148
+      },
+      {
+        "chunk_id": "c000443",
+        "semantic_id": "1-4-0-0-0",
+        "score": 0.144
+      },
+      {
+        "chunk_id": "c000448",
+        "semantic_id": "4-3-1-2-0",
+        "score": 0.142
+      },
+      {
+        "chunk_id": "c000446",
+        "semantic_id": "4-2-3-1",
+        "score": 0.142
+      },
+      {
+        "chunk_id": "c000450",
+        "semantic_id": "4-3-1-0-0",
+        "score": 0.138
+      },
+      {
+        "chunk_id": "c000444",
+        "semantic_id": "4-0-2-4-0",
+        "score": 0.125
+      },
+      {
+        "chunk_id": "c000456",
+        "semantic_id": "4-2-1-0-0",
+        "score": 0.108
+      },
+      {
+        "chunk_id": "c000398",
+        "semantic_id": "4-0-3-4-0",
+        "score": 0.108
+      },
+      {
+        "chunk_id": "c000404",
+        "semantic_id": "1-4-0-1-0",
+        "score": 0.095
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 9.11
+  },
+  {
+    "id": "26",
+    "question": "How many points are awarded to systems able to successfully provide a warning and intervention immediately after detecting a microsleep?",
+    "reference_answer": "5 points[cite: 1].",
+    "generated_answer": "5 points are awarded to systems able to provide a visual + acoustic/haptic warning and increase the ACC time headway immediately after detecting a microsleep.",
+    "rephrased_query": "Microsleep warning and intervention points",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000452",
+        "semantic_id": "4-0-3-2-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000451",
+        "semantic_id": "4-0-3-3-0",
+        "score": 0.167
+      },
+      {
+        "chunk_id": "c000419",
+        "semantic_id": "4-0-3-0-0",
+        "score": 0.148
+      },
+      {
+        "chunk_id": "c000453",
+        "semantic_id": "4-0-3-2-1",
+        "score": 0.148
+      },
+      {
+        "chunk_id": "c000398",
+        "semantic_id": "4-0-3-4-0",
+        "score": 0.125
+      },
+      {
+        "chunk_id": "c000447",
+        "semantic_id": "4-3-1-3-0",
+        "score": 0.113
+      },
+      {
+        "chunk_id": "c000339",
+        "semantic_id": "3-4-1-2-0",
+        "score": 0.108
+      },
+      {
+        "chunk_id": "c000330",
+        "semantic_id": "3-2-1-1-0-0",
+        "score": 0.106
+      },
+      {
+        "chunk_id": "c000284",
+        "semantic_id": "3-2-1-1-1-0",
+        "score": 0.105
+      },
+      {
+        "chunk_id": "c000454",
+        "semantic_id": "4-0-3-1-0",
+        "score": 0.104
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 9.12
+  },
+  {
+    "id": "27",
+    "question": "How many points are awarded to systems able to successfully provide a warning and intervention immediately after detecting sleep?",
+    "reference_answer": "5 points[cite: 1].",
+    "generated_answer": "5 points are awarded for systems able to provide a visual + acoustic/haptic warning AND increase the ACC time headway (and/or other intervention strategies with demonstrated safety benefit) immediately after the driver state is classified as 'sleep'.",
+    "rephrased_query": "Sleep Detection Points",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000453",
+        "semantic_id": "4-0-3-2-1",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000451",
+        "semantic_id": "4-0-3-3-0",
+        "score": 0.16
+      },
+      {
+        "chunk_id": "c000452",
+        "semantic_id": "4-0-3-2-0",
+        "score": 0.155
+      },
+      {
+        "chunk_id": "c000454",
+        "semantic_id": "4-0-3-1-0",
+        "score": 0.144
+      },
+      {
+        "chunk_id": "c000398",
+        "semantic_id": "4-0-3-4-0",
+        "score": 0.138
+      },
+      {
+        "chunk_id": "c000007",
+        "semantic_id": "3-1-1-4-0",
+        "score": 0.121
+      },
+      {
+        "chunk_id": "c000038",
+        "semantic_id": "3-0-1-3-1-0",
+        "score": 0.115
+      },
+      {
+        "chunk_id": "c000036",
+        "semantic_id": "3-0-1-3-0-0",
+        "score": 0.114
+      },
+      {
+        "chunk_id": "c000417",
+        "semantic_id": "4-0-1-2-0",
+        "score": 0.103
+      },
+      {
+        "chunk_id": "c000039",
+        "semantic_id": "3-0-1-3-2-0",
+        "score": 0.103
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 9.14
+  },
+  {
+    "id": "28",
+    "question": "How many points are awarded if an unresponsive driver is detected by indirect sensing such as prolonged steering inactivity?",
+    "reference_answer": "10 points[cite: 1].",
+    "generated_answer": "10 points are awarded when the detection is enabled by indirect inputs (e.g., prolonged steering inactivity).",
+    "rephrased_query": "Unresponsive driver indirect sensing prolonged steering inactivity points",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000454",
+        "semantic_id": "4-0-3-1-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000451",
+        "semantic_id": "4-0-3-3-0",
+        "score": 0.167
+      },
+      {
+        "chunk_id": "c000455",
+        "semantic_id": "4-2-1-2-0",
+        "score": 0.138
+      },
+      {
+        "chunk_id": "c000398",
+        "semantic_id": "4-0-3-4-0",
+        "score": 0.136
+      },
+      {
+        "chunk_id": "c000456",
+        "semantic_id": "4-2-1-0-0",
+        "score": 0.132
+      },
+      {
+        "chunk_id": "c000457",
+        "semantic_id": "4-2-1-1-0",
+        "score": 0.129
+      },
+      {
+        "chunk_id": "c000452",
+        "semantic_id": "4-0-3-2-0",
+        "score": 0.115
+      },
+      {
+        "chunk_id": "c000416",
+        "semantic_id": "4-0-1-3-0",
+        "score": 0.106
+      },
+      {
+        "chunk_id": "c000423",
+        "semantic_id": "4-0-1-1-0",
+        "score": 0.1
+      },
+      {
+        "chunk_id": "c000417",
+        "semantic_id": "4-0-1-2-0",
+        "score": 0.097
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 8.87
+  },
+  {
+    "id": "29",
+    "question": "How many bonus points are awarded for an advanced response that changes lanes to an emergency lane for an unresponsive driver?",
+    "reference_answer": "5 points[cite: 1].",
+    "generated_answer": "5 points",
+    "rephrased_query": "Emergency lane, unresponsive driver, bonus points, lane change, advanced response, CPFA",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000454",
+        "semantic_id": "4-0-3-1-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000451",
+        "semantic_id": "4-0-3-3-0",
+        "score": 0.15
+      },
+      {
+        "chunk_id": "c000452",
+        "semantic_id": "4-0-3-2-0",
+        "score": 0.142
+      },
+      {
+        "chunk_id": "c000007",
+        "semantic_id": "3-1-1-4-0",
+        "score": 0.13
+      },
+      {
+        "chunk_id": "c000398",
+        "semantic_id": "4-0-3-4-0",
+        "score": 0.124
+      },
+      {
+        "chunk_id": "c000330",
+        "semantic_id": "3-2-1-1-0-0",
+        "score": 0.12
+      },
+      {
+        "chunk_id": "c000252",
+        "semantic_id": "3-2-2-1-0",
+        "score": 0.117
+      },
+      {
+        "chunk_id": "c000410",
+        "semantic_id": "4-0-2-1-0",
+        "score": 0.109
+      },
+      {
+        "chunk_id": "c000419",
+        "semantic_id": "4-0-3-0-0",
+        "score": 0.104
+      },
+      {
+        "chunk_id": "c000415",
+        "semantic_id": "4-0-2-2-0",
+        "score": 0.1
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 8.94
+  },
+  {
+    "id": "30",
+    "question": "To score 5 points in the S-Bend test, an LKA intervention must prevent the vehicle from crossing the lane marking by more than what distance?",
+    "reference_answer": "0.4m[cite: 1].",
+    "generated_answer": "0.4m",
+    "rephrased_query": "5-point S-Bend test LKA intervention threshold",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000470",
+        "semantic_id": "4-3-2-0-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000383",
+        "semantic_id": "3-2-3-3-0",
+        "score": 0.155
+      },
+      {
+        "chunk_id": "c000327",
+        "semantic_id": "3-2-3-1-0",
+        "score": 0.15
+      },
+      {
+        "chunk_id": "c000330",
+        "semantic_id": "3-2-1-1-0-0",
+        "score": 0.148
+      },
+      {
+        "chunk_id": "c000284",
+        "semantic_id": "3-2-1-1-1-0",
+        "score": 0.139
+      },
+      {
+        "chunk_id": "c000273",
+        "semantic_id": "3-2-3-4-0",
+        "score": 0.111
+      },
+      {
+        "chunk_id": "c000305",
+        "semantic_id": "3-2-3-2-0-0",
+        "score": 0.11
+      },
+      {
+        "chunk_id": "c000336",
+        "semantic_id": "3-4-3-0-0",
+        "score": 0.106
+      },
+      {
+        "chunk_id": "c000297",
+        "semantic_id": "3-2-3-2-2-0",
+        "score": 0.106
+      },
+      {
+        "chunk_id": "c000310",
+        "semantic_id": "3-2-3-2-1-0",
+        "score": 0.101
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 9.2
+  },
+  {
+    "id": "31",
+    "question": "How many points are awarded for a successful Car-to-Car intentional lane change test in the Safety Backup LSS evaluation?",
+    "reference_answer": "2.5 points[cite: 1].",
+    "generated_answer": "2.5 points are awarded for intentional Car-to-Car tests.",
+    "rephrased_query": "Car-to-Car intentional lane change test points Safety Backup LSS",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000471",
+        "semantic_id": "4-3-3-1",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000443",
+        "semantic_id": "1-4-0-0-0",
+        "score": 0.167
+      },
+      {
+        "chunk_id": "c000470",
+        "semantic_id": "4-3-2-0-0",
+        "score": 0.148
+      },
+      {
+        "chunk_id": "c000293",
+        "semantic_id": "0-1-2-1-0",
+        "score": 0.129
+      },
+      {
+        "chunk_id": "c000438",
+        "semantic_id": "1-4-2-1-0",
+        "score": 0.127
+      },
+      {
+        "chunk_id": "c000464",
+        "semantic_id": "1-4-2-0-0",
+        "score": 0.125
+      },
+      {
+        "chunk_id": "c000454",
+        "semantic_id": "4-0-3-1-0",
+        "score": 0.121
+      },
+      {
+        "chunk_id": "c000439",
+        "semantic_id": "1-4-2-3-0",
+        "score": 0.104
+      },
+      {
+        "chunk_id": "c000437",
+        "semantic_id": "1-4-2-2-0",
+        "score": 0.103
+      },
+      {
+        "chunk_id": "c000175",
+        "semantic_id": "3-3-2-2-1-0",
+        "score": 0.096
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 9.54
+  },
+  {
+    "id": "33",
+    "question": "What defines a Transient driver state?",
+    "reference_answer": "A state during which the driver's focus on the primary task of driving/controlling the vehicle is temporarily reduced, but can be immediately reversed[cite: 1].",
+    "generated_answer": "A Transient driver state is a temporary episode of sleep after fatigue builds-up, which may last up to several seconds.",
+    "rephrased_query": "Transient driver state defines a driver's ability to respond to unexpected hazards in real-time.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000398",
+        "semantic_id": "4-0-3-4-0",
+        "score": 0.174
+      },
+      {
+        "chunk_id": "c000397",
+        "semantic_id": "4-0-4-0",
+        "score": 0.162
+      },
+      {
+        "chunk_id": "c000341",
+        "semantic_id": "3-4-1-4-0",
+        "score": 0.16
+      },
+      {
+        "chunk_id": "c000451",
+        "semantic_id": "4-0-3-3-0",
+        "score": 0.148
+      },
+      {
+        "chunk_id": "c000339",
+        "semantic_id": "3-4-1-2-0",
+        "score": 0.129
+      },
+      {
+        "chunk_id": "c000452",
+        "semantic_id": "4-0-3-2-0",
+        "score": 0.125
+      },
+      {
+        "chunk_id": "c000340",
+        "semantic_id": "3-4-1-3-0",
+        "score": 0.121
+      },
+      {
+        "chunk_id": "c000279",
+        "semantic_id": "3-4-1-0-0",
+        "score": 0.103
+      },
+      {
+        "chunk_id": "c000288",
+        "semantic_id": "3-4-1-1-0",
+        "score": 0.1
+      },
+      {
+        "chunk_id": "c000453",
+        "semantic_id": "4-0-3-2-1",
+        "score": 0.097
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 8.45
+  },
+  {
+    "id": "32",
+    "question": "By what maximum percentage can a long distraction warning timing threshold be relaxed under context-based vehicle response strategies?",
+    "reference_answer": "150%[cite: 1].",
+    "generated_answer": "150%",
+    "rephrased_query": "context-based vehicle response strategies,long distraction warning timing threshold,maximum percentage relaxation",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000419",
+        "semantic_id": "4-0-3-0-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000452",
+        "semantic_id": "4-0-3-2-0",
+        "score": 0.155
+      },
+      {
+        "chunk_id": "c000250",
+        "semantic_id": "3-2-2-0-0",
+        "score": 0.139
+      },
+      {
+        "chunk_id": "c000397",
+        "semantic_id": "4-0-4-0",
+        "score": 0.139
+      },
+      {
+        "chunk_id": "c000420",
+        "semantic_id": "4-0-0-4-0",
+        "score": 0.127
+      },
+      {
+        "chunk_id": "c000418",
+        "semantic_id": "4-0-1-0-0",
+        "score": 0.121
+      },
+      {
+        "chunk_id": "c000453",
+        "semantic_id": "4-0-3-2-1",
+        "score": 0.119
+      },
+      {
+        "chunk_id": "c000451",
+        "semantic_id": "4-0-3-3-0",
+        "score": 0.119
+      },
+      {
+        "chunk_id": "c000454",
+        "semantic_id": "4-0-3-1-0",
+        "score": 0.11
+      },
+      {
+        "chunk_id": "c000291",
+        "semantic_id": "3-2-2-3-0",
+        "score": 0.098
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 7.77
+  },
+  {
+    "id": "34",
+    "question": "What does PBC stand for in the Frontal Collisions protocol?",
+    "reference_answer": "Peak Braking Coefficient[cite: 2].",
+    "generated_answer": "Peak Braking Coefficient (PBC) stands for the measure of tyre to road surface friction based on the maximum deceleration of a rolling tyre, measured using the method as specified in UNECE R13-H.",
+    "rephrased_query": "PBC Frontal Collisions",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000006",
+        "semantic_id": "3-0-3-3-2-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000049",
+        "semantic_id": "3-1-0-1-0",
+        "score": 0.16
+      },
+      {
+        "chunk_id": "c000036",
+        "semantic_id": "3-0-1-3-0-0",
+        "score": 0.122
+      },
+      {
+        "chunk_id": "c000179",
+        "semantic_id": "3-1-1-1-0-0",
+        "score": 0.122
+      },
+      {
+        "chunk_id": "c000029",
+        "semantic_id": "3-0-1-2-0",
+        "score": 0.119
+      },
+      {
+        "chunk_id": "c000116",
+        "semantic_id": "2-3-2-3-0",
+        "score": 0.119
+      },
+      {
+        "chunk_id": "c000251",
+        "semantic_id": "3-0-3-3-0-0",
+        "score": 0.117
+      },
+      {
+        "chunk_id": "c000114",
+        "semantic_id": "1-3-2-2-0-0",
+        "score": 0.111
+      },
+      {
+        "chunk_id": "c000019",
+        "semantic_id": "1-2-2-3-0-0",
+        "score": 0.11
+      },
+      {
+        "chunk_id": "c000394",
+        "semantic_id": "3-0-3-3-1-0",
+        "score": 0.11
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 8.11
+  },
+  {
+    "id": "36",
+    "question": "Which ISO standard specifies the Euro NCAP Pedestrian Target (EPTa)?",
+    "reference_answer": "ISO 19206-2:2018[cite: 2].",
+    "generated_answer": "The Euro NCAP Pedestrian Target (EPTa) is specified in ISO 19206-2:2018.",
+    "rephrased_query": "ISO 14112 specifies the Euro NCAP Pedestrian Target (EPTa)",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000394",
+        "semantic_id": "3-0-3-3-1-0",
+        "score": 0.174
+      },
+      {
+        "chunk_id": "c000006",
+        "semantic_id": "3-0-3-3-2-0",
+        "score": 0.174
+      },
+      {
+        "chunk_id": "c000251",
+        "semantic_id": "3-0-3-3-0-0",
+        "score": 0.154
+      },
+      {
+        "chunk_id": "c000038",
+        "semantic_id": "3-0-1-3-1-0",
+        "score": 0.143
+      },
+      {
+        "chunk_id": "c000010",
+        "semantic_id": "3-0-3-4-0",
+        "score": 0.119
+      },
+      {
+        "chunk_id": "c000212",
+        "semantic_id": "3-3-3-3-1-0",
+        "score": 0.118
+      },
+      {
+        "chunk_id": "c000008",
+        "semantic_id": "3-0-3-2-0",
+        "score": 0.111
+      },
+      {
+        "chunk_id": "c000232",
+        "semantic_id": "2-3-4-4-0",
+        "score": 0.11
+      },
+      {
+        "chunk_id": "c000129",
+        "semantic_id": "3-0-4-2-0",
+        "score": 0.104
+      },
+      {
+        "chunk_id": "c000285",
+        "semantic_id": "3-4-3-4-0",
+        "score": 0.102
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 8.44
+  },
+  {
+    "id": "37",
+    "question": "How is Vehicle width defined in the Frontal Collisions protocol?",
+    "reference_answer": "The widest point of the vehicle ignoring the rear-view mirrors, side marker lamps, tyre pressure indicators, direction indicator lamps, position lamps, flexible mud-guards and the deflected part of the tyre side-walls[cite: 2].",
+    "generated_answer": "The vehicle width is defined as the widest point of the vehicle, ignoring the rear-view mirrors, side marker lamps, tyre pressure indicators, direction indicator lamps, position lamps, flexible mud-guards, and the deflected part of the tyre side-walls immediately above the point of contact with the ground.",
+    "rephrased_query": "Frontal Collisions Vehicle width widest point of the vehicle ignoring rear-view mirrors",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000008",
+        "semantic_id": "3-0-3-2-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000029",
+        "semantic_id": "3-0-1-2-0",
+        "score": 0.142
+      },
+      {
+        "chunk_id": "c000037",
+        "semantic_id": "3-0-0-2-0",
+        "score": 0.132
+      },
+      {
+        "chunk_id": "c000027",
+        "semantic_id": "3-0-1-0-0",
+        "score": 0.124
+      },
+      {
+        "chunk_id": "c000255",
+        "semantic_id": "3-0-1-0-1",
+        "score": 0.119
+      },
+      {
+        "chunk_id": "c000251",
+        "semantic_id": "3-0-3-3-0-0",
+        "score": 0.119
+      },
+      {
+        "chunk_id": "c000095",
+        "semantic_id": "3-0-2-2-0",
+        "score": 0.111
+      },
+      {
+        "chunk_id": "c000070",
+        "semantic_id": "1-2-1-2-0-0",
+        "score": 0.111
+      },
+      {
+        "chunk_id": "c000394",
+        "semantic_id": "3-0-3-3-1-0",
+        "score": 0.108
+      },
+      {
+        "chunk_id": "c000041",
+        "semantic_id": "3-0-1-4-0",
+        "score": 0.105
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 8.31
+  },
+  {
+    "id": "38",
+    "question": "What does CPFA stand for?",
+    "reference_answer": "Car-to-Pedestrian Farside Adult[cite: 2].",
+    "generated_answer": "CPFA stands for Car-to-Pedestrian Crossing.",
+    "rephrased_query": "CPFA car-to-pedestrian farside adult",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000151",
+        "semantic_id": "2-3-4-1-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000147",
+        "semantic_id": "2-3-4-2-0",
+        "score": 0.16
+      },
+      {
+        "chunk_id": "c000012",
+        "semantic_id": "3-0-4-0-0",
+        "score": 0.133
+      },
+      {
+        "chunk_id": "c000131",
+        "semantic_id": "2-3-4-3-0",
+        "score": 0.13
+      },
+      {
+        "chunk_id": "c000099",
+        "semantic_id": "2-3-1-1-0-0",
+        "score": 0.125
+      },
+      {
+        "chunk_id": "c000129",
+        "semantic_id": "3-0-4-2-0",
+        "score": 0.119
+      },
+      {
+        "chunk_id": "c000008",
+        "semantic_id": "3-0-3-2-0",
+        "score": 0.118
+      },
+      {
+        "chunk_id": "c000070",
+        "semantic_id": "1-2-1-2-0-0",
+        "score": 0.108
+      },
+      {
+        "chunk_id": "c000089",
+        "semantic_id": "1-2-1-2-4-0",
+        "score": 0.105
+      },
+      {
+        "chunk_id": "c000133",
+        "semantic_id": "1-2-3-1-0",
+        "score": 0.1
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 7.61
+  },
+  {
+    "id": "39",
+    "question": "At what frequency must all dynamic data be sampled and recorded?",
+    "reference_answer": "At least 100Hz[cite: 2].",
+    "generated_answer": "All dynamic data must be sampled and recorded at a frequency of at least 100Hz.",
+    "rephrased_query": "All dynamic data must be sampled and recorded at 1000Hz",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000264",
+        "semantic_id": "3-2-1-3-0",
+        "score": 0.174
+      },
+      {
+        "chunk_id": "c000042",
+        "semantic_id": "3-0-0-4-0",
+        "score": 0.168
+      },
+      {
+        "chunk_id": "c000458",
+        "semantic_id": "3-3-3-3-0-0",
+        "score": 0.16
+      },
+      {
+        "chunk_id": "c000047",
+        "semantic_id": "3-0-0-3-0",
+        "score": 0.127
+      },
+      {
+        "chunk_id": "c000268",
+        "semantic_id": "3-2-1-3-1",
+        "score": 0.125
+      },
+      {
+        "chunk_id": "c000251",
+        "semantic_id": "3-0-3-3-0-0",
+        "score": 0.119
+      },
+      {
+        "chunk_id": "c000017",
+        "semantic_id": "3-0-2-3-0",
+        "score": 0.117
+      },
+      {
+        "chunk_id": "c000212",
+        "semantic_id": "3-3-3-3-1-0",
+        "score": 0.106
+      },
+      {
+        "chunk_id": "c000048",
+        "semantic_id": "3-3-2-3-0",
+        "score": 0.097
+      },
+      {
+        "chunk_id": "c000333",
+        "semantic_id": "3-4-3-3-0",
+        "score": 0.097
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 6.8
+  },
+  {
+    "id": "47",
+    "question": "What is the maximum allowable wind speed during Frontal Collision testing?",
+    "reference_answer": "10m/s[cite: 2].",
+    "generated_answer": "The maximum allowable wind speed during Frontal Collision testing is below 10m/s.",
+    "rephrased_query": "Frontal Collision, maximum wind speed",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000178",
+        "semantic_id": "3-1-1-2-0-0",
+        "score": 0.162
+      },
+      {
+        "chunk_id": "c000272",
+        "semantic_id": "3-1-0-3-0",
+        "score": 0.162
+      },
+      {
+        "chunk_id": "c000007",
+        "semantic_id": "3-1-1-4-0",
+        "score": 0.16
+      },
+      {
+        "chunk_id": "c000051",
+        "semantic_id": "3-1-0-2-0",
+        "score": 0.15
+      },
+      {
+        "chunk_id": "c000251",
+        "semantic_id": "3-0-3-3-0-0",
+        "score": 0.144
+      },
+      {
+        "chunk_id": "c000009",
+        "semantic_id": "3-1-1-2-2-0",
+        "score": 0.125
+      },
+      {
+        "chunk_id": "c000008",
+        "semantic_id": "3-0-3-2-0",
+        "score": 0.104
+      },
+      {
+        "chunk_id": "c000053",
+        "semantic_id": "3-1-1-3-0",
+        "score": 0.103
+      },
+      {
+        "chunk_id": "c000036",
+        "semantic_id": "3-0-1-3-0-0",
+        "score": 0.102
+      },
+      {
+        "chunk_id": "c000017",
+        "semantic_id": "3-0-2-3-0",
+        "score": 0.099
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 6.44
+  },
+  {
+    "id": "46",
+    "question": "What is the minimum horizontal visibility at ground level required for testing?",
+    "reference_answer": "Greater than 1km[cite: 2].",
+    "generated_answer": "The minimum horizontal visibility at ground level required for testing is greater than 1km.",
+    "rephrased_query": "Horizontal visibility ground level minimum",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000051",
+        "semantic_id": "3-1-0-2-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000272",
+        "semantic_id": "3-1-0-3-0",
+        "score": 0.167
+      },
+      {
+        "chunk_id": "c000178",
+        "semantic_id": "3-1-1-2-0-0",
+        "score": 0.144
+      },
+      {
+        "chunk_id": "c000008",
+        "semantic_id": "3-0-3-2-0",
+        "score": 0.127
+      },
+      {
+        "chunk_id": "c000209",
+        "semantic_id": "1-3-1-2-0-0",
+        "score": 0.124
+      },
+      {
+        "chunk_id": "c000114",
+        "semantic_id": "1-3-2-2-0-0",
+        "score": 0.117
+      },
+      {
+        "chunk_id": "c000055",
+        "semantic_id": "3-1-3-2-0",
+        "score": 0.115
+      },
+      {
+        "chunk_id": "c000251",
+        "semantic_id": "3-0-3-3-0-0",
+        "score": 0.114
+      },
+      {
+        "chunk_id": "c000183",
+        "semantic_id": "3-1-1-2-1-0",
+        "score": 0.11
+      },
+      {
+        "chunk_id": "c000175",
+        "semantic_id": "3-3-2-2-1-0",
+        "score": 0.101
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 7.11
+  },
+  {
+    "id": "48",
+    "question": "What is the minimum ambient illumination required for daylight testing?",
+    "reference_answer": "In excess of 2000 lux[cite: 2].",
+    "generated_answer": "In excess of 2000 lux.",
+    "rephrased_query": "Minimum ambient illumination daylight testing",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000051",
+        "semantic_id": "3-1-0-2-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000272",
+        "semantic_id": "3-1-0-3-0",
+        "score": 0.167
+      },
+      {
+        "chunk_id": "c000178",
+        "semantic_id": "3-1-1-2-0-0",
+        "score": 0.143
+      },
+      {
+        "chunk_id": "c000163",
+        "semantic_id": "3-3-2-2-0-0",
+        "score": 0.136
+      },
+      {
+        "chunk_id": "c000348",
+        "semantic_id": "1-1-2-4-0",
+        "score": 0.13
+      },
+      {
+        "chunk_id": "c000322",
+        "semantic_id": "3-1-2-4-0",
+        "score": 0.118
+      },
+      {
+        "chunk_id": "c000209",
+        "semantic_id": "1-3-1-2-0-0",
+        "score": 0.112
+      },
+      {
+        "chunk_id": "c000192",
+        "semantic_id": "1-1-2-3-0",
+        "score": 0.11
+      },
+      {
+        "chunk_id": "c000053",
+        "semantic_id": "3-1-1-3-0",
+        "score": 0.102
+      },
+      {
+        "chunk_id": "c000175",
+        "semantic_id": "3-3-2-2-1-0",
+        "score": 0.102
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 5.02
+  },
+  {
+    "id": "49",
+    "question": "To what capacity must the fuel tank be filled before measuring the unladen kerb mass?",
+    "reference_answer": "At least 90%[cite: 2].",
+    "generated_answer": "The fuel tank must be filled to at least 90% of its capacity before measuring the unladen kerb mass.",
+    "rephrased_query": "fuel tank capacity before unladen kerb mass measurement",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000055",
+        "semantic_id": "3-1-3-2-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000274",
+        "semantic_id": "3-1-3-3-0",
+        "score": 0.167
+      },
+      {
+        "chunk_id": "c000056",
+        "semantic_id": "3-1-3-0-0",
+        "score": 0.144
+      },
+      {
+        "chunk_id": "c000276",
+        "semantic_id": "3-1-3-1-0",
+        "score": 0.143
+      },
+      {
+        "chunk_id": "c000178",
+        "semantic_id": "3-1-1-2-0-0",
+        "score": 0.132
+      },
+      {
+        "chunk_id": "c000029",
+        "semantic_id": "3-0-1-2-0",
+        "score": 0.117
+      },
+      {
+        "chunk_id": "c000183",
+        "semantic_id": "3-1-1-2-1-0",
+        "score": 0.113
+      },
+      {
+        "chunk_id": "c000009",
+        "semantic_id": "3-1-1-2-2-0",
+        "score": 0.108
+      },
+      {
+        "chunk_id": "c000179",
+        "semantic_id": "3-1-1-1-0-0",
+        "score": 0.106
+      },
+      {
+        "chunk_id": "c000330",
+        "semantic_id": "3-2-1-1-0-0",
+        "score": 0.106
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 5.48
+  },
+  {
+    "id": "43",
+    "question": "What is the maximum permitted lateral slope for the test track surface?",
+    "reference_answer": "\u00b13%[cite: 2].",
+    "generated_answer": "The maximum permitted lateral slope for the test track surface is \u00b13%.",
+    "rephrased_query": "maximum permitted lateral slope test track surface",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000049",
+        "semantic_id": "3-1-0-1-0",
+        "score": 0.174
+      },
+      {
+        "chunk_id": "c000270",
+        "semantic_id": "3-1-0-0-0",
+        "score": 0.174
+      },
+      {
+        "chunk_id": "c000178",
+        "semantic_id": "3-1-1-2-0-0",
+        "score": 0.144
+      },
+      {
+        "chunk_id": "c000183",
+        "semantic_id": "3-1-1-2-1-0",
+        "score": 0.134
+      },
+      {
+        "chunk_id": "c000327",
+        "semantic_id": "3-2-3-1-0",
+        "score": 0.125
+      },
+      {
+        "chunk_id": "c000322",
+        "semantic_id": "3-1-2-4-0",
+        "score": 0.117
+      },
+      {
+        "chunk_id": "c000007",
+        "semantic_id": "3-1-1-4-0",
+        "score": 0.108
+      },
+      {
+        "chunk_id": "c000051",
+        "semantic_id": "3-1-0-2-0",
+        "score": 0.103
+      },
+      {
+        "chunk_id": "c000023",
+        "semantic_id": "3-0-2-4-0",
+        "score": 0.102
+      },
+      {
+        "chunk_id": "c000321",
+        "semantic_id": "3-1-3-4-0",
+        "score": 0.102
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 8.98
+  },
+  {
+    "id": "41",
+    "question": "What type of filter must be applied to acceleration, yaw rate, and steering wheel velocity data?",
+    "reference_answer": "A 12-pole phase less Butterworth filter with a cut off frequency of 10Hz[cite: 2].",
+    "generated_answer": "A 12-pole phase less Butterworth filter with a cut off frequency of 10Hz must be applied to acceleration, yaw rate, and steering wheel velocity data.",
+    "rephrased_query": "acceleration, yaw rate, steering wheel velocity filter",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000269",
+        "semantic_id": "3-2-1-4-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000048",
+        "semantic_id": "3-3-2-3-0",
+        "score": 0.167
+      },
+      {
+        "chunk_id": "c000268",
+        "semantic_id": "3-2-1-3-1",
+        "score": 0.144
+      },
+      {
+        "chunk_id": "c000330",
+        "semantic_id": "3-2-1-1-0-0",
+        "score": 0.132
+      },
+      {
+        "chunk_id": "c000325",
+        "semantic_id": "0-1-3-2-0",
+        "score": 0.124
+      },
+      {
+        "chunk_id": "c000286",
+        "semantic_id": "3-2-1-2-0",
+        "score": 0.121
+      },
+      {
+        "chunk_id": "c000167",
+        "semantic_id": "3-3-2-3-1",
+        "score": 0.117
+      },
+      {
+        "chunk_id": "c000284",
+        "semantic_id": "3-2-1-1-1-0",
+        "score": 0.111
+      },
+      {
+        "chunk_id": "c000264",
+        "semantic_id": "3-2-1-3-0",
+        "score": 0.108
+      },
+      {
+        "chunk_id": "c000336",
+        "semantic_id": "3-4-3-0-0",
+        "score": 0.104
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 10.02
+  },
+  {
+    "id": "45",
+    "question": "Within what ambient temperature range must Frontal Collision tests be conducted?",
+    "reference_answer": "Above 5\u00b0C and below 40\u00b0C[cite: 2].",
+    "generated_answer": "Above 5\u00b0C and below 40\u00b0C.",
+    "rephrased_query": "Frontal Collision tests ambient temperature range",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000051",
+        "semantic_id": "3-1-0-2-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000272",
+        "semantic_id": "3-1-0-3-0",
+        "score": 0.167
+      },
+      {
+        "chunk_id": "c000008",
+        "semantic_id": "3-0-3-2-0",
+        "score": 0.139
+      },
+      {
+        "chunk_id": "c000251",
+        "semantic_id": "3-0-3-3-0-0",
+        "score": 0.136
+      },
+      {
+        "chunk_id": "c000007",
+        "semantic_id": "3-1-1-4-0",
+        "score": 0.125
+      },
+      {
+        "chunk_id": "c000209",
+        "semantic_id": "1-3-1-2-0-0",
+        "score": 0.124
+      },
+      {
+        "chunk_id": "c000319",
+        "semantic_id": "3-3-0-3-0",
+        "score": 0.113
+      },
+      {
+        "chunk_id": "c000178",
+        "semantic_id": "3-1-1-2-0-0",
+        "score": 0.11
+      },
+      {
+        "chunk_id": "c000208",
+        "semantic_id": "3-3-1-4-0",
+        "score": 0.1
+      },
+      {
+        "chunk_id": "c000052",
+        "semantic_id": "3-0-3-0-0",
+        "score": 0.099
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 7.38
+  },
+  {
+    "id": "44",
+    "question": "What is the minimal Peak Braking Coefficient (PBC) required for the test track surface?",
+    "reference_answer": "0.9[cite: 2].",
+    "generated_answer": "The minimal Peak Braking Coefficient (PBC) required for the test track surface is 0.9.",
+    "rephrased_query": "minimal PBC required for test track surface",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000049",
+        "semantic_id": "3-1-0-1-0",
+        "score": 0.174
+      },
+      {
+        "chunk_id": "c000270",
+        "semantic_id": "3-1-0-0-0",
+        "score": 0.174
+      },
+      {
+        "chunk_id": "c000274",
+        "semantic_id": "3-1-3-3-0",
+        "score": 0.138
+      },
+      {
+        "chunk_id": "c000329",
+        "semantic_id": "3-1-2-3-0",
+        "score": 0.136
+      },
+      {
+        "chunk_id": "c000055",
+        "semantic_id": "3-1-3-2-0",
+        "score": 0.127
+      },
+      {
+        "chunk_id": "c000276",
+        "semantic_id": "3-1-3-1-0",
+        "score": 0.117
+      },
+      {
+        "chunk_id": "c000179",
+        "semantic_id": "3-1-1-1-0-0",
+        "score": 0.114
+      },
+      {
+        "chunk_id": "c000321",
+        "semantic_id": "3-1-3-4-0",
+        "score": 0.113
+      },
+      {
+        "chunk_id": "c000051",
+        "semantic_id": "3-1-0-2-0",
+        "score": 0.113
+      },
+      {
+        "chunk_id": "c000272",
+        "semantic_id": "3-1-0-3-0",
+        "score": 0.102
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 8.2
+  },
+  {
+    "id": "40",
+    "question": "What is the required measurement accuracy for VUT and target speed?",
+    "reference_answer": "0.1km/h[cite: 2].",
+    "generated_answer": "0.1km/h",
+    "rephrased_query": "required measurement accuracy for VUT and target speed",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000047",
+        "semantic_id": "3-0-0-3-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000010",
+        "semantic_id": "3-0-3-4-0",
+        "score": 0.16
+      },
+      {
+        "chunk_id": "c000081",
+        "semantic_id": "3-0-1-1-0",
+        "score": 0.143
+      },
+      {
+        "chunk_id": "c000036",
+        "semantic_id": "3-0-1-3-0-0",
+        "score": 0.136
+      },
+      {
+        "chunk_id": "c000268",
+        "semantic_id": "3-2-1-3-1",
+        "score": 0.127
+      },
+      {
+        "chunk_id": "c000055",
+        "semantic_id": "3-1-3-2-0",
+        "score": 0.117
+      },
+      {
+        "chunk_id": "c000042",
+        "semantic_id": "3-0-0-4-0",
+        "score": 0.115
+      },
+      {
+        "chunk_id": "c000027",
+        "semantic_id": "3-0-1-0-0",
+        "score": 0.114
+      },
+      {
+        "chunk_id": "c000103",
+        "semantic_id": "3-0-3-1-0",
+        "score": 0.101
+      },
+      {
+        "chunk_id": "c000269",
+        "semantic_id": "3-2-1-4-0",
+        "score": 0.096
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 10.46
+  },
+  {
+    "id": "35",
+    "question": "Which ISO standard specifies the Euro NCAP Bicyclist Target (EBTa)?",
+    "reference_answer": "ISO 19206-4:2020[cite: 2].",
+    "generated_answer": "Error during answer generation: Client error '400 Bad Request' for url 'http://localhost:8000/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+    "rephrased_query": "ISO 14112 specifies the Euro NCAP Bicyclist Target (EBTa)",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000394",
+        "semantic_id": "3-0-3-3-1-0",
+        "score": 0.174
+      },
+      {
+        "chunk_id": "c000006",
+        "semantic_id": "3-0-3-3-2-0",
+        "score": 0.174
+      },
+      {
+        "chunk_id": "c000251",
+        "semantic_id": "3-0-3-3-0-0",
+        "score": 0.154
+      },
+      {
+        "chunk_id": "c000008",
+        "semantic_id": "3-0-3-2-0",
+        "score": 0.125
+      },
+      {
+        "chunk_id": "c000010",
+        "semantic_id": "3-0-3-4-0",
+        "score": 0.124
+      },
+      {
+        "chunk_id": "c000212",
+        "semantic_id": "3-3-3-3-1-0",
+        "score": 0.118
+      },
+      {
+        "chunk_id": "c000285",
+        "semantic_id": "3-4-3-4-0",
+        "score": 0.113
+      },
+      {
+        "chunk_id": "c000109",
+        "semantic_id": "3-0-3-1-1",
+        "score": 0.11
+      },
+      {
+        "chunk_id": "c000103",
+        "semantic_id": "3-0-3-1-0",
+        "score": 0.104
+      },
+      {
+        "chunk_id": "c000012",
+        "semantic_id": "3-0-4-0-0",
+        "score": 0.101
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 14.3
+  },
+  {
+    "id": "42",
+    "question": "What is the maximum permitted longitudinal slope for the test track surface?",
+    "reference_answer": "\u00b11%[cite: 2].",
+    "generated_answer": "The maximum permitted longitudinal slope for the test track surface is \u00b11%.",
+    "rephrased_query": "maximum permitted longitudinal slope test track surface",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000049",
+        "semantic_id": "3-1-0-1-0",
+        "score": 0.174
+      },
+      {
+        "chunk_id": "c000270",
+        "semantic_id": "3-1-0-0-0",
+        "score": 0.174
+      },
+      {
+        "chunk_id": "c000178",
+        "semantic_id": "3-1-1-2-0-0",
+        "score": 0.148
+      },
+      {
+        "chunk_id": "c000322",
+        "semantic_id": "3-1-2-4-0",
+        "score": 0.124
+      },
+      {
+        "chunk_id": "c000052",
+        "semantic_id": "3-0-3-0-0",
+        "score": 0.119
+      },
+      {
+        "chunk_id": "c000007",
+        "semantic_id": "3-1-1-4-0",
+        "score": 0.112
+      },
+      {
+        "chunk_id": "c000274",
+        "semantic_id": "3-1-3-3-0",
+        "score": 0.11
+      },
+      {
+        "chunk_id": "c000055",
+        "semantic_id": "3-1-3-2-0",
+        "score": 0.107
+      },
+      {
+        "chunk_id": "c000179",
+        "semantic_id": "3-1-1-1-0-0",
+        "score": 0.106
+      },
+      {
+        "chunk_id": "c000051",
+        "semantic_id": "3-1-0-2-0",
+        "score": 0.102
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 9.52
+  },
+  {
+    "id": "50",
+    "question": "What is the required interior load mass that is added to the unladen kerb mass for testing?",
+    "reference_answer": "200 kg[cite: 2].",
+    "generated_answer": "The required interior load mass is 200 kg.",
+    "rephrased_query": "Required interior load mass added to unladen kerb mass for testing",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000276",
+        "semantic_id": "3-1-3-1-0",
+        "score": 0.174
+      },
+      {
+        "chunk_id": "c000056",
+        "semantic_id": "3-1-3-0-0",
+        "score": 0.168
+      },
+      {
+        "chunk_id": "c000055",
+        "semantic_id": "3-1-3-2-0",
+        "score": 0.16
+      },
+      {
+        "chunk_id": "c000274",
+        "semantic_id": "3-1-3-3-0",
+        "score": 0.143
+      },
+      {
+        "chunk_id": "c000329",
+        "semantic_id": "3-1-2-3-0",
+        "score": 0.122
+      },
+      {
+        "chunk_id": "c000178",
+        "semantic_id": "3-1-1-2-0-0",
+        "score": 0.119
+      },
+      {
+        "chunk_id": "c000183",
+        "semantic_id": "3-1-1-2-1-0",
+        "score": 0.11
+      },
+      {
+        "chunk_id": "c000320",
+        "semantic_id": "3-1-2-2-0",
+        "score": 0.102
+      },
+      {
+        "chunk_id": "c000322",
+        "semantic_id": "3-1-2-4-0",
+        "score": 0.099
+      },
+      {
+        "chunk_id": "c000053",
+        "semantic_id": "3-1-1-3-0",
+        "score": 0.097
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 4.78
+  },
+  {
+    "id": "51",
+    "question": "What is the Time Headway used for Car-to-Car Rear Braking (CCRb) scenarios?",
+    "reference_answer": "1.0s[cite: 2].",
+    "generated_answer": "The Time Headway used for Car-to-Car Rear Braking (CCRb) scenarios is 1.0 second.",
+    "rephrased_query": "time headway CCRb",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000074",
+        "semantic_id": "3-0-4-3-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000201",
+        "semantic_id": "1-1-3-1-0-0",
+        "score": 0.16
+      },
+      {
+        "chunk_id": "c000092",
+        "semantic_id": "3-0-4-4-0",
+        "score": 0.15
+      },
+      {
+        "chunk_id": "c000452",
+        "semantic_id": "4-0-3-2-0",
+        "score": 0.144
+      },
+      {
+        "chunk_id": "c000200",
+        "semantic_id": "1-1-3-1-1-0",
+        "score": 0.134
+      },
+      {
+        "chunk_id": "c000453",
+        "semantic_id": "4-0-3-2-1",
+        "score": 0.13
+      },
+      {
+        "chunk_id": "c000042",
+        "semantic_id": "3-0-0-4-0",
+        "score": 0.111
+      },
+      {
+        "chunk_id": "c000041",
+        "semantic_id": "3-0-1-4-0",
+        "score": 0.11
+      },
+      {
+        "chunk_id": "c000262",
+        "semantic_id": "3-0-1-3-4-0",
+        "score": 0.101
+      },
+      {
+        "chunk_id": "c000010",
+        "semantic_id": "3-0-3-4-0",
+        "score": 0.094
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 6.15
+  },
+  {
+    "id": "54",
+    "question": "In the CCCscp obstructed scenario, what is the gap distance between parked obscuration vehicles?",
+    "reference_answer": "1m apart[cite: 2].",
+    "generated_answer": "The gap distance between the parked obscuration vehicles is 1m.",
+    "rephrased_query": "CCCscp parked obscuration vehicles gap distance",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000103",
+        "semantic_id": "3-0-3-1-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000109",
+        "semantic_id": "3-0-3-1-1",
+        "score": 0.167
+      },
+      {
+        "chunk_id": "c000052",
+        "semantic_id": "3-0-3-0-0",
+        "score": 0.154
+      },
+      {
+        "chunk_id": "c000394",
+        "semantic_id": "3-0-3-3-1-0",
+        "score": 0.134
+      },
+      {
+        "chunk_id": "c000010",
+        "semantic_id": "3-0-3-4-0",
+        "score": 0.125
+      },
+      {
+        "chunk_id": "c000104",
+        "semantic_id": "2-3-3-0-0",
+        "score": 0.124
+      },
+      {
+        "chunk_id": "c000092",
+        "semantic_id": "3-0-4-4-0",
+        "score": 0.118
+      },
+      {
+        "chunk_id": "c000251",
+        "semantic_id": "3-0-3-3-0-0",
+        "score": 0.111
+      },
+      {
+        "chunk_id": "c000023",
+        "semantic_id": "3-0-2-4-0",
+        "score": 0.108
+      },
+      {
+        "chunk_id": "c000008",
+        "semantic_id": "3-0-3-2-0",
+        "score": 0.106
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 2.57
+  },
+  {
+    "id": "52",
+    "question": "What is the target deceleration used for Car-to-Car Rear Braking (CCRb) scenarios?",
+    "reference_answer": "-4m/s^2[cite: 2].",
+    "generated_answer": "The target deceleration for Car-to-Car Rear Braking (CCRb) scenarios is -4 m/s\u00b2.",
+    "rephrased_query": "target-deceleration CCRb",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000074",
+        "semantic_id": "3-0-4-3-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000006",
+        "semantic_id": "3-0-3-3-2-0",
+        "score": 0.16
+      },
+      {
+        "chunk_id": "c000092",
+        "semantic_id": "3-0-4-4-0",
+        "score": 0.155
+      },
+      {
+        "chunk_id": "c000394",
+        "semantic_id": "3-0-3-3-1-0",
+        "score": 0.139
+      },
+      {
+        "chunk_id": "c000200",
+        "semantic_id": "1-1-3-1-1-0",
+        "score": 0.138
+      },
+      {
+        "chunk_id": "c000036",
+        "semantic_id": "3-0-1-3-0-0",
+        "score": 0.106
+      },
+      {
+        "chunk_id": "c000129",
+        "semantic_id": "3-0-4-2-0",
+        "score": 0.104
+      },
+      {
+        "chunk_id": "c000038",
+        "semantic_id": "3-0-1-3-1-0",
+        "score": 0.102
+      },
+      {
+        "chunk_id": "c000251",
+        "semantic_id": "3-0-3-3-0-0",
+        "score": 0.1
+      },
+      {
+        "chunk_id": "c000135",
+        "semantic_id": "3-0-4-2-1",
+        "score": 0.1
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 2.29
+  },
+  {
+    "id": "53",
+    "question": "What is the minimum speed from which an AEB Pedestrian system must operate in the CPNA-75 scenario?",
+    "reference_answer": "10 km/h[cite: 2].",
+    "generated_answer": "10 km/h",
+    "rephrased_query": "minimum speed AEB Pedestrian CPNA-75",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000186",
+        "semantic_id": "3-1-1-3-1",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000147",
+        "semantic_id": "2-3-4-2-0",
+        "score": 0.167
+      },
+      {
+        "chunk_id": "c000178",
+        "semantic_id": "3-1-1-2-0-0",
+        "score": 0.134
+      },
+      {
+        "chunk_id": "c000183",
+        "semantic_id": "3-1-1-2-1-0",
+        "score": 0.132
+      },
+      {
+        "chunk_id": "c000134",
+        "semantic_id": "1-2-3-1-1",
+        "score": 0.125
+      },
+      {
+        "chunk_id": "c000182",
+        "semantic_id": "3-1-1-1-1-0",
+        "score": 0.115
+      },
+      {
+        "chunk_id": "c000151",
+        "semantic_id": "2-3-4-1-0",
+        "score": 0.108
+      },
+      {
+        "chunk_id": "c000449",
+        "semantic_id": "4-3-1-1-0",
+        "score": 0.108
+      },
+      {
+        "chunk_id": "c000025",
+        "semantic_id": "1-3-1-3-1",
+        "score": 0.104
+      },
+      {
+        "chunk_id": "c000179",
+        "semantic_id": "3-1-1-1-0-0",
+        "score": 0.101
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 2.02
+  },
+  {
+    "id": "61",
+    "question": "How long is the stabilization phase following the target acceleration phase in crossing scenarios?",
+    "reference_answer": "0.5s[cite: 2].",
+    "generated_answer": "The stabilization phase following the target acceleration phase in crossing scenarios is 0.5 seconds.",
+    "rephrased_query": "stabilization phase duration crossing scenarios target acceleration phase",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000103",
+        "semantic_id": "3-0-3-1-0",
+        "score": 0.174
+      },
+      {
+        "chunk_id": "c000109",
+        "semantic_id": "3-0-3-1-1",
+        "score": 0.162
+      },
+      {
+        "chunk_id": "c000048",
+        "semantic_id": "3-3-2-3-0",
+        "score": 0.155
+      },
+      {
+        "chunk_id": "c000044",
+        "semantic_id": "1-3-0-0-0",
+        "score": 0.154
+      },
+      {
+        "chunk_id": "c000114",
+        "semantic_id": "1-3-2-2-0-0",
+        "score": 0.125
+      },
+      {
+        "chunk_id": "c000059",
+        "semantic_id": "1-3-2-0-0",
+        "score": 0.115
+      },
+      {
+        "chunk_id": "c000125",
+        "semantic_id": "3-0-4-1-0",
+        "score": 0.104
+      },
+      {
+        "chunk_id": "c000251",
+        "semantic_id": "3-0-3-3-0-0",
+        "score": 0.103
+      },
+      {
+        "chunk_id": "c000142",
+        "semantic_id": "1-3-2-4-0",
+        "score": 0.1
+      },
+      {
+        "chunk_id": "c000045",
+        "semantic_id": "1-3-0-1-0",
+        "score": 0.098
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 4.51
+  },
+  {
+    "id": "56",
+    "question": "What is the required VUT Time Error boundary condition for synchronization in the CCCscp scenario?",
+    "reference_answer": "\u00b1[0.1]s[cite: 2].",
+    "generated_answer": "\u00b1[0.1]s",
+    "rephrased_query": "VUT CCCscp Time Error boundary condition",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000103",
+        "semantic_id": "3-0-3-1-0",
+        "score": 0.174
+      },
+      {
+        "chunk_id": "c000023",
+        "semantic_id": "3-0-2-4-0",
+        "score": 0.154
+      },
+      {
+        "chunk_id": "c000052",
+        "semantic_id": "3-0-3-0-0",
+        "score": 0.153
+      },
+      {
+        "chunk_id": "c000109",
+        "semantic_id": "3-0-3-1-1",
+        "score": 0.139
+      },
+      {
+        "chunk_id": "c000017",
+        "semantic_id": "3-0-2-3-0",
+        "score": 0.13
+      },
+      {
+        "chunk_id": "c000179",
+        "semantic_id": "3-1-1-1-0-0",
+        "score": 0.127
+      },
+      {
+        "chunk_id": "c000104",
+        "semantic_id": "2-3-3-0-0",
+        "score": 0.111
+      },
+      {
+        "chunk_id": "c000251",
+        "semantic_id": "3-0-3-3-0-0",
+        "score": 0.11
+      },
+      {
+        "chunk_id": "c000010",
+        "semantic_id": "3-0-3-4-0",
+        "score": 0.108
+      },
+      {
+        "chunk_id": "c000020",
+        "semantic_id": "3-0-2-3-1",
+        "score": 0.101
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 6.56
+  },
+  {
+    "id": "68",
+    "question": "According to the Lane Departure protocol, what ASTM method is used to measure the Peak Braking Coefficient (PBC)?",
+    "reference_answer": "ASTM Method E 1337-90 (reapproved 1996)[cite: 3].",
+    "generated_answer": "The Peak Braking Coefficient (PBC) is measured using the American Society for Testing and Materials (ASTM) E1136-10 (2010) standard reference test tyre, in accordance with ASTM Method E 1337-90 (reapproved 1996), at a speed of 64.4 km/h, without water delivery.",
+    "rephrased_query": "Lane Departure protocol, ASTM method for Peak Braking Coefficient (PBC)",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000250",
+        "semantic_id": "3-2-2-0-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000006",
+        "semantic_id": "3-0-3-3-2-0",
+        "score": 0.167
+      },
+      {
+        "chunk_id": "c000251",
+        "semantic_id": "3-0-3-3-0-0",
+        "score": 0.144
+      },
+      {
+        "chunk_id": "c000270",
+        "semantic_id": "3-1-0-0-0",
+        "score": 0.136
+      },
+      {
+        "chunk_id": "c000008",
+        "semantic_id": "3-0-3-2-0",
+        "score": 0.124
+      },
+      {
+        "chunk_id": "c000049",
+        "semantic_id": "3-1-0-1-0",
+        "score": 0.124
+      },
+      {
+        "chunk_id": "c000394",
+        "semantic_id": "3-0-3-3-1-0",
+        "score": 0.122
+      },
+      {
+        "chunk_id": "c000291",
+        "semantic_id": "3-2-2-3-0",
+        "score": 0.102
+      },
+      {
+        "chunk_id": "c000052",
+        "semantic_id": "3-0-3-0-0",
+        "score": 0.098
+      },
+      {
+        "chunk_id": "c000331",
+        "semantic_id": "3-2-0-3-0",
+        "score": 0.098
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 6.27
+  },
+  {
+    "id": "63",
+    "question": "What impact speed tolerance is applied to the verification tests?",
+    "reference_answer": "2 km/h[cite: 2].",
+    "generated_answer": "A 2 km/h tolerance is applied to the impact speeds of the verification test, with the tolerance applied in both directions.",
+    "rephrased_query": "Impact speed tolerance in verification tests",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000176",
+        "semantic_id": "3-1-1-0-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000323",
+        "semantic_id": "3-1-2-0-0",
+        "score": 0.138
+      },
+      {
+        "chunk_id": "c000350",
+        "semantic_id": "3-2-0-2-0",
+        "score": 0.136
+      },
+      {
+        "chunk_id": "c000305",
+        "semantic_id": "3-2-3-2-0-0",
+        "score": 0.131
+      },
+      {
+        "chunk_id": "c000178",
+        "semantic_id": "3-1-1-2-0-0",
+        "score": 0.129
+      },
+      {
+        "chunk_id": "c000314",
+        "semantic_id": "3-2-3-0-0",
+        "score": 0.125
+      },
+      {
+        "chunk_id": "c000162",
+        "semantic_id": "3-3-2-0-0",
+        "score": 0.114
+      },
+      {
+        "chunk_id": "c000163",
+        "semantic_id": "3-3-2-2-0-0",
+        "score": 0.111
+      },
+      {
+        "chunk_id": "c000286",
+        "semantic_id": "3-2-1-2-0",
+        "score": 0.106
+      },
+      {
+        "chunk_id": "c000007",
+        "semantic_id": "3-1-1-4-0",
+        "score": 0.104
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 4.93
+  },
+  {
+    "id": "62",
+    "question": "At what TTC must steady-state conditions be met for the GVT in the CCCscp scenario?",
+    "reference_answer": "3.5s TTC[cite: 2].",
+    "generated_answer": "Steady-state conditions must be met as soon as the GVT has arrived in the field of vision of the VUT, corresponding to [3.5]s TTC.",
+    "rephrased_query": "steady-state conditions GVT CCCscp TTC",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000052",
+        "semantic_id": "3-0-3-0-0",
+        "score": 0.174
+      },
+      {
+        "chunk_id": "c000103",
+        "semantic_id": "3-0-3-1-0",
+        "score": 0.174
+      },
+      {
+        "chunk_id": "c000324",
+        "semantic_id": "0-1-3-1-0",
+        "score": 0.134
+      },
+      {
+        "chunk_id": "c000212",
+        "semantic_id": "3-3-3-3-1-0",
+        "score": 0.125
+      },
+      {
+        "chunk_id": "c000109",
+        "semantic_id": "3-0-3-1-1",
+        "score": 0.12
+      },
+      {
+        "chunk_id": "c000220",
+        "semantic_id": "1-1-3-4-0",
+        "score": 0.109
+      },
+      {
+        "chunk_id": "c000121",
+        "semantic_id": "3-3-3-4-0",
+        "score": 0.108
+      },
+      {
+        "chunk_id": "c000104",
+        "semantic_id": "2-3-3-0-0",
+        "score": 0.106
+      },
+      {
+        "chunk_id": "c000204",
+        "semantic_id": "1-1-3-0-0",
+        "score": 0.103
+      },
+      {
+        "chunk_id": "c000201",
+        "semantic_id": "1-1-3-1-0-0",
+        "score": 0.102
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 4.32
+  },
+  {
+    "id": "67",
+    "question": "What vehicle category should the larger obstruction vehicle be according to the Frontal Collisions protocol?",
+    "reference_answer": "Small SUV[cite: 2].",
+    "generated_answer": "The larger obstruction vehicle should be categorized as a \"Vehicle Cat.: N1\" according to the Frontal Collisions protocol.",
+    "rephrased_query": "Frontal Collisions larger obstruction vehicle",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000114",
+        "semantic_id": "1-3-2-2-0-0",
+        "score": 0.158
+      },
+      {
+        "chunk_id": "c000115",
+        "semantic_id": "1-3-2-2-1-0",
+        "score": 0.139
+      },
+      {
+        "chunk_id": "c000225",
+        "semantic_id": "1-0-2-2-0",
+        "score": 0.133
+      },
+      {
+        "chunk_id": "c000141",
+        "semantic_id": "1-3-2-2-3-0",
+        "score": 0.131
+      },
+      {
+        "chunk_id": "c000192",
+        "semantic_id": "1-1-2-3-0",
+        "score": 0.123
+      },
+      {
+        "chunk_id": "c000046",
+        "semantic_id": "1-3-0-2-0",
+        "score": 0.12
+      },
+      {
+        "chunk_id": "c000113",
+        "semantic_id": "1-3-2-2-2-0",
+        "score": 0.117
+      },
+      {
+        "chunk_id": "c000209",
+        "semantic_id": "1-3-1-2-0-0",
+        "score": 0.117
+      },
+      {
+        "chunk_id": "c000070",
+        "semantic_id": "1-2-1-2-0-0",
+        "score": 0.114
+      },
+      {
+        "chunk_id": "c000127",
+        "semantic_id": "1-3-2-2-4-0",
+        "score": 0.109
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 3.75
+  },
+  {
+    "id": "57",
+    "question": "When must the direction indicator be applied before T_steer in the CCFtap scenario?",
+    "reference_answer": "1.0s \u00b1 0.5s[cite: 2].",
+    "generated_answer": "The direction indicator must be applied at 1.0s \u00b1 0.5s before T_steer.",
+    "rephrased_query": "When must the direction indicator be applied before T_steer in CCFtap",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000012",
+        "semantic_id": "3-0-4-0-0",
+        "score": 0.16
+      },
+      {
+        "chunk_id": "c000051",
+        "semantic_id": "3-1-0-2-0",
+        "score": 0.146
+      },
+      {
+        "chunk_id": "c000053",
+        "semantic_id": "3-1-1-3-0",
+        "score": 0.144
+      },
+      {
+        "chunk_id": "c000272",
+        "semantic_id": "3-1-0-3-0",
+        "score": 0.133
+      },
+      {
+        "chunk_id": "c000008",
+        "semantic_id": "3-0-3-2-0",
+        "score": 0.132
+      },
+      {
+        "chunk_id": "c000094",
+        "semantic_id": "1-2-3-0-1",
+        "score": 0.128
+      },
+      {
+        "chunk_id": "c000139",
+        "semantic_id": "3-0-2-1-0",
+        "score": 0.121
+      },
+      {
+        "chunk_id": "c000329",
+        "semantic_id": "3-1-2-3-0",
+        "score": 0.119
+      },
+      {
+        "chunk_id": "c000176",
+        "semantic_id": "3-1-1-0-0",
+        "score": 0.106
+      },
+      {
+        "chunk_id": "c000183",
+        "semantic_id": "3-1-1-2-1-0",
+        "score": 0.104
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 4.68
+  },
+  {
+    "id": "60",
+    "question": "What maximum brake level is applied by the braking robot during an FCW test?",
+    "reference_answer": "-4 m/s^2 - 0.50 m/s^2[cite: 2].",
+    "generated_answer": "The maximum brake level applied by the braking robot during an FCW test is $-4\\text{ m/s}^2$ - $0.50\\text{ m/s}^2$.",
+    "rephrased_query": "maximum brake level braking robot applied FCW test",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000183",
+        "semantic_id": "3-1-1-2-1-0",
+        "score": 0.174
+      },
+      {
+        "chunk_id": "c000184",
+        "semantic_id": "3-1-1-0-1",
+        "score": 0.174
+      },
+      {
+        "chunk_id": "c000178",
+        "semantic_id": "3-1-1-2-0-0",
+        "score": 0.154
+      },
+      {
+        "chunk_id": "c000007",
+        "semantic_id": "3-1-1-4-0",
+        "score": 0.143
+      },
+      {
+        "chunk_id": "c000049",
+        "semantic_id": "3-1-0-1-0",
+        "score": 0.121
+      },
+      {
+        "chunk_id": "c000186",
+        "semantic_id": "3-1-1-3-1",
+        "score": 0.121
+      },
+      {
+        "chunk_id": "c000182",
+        "semantic_id": "3-1-1-1-1-0",
+        "score": 0.114
+      },
+      {
+        "chunk_id": "c000270",
+        "semantic_id": "3-1-0-0-0",
+        "score": 0.108
+      },
+      {
+        "chunk_id": "c000053",
+        "semantic_id": "3-1-1-3-0",
+        "score": 0.103
+      },
+      {
+        "chunk_id": "c000176",
+        "semantic_id": "3-1-1-0-0",
+        "score": 0.103
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 5.21
+  },
+  {
+    "id": "69",
+    "question": "At what specific speed is the Peak Braking Coefficient (PBC) measured using the ASTM reference tyre?",
+    "reference_answer": "64.4 km/h[cite: 3].",
+    "generated_answer": "64.4 km/h",
+    "rephrased_query": "astm reference tyre peak braking coefficient speed",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000250",
+        "semantic_id": "3-2-2-0-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000006",
+        "semantic_id": "3-0-3-3-2-0",
+        "score": 0.167
+      },
+      {
+        "chunk_id": "c000008",
+        "semantic_id": "3-0-3-2-0",
+        "score": 0.148
+      },
+      {
+        "chunk_id": "c000012",
+        "semantic_id": "3-0-4-0-0",
+        "score": 0.119
+      },
+      {
+        "chunk_id": "c000251",
+        "semantic_id": "3-0-3-3-0-0",
+        "score": 0.119
+      },
+      {
+        "chunk_id": "c000103",
+        "semantic_id": "3-0-3-1-0",
+        "score": 0.113
+      },
+      {
+        "chunk_id": "c000029",
+        "semantic_id": "3-0-1-2-0",
+        "score": 0.111
+      },
+      {
+        "chunk_id": "c000010",
+        "semantic_id": "3-0-3-4-0",
+        "score": 0.11
+      },
+      {
+        "chunk_id": "c000016",
+        "semantic_id": "3-0-0-1-0",
+        "score": 0.11
+      },
+      {
+        "chunk_id": "c000041",
+        "semantic_id": "3-0-1-4-0",
+        "score": 0.108
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 3.19
+  },
+  {
+    "id": "65",
+    "question": "For the AEB CCRs scenario, up to what maximum test speed must full avoidance be achieved to be eligible for scoring?",
+    "reference_answer": "20 km/h[cite: 2].",
+    "generated_answer": "Full avoidance must be achieved for test speeds up to and including 20 km/h for all impact locations within the Standard Range, which is verified by one randomly selected test point.",
+    "rephrased_query": "maximum test speed for AEB CCRs",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000212",
+        "semantic_id": "3-3-3-3-1-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000183",
+        "semantic_id": "3-1-1-2-1-0",
+        "score": 0.155
+      },
+      {
+        "chunk_id": "c000186",
+        "semantic_id": "3-1-1-3-1",
+        "score": 0.155
+      },
+      {
+        "chunk_id": "c000178",
+        "semantic_id": "3-1-1-2-0-0",
+        "score": 0.154
+      },
+      {
+        "chunk_id": "c000182",
+        "semantic_id": "3-1-1-1-1-0",
+        "score": 0.119
+      },
+      {
+        "chunk_id": "c000009",
+        "semantic_id": "3-1-1-2-2-0",
+        "score": 0.118
+      },
+      {
+        "chunk_id": "c000067",
+        "semantic_id": "3-3-3-1-0",
+        "score": 0.118
+      },
+      {
+        "chunk_id": "c000087",
+        "semantic_id": "3-3-3-1-1",
+        "score": 0.11
+      },
+      {
+        "chunk_id": "c000449",
+        "semantic_id": "4-3-1-1-0",
+        "score": 0.104
+      },
+      {
+        "chunk_id": "c000050",
+        "semantic_id": "3-1-1-1-2-0",
+        "score": 0.099
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 6.84
+  },
+  {
+    "id": "71",
+    "question": "What does LKA stand for in the Lane Departure protocol?",
+    "reference_answer": "Lane Keeping Assist[cite: 3].",
+    "generated_answer": "Lane Keeping Assist (LKA) stands for the heading correction that is applied automatically by the vehicle in response to the detection of the vehicle that is about to drift beyond a delineated edge line of the current travel lane.",
+    "rephrased_query": "Lane Keeping Assist (LKA)",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000396",
+        "semantic_id": "4-0-4-1",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000250",
+        "semantic_id": "3-2-2-0-0",
+        "score": 0.167
+      },
+      {
+        "chunk_id": "c000470",
+        "semantic_id": "4-3-2-0-0",
+        "score": 0.148
+      },
+      {
+        "chunk_id": "c000426",
+        "semantic_id": "4-3-2-1-0",
+        "score": 0.139
+      },
+      {
+        "chunk_id": "c000327",
+        "semantic_id": "3-2-3-1-0",
+        "score": 0.134
+      },
+      {
+        "chunk_id": "c000454",
+        "semantic_id": "4-0-3-1-0",
+        "score": 0.114
+      },
+      {
+        "chunk_id": "c000442",
+        "semantic_id": "4-1-0-1-0",
+        "score": 0.11
+      },
+      {
+        "chunk_id": "c000406",
+        "semantic_id": "4-0-0-1-0",
+        "score": 0.109
+      },
+      {
+        "chunk_id": "c000391",
+        "semantic_id": "4-1-2-1-0",
+        "score": 0.108
+      },
+      {
+        "chunk_id": "c000410",
+        "semantic_id": "4-0-2-1-0",
+        "score": 0.102
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 4.23
+  },
+  {
+    "id": "70",
+    "question": "What does ELK stand for in the Lane Departure protocol?",
+    "reference_answer": "Emergency Lane Keeping[cite: 3].",
+    "generated_answer": "Error during answer generation: Client error '400 Bad Request' for url 'http://localhost:8000/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+    "rephrased_query": "ELK stands for Emergency Lane Keeping in the Lane Departure protocol.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000251",
+        "semantic_id": "3-0-3-3-0-0",
+        "score": 0.174
+      },
+      {
+        "chunk_id": "c000250",
+        "semantic_id": "3-2-2-0-0",
+        "score": 0.174
+      },
+      {
+        "chunk_id": "c000454",
+        "semantic_id": "4-0-3-1-0",
+        "score": 0.154
+      },
+      {
+        "chunk_id": "c000458",
+        "semantic_id": "3-3-3-3-0-0",
+        "score": 0.134
+      },
+      {
+        "chunk_id": "c000470",
+        "semantic_id": "4-3-2-0-0",
+        "score": 0.13
+      },
+      {
+        "chunk_id": "c000394",
+        "semantic_id": "3-0-3-3-1-0",
+        "score": 0.125
+      },
+      {
+        "chunk_id": "c000271",
+        "semantic_id": "3-2-0-1-0",
+        "score": 0.115
+      },
+      {
+        "chunk_id": "c000383",
+        "semantic_id": "3-2-3-3-0",
+        "score": 0.11
+      },
+      {
+        "chunk_id": "c000006",
+        "semantic_id": "3-0-3-3-2-0",
+        "score": 0.108
+      },
+      {
+        "chunk_id": "c000103",
+        "semantic_id": "3-0-3-1-0",
+        "score": 0.091
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 9.41
+  },
+  {
+    "id": "58",
+    "question": "What is the maximum allowed VUT lateral deviation tolerance for CPTA and CBTA scenarios?",
+    "reference_answer": "0 \u00b1 0.1 m[cite: 2].",
+    "generated_answer": "Error during answer generation: Client error '400 Bad Request' for url 'http://localhost:8000/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+    "rephrased_query": "maximum allowed VUT lateral deviation tolerance CPTA CBTA",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000197",
+        "semantic_id": "1-1-3-2-1",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000200",
+        "semantic_id": "1-1-3-1-1-0",
+        "score": 0.146
+      },
+      {
+        "chunk_id": "c000199",
+        "semantic_id": "1-1-3-1-2-0",
+        "score": 0.144
+      },
+      {
+        "chunk_id": "c000180",
+        "semantic_id": "1-3-1-0-0",
+        "score": 0.142
+      },
+      {
+        "chunk_id": "c000220",
+        "semantic_id": "1-1-3-4-0",
+        "score": 0.134
+      },
+      {
+        "chunk_id": "c000201",
+        "semantic_id": "1-1-3-1-0-0",
+        "score": 0.127
+      },
+      {
+        "chunk_id": "c000196",
+        "semantic_id": "1-1-3-2-0",
+        "score": 0.125
+      },
+      {
+        "chunk_id": "c000324",
+        "semantic_id": "0-1-3-1-0",
+        "score": 0.125
+      },
+      {
+        "chunk_id": "c000394",
+        "semantic_id": "3-0-3-3-1-0",
+        "score": 0.101
+      },
+      {
+        "chunk_id": "c000144",
+        "semantic_id": "1-2-3-3-1-0",
+        "score": 0.096
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 9.06
+  },
+  {
+    "id": "59",
+    "question": "What is the default delay time for the braking robot reacting to an FCW to account for driver reaction?",
+    "reference_answer": "1.2 seconds[cite: 2].",
+    "generated_answer": "Error during answer generation: Client error '400 Bad Request' for url 'http://localhost:8000/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+    "rephrased_query": "default delay time braking robot FCW driver reaction",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000394",
+        "semantic_id": "3-0-3-3-1-0",
+        "score": 0.143
+      },
+      {
+        "chunk_id": "c000053",
+        "semantic_id": "3-1-1-3-0",
+        "score": 0.141
+      },
+      {
+        "chunk_id": "c000144",
+        "semantic_id": "1-2-3-3-1-0",
+        "score": 0.134
+      },
+      {
+        "chunk_id": "c000251",
+        "semantic_id": "3-0-3-3-0-0",
+        "score": 0.133
+      },
+      {
+        "chunk_id": "c000008",
+        "semantic_id": "3-0-3-2-0",
+        "score": 0.129
+      },
+      {
+        "chunk_id": "c000186",
+        "semantic_id": "3-1-1-3-1",
+        "score": 0.125
+      },
+      {
+        "chunk_id": "c000148",
+        "semantic_id": "1-2-3-3-0-0",
+        "score": 0.119
+      },
+      {
+        "chunk_id": "c000012",
+        "semantic_id": "3-0-4-0-0",
+        "score": 0.114
+      },
+      {
+        "chunk_id": "c000107",
+        "semantic_id": "1-2-1-3-1-0",
+        "score": 0.107
+      },
+      {
+        "chunk_id": "c000006",
+        "semantic_id": "3-0-3-3-2-0",
+        "score": 0.103
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 7.55
+  },
+  {
+    "id": "64",
+    "question": "If the relative impact speed reduction is evaluated to be within the red colour band, what does this indicate?",
+    "reference_answer": "The impact speed was > 30 km/h or no reduction was made, resulting in 0 points[cite: 2].",
+    "generated_answer": "Error during answer generation: Client error '400 Bad Request' for url 'http://localhost:8000/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+    "rephrased_query": "relative impact speed reduction red band",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000188",
+        "semantic_id": "1-1-4-1",
+        "score": 0.174
+      },
+      {
+        "chunk_id": "c000201",
+        "semantic_id": "1-1-3-1-0-0",
+        "score": 0.158
+      },
+      {
+        "chunk_id": "c000200",
+        "semantic_id": "1-1-3-1-1-0",
+        "score": 0.154
+      },
+      {
+        "chunk_id": "c000199",
+        "semantic_id": "1-1-3-1-2-0",
+        "score": 0.143
+      },
+      {
+        "chunk_id": "c000010",
+        "semantic_id": "3-0-3-4-0",
+        "score": 0.131
+      },
+      {
+        "chunk_id": "c000148",
+        "semantic_id": "1-2-3-3-0-0",
+        "score": 0.112
+      },
+      {
+        "chunk_id": "c000220",
+        "semantic_id": "1-1-3-4-0",
+        "score": 0.111
+      },
+      {
+        "chunk_id": "c000103",
+        "semantic_id": "3-0-3-1-0",
+        "score": 0.102
+      },
+      {
+        "chunk_id": "c000158",
+        "semantic_id": "1-2-4-1-0",
+        "score": 0.1
+      },
+      {
+        "chunk_id": "c000081",
+        "semantic_id": "3-0-1-1-0",
+        "score": 0.1
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 11.2
+  },
+  {
+    "id": "66",
+    "question": "What vehicle category should the smaller obstruction vehicle be according to the Frontal Collisions protocol?",
+    "reference_answer": "Small Family Car[cite: 2].",
+    "generated_answer": "Error during answer generation: Client error '400 Bad Request' for url 'http://localhost:8000/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+    "rephrased_query": "smaller obstruction vehicle Frontal Collisions protocol",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000394",
+        "semantic_id": "3-0-3-3-1-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000006",
+        "semantic_id": "3-0-3-3-2-0",
+        "score": 0.155
+      },
+      {
+        "chunk_id": "c000251",
+        "semantic_id": "3-0-3-3-0-0",
+        "score": 0.144
+      },
+      {
+        "chunk_id": "c000144",
+        "semantic_id": "1-2-3-3-1-0",
+        "score": 0.123
+      },
+      {
+        "chunk_id": "c000141",
+        "semantic_id": "1-3-2-2-3-0",
+        "score": 0.119
+      },
+      {
+        "chunk_id": "c000022",
+        "semantic_id": "1-2-2-3-1-0",
+        "score": 0.115
+      },
+      {
+        "chunk_id": "c000225",
+        "semantic_id": "1-0-2-2-0",
+        "score": 0.113
+      },
+      {
+        "chunk_id": "c000142",
+        "semantic_id": "1-3-2-4-0",
+        "score": 0.108
+      },
+      {
+        "chunk_id": "c000101",
+        "semantic_id": "1-2-1-3-0-0",
+        "score": 0.106
+      },
+      {
+        "chunk_id": "c000063",
+        "semantic_id": "1-3-2-3-1",
+        "score": 0.106
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 10.64
+  },
+  {
+    "id": "55",
+    "question": "What is the starting point (T0) relative to Time To Collision for most Frontal Collision test scenarios?",
+    "reference_answer": "TTC = 4s[cite: 2].",
+    "generated_answer": "Error during answer generation: Client error '400 Bad Request' for url 'http://localhost:8000/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+    "rephrased_query": "T0 relative Time To Collision Frontal Collision test scenarios",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000192",
+        "semantic_id": "1-1-2-3-0",
+        "score": 0.174
+      },
+      {
+        "chunk_id": "c000009",
+        "semantic_id": "3-1-1-2-2-0",
+        "score": 0.154
+      },
+      {
+        "chunk_id": "c000251",
+        "semantic_id": "3-0-3-3-0-0",
+        "score": 0.142
+      },
+      {
+        "chunk_id": "c000010",
+        "semantic_id": "3-0-3-4-0",
+        "score": 0.141
+      },
+      {
+        "chunk_id": "c000394",
+        "semantic_id": "3-0-3-3-1-0",
+        "score": 0.134
+      },
+      {
+        "chunk_id": "c000327",
+        "semantic_id": "3-2-3-1-0",
+        "score": 0.119
+      },
+      {
+        "chunk_id": "c000201",
+        "semantic_id": "1-1-3-1-0-0",
+        "score": 0.107
+      },
+      {
+        "chunk_id": "c000008",
+        "semantic_id": "3-0-3-2-0",
+        "score": 0.106
+      },
+      {
+        "chunk_id": "c000006",
+        "semantic_id": "3-0-3-3-2-0",
+        "score": 0.104
+      },
+      {
+        "chunk_id": "c000017",
+        "semantic_id": "3-0-2-3-0",
+        "score": 0.098
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 12.12
+  },
+  {
+    "id": "73",
+    "question": "What is the required measurement accuracy for the VUT heading angle in Lane Departure tests?",
+    "reference_answer": "0.1\u00b0[cite: 3].",
+    "generated_answer": "The required measurement accuracy for the VUT heading angle in Lane Departure tests is 0.1\u00b0.",
+    "rephrased_query": "required measurement accuracy VUT heading angle Lane Departure tests",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000330",
+        "semantic_id": "3-2-1-1-0-0",
+        "score": 0.158
+      },
+      {
+        "chunk_id": "c000286",
+        "semantic_id": "3-2-1-2-0",
+        "score": 0.155
+      },
+      {
+        "chunk_id": "c000268",
+        "semantic_id": "3-2-1-3-1",
+        "score": 0.139
+      },
+      {
+        "chunk_id": "c000291",
+        "semantic_id": "3-2-2-3-0",
+        "score": 0.13
+      },
+      {
+        "chunk_id": "c000284",
+        "semantic_id": "3-2-1-1-1-0",
+        "score": 0.125
+      },
+      {
+        "chunk_id": "c000305",
+        "semantic_id": "3-2-3-2-0-0",
+        "score": 0.122
+      },
+      {
+        "chunk_id": "c000290",
+        "semantic_id": "3-2-3-2-4-0",
+        "score": 0.12
+      },
+      {
+        "chunk_id": "c000283",
+        "semantic_id": "3-2-1-1-2-0",
+        "score": 0.115
+      },
+      {
+        "chunk_id": "c000314",
+        "semantic_id": "3-2-3-0-0",
+        "score": 0.114
+      },
+      {
+        "chunk_id": "c000383",
+        "semantic_id": "3-2-3-3-0",
+        "score": 0.102
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 5.79
+  },
+  {
+    "id": "79",
+    "question": "What frequency is used for the sinusoidal steering input during tyre conditioning?",
+    "reference_answer": "1Hz[cite: 3].",
+    "generated_answer": "The sinusoidal steering input has a frequency of 1Hz.",
+    "rephrased_query": "sinusoidal steering input frequency tyre conditioning",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000321",
+        "semantic_id": "3-1-3-4-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000178",
+        "semantic_id": "3-1-1-2-0-0",
+        "score": 0.155
+      },
+      {
+        "chunk_id": "c000269",
+        "semantic_id": "3-2-1-4-0",
+        "score": 0.154
+      },
+      {
+        "chunk_id": "c000054",
+        "semantic_id": "3-1-4-0",
+        "score": 0.15
+      },
+      {
+        "chunk_id": "c000007",
+        "semantic_id": "3-1-1-4-0",
+        "score": 0.13
+      },
+      {
+        "chunk_id": "c000426",
+        "semantic_id": "4-3-2-1-0",
+        "score": 0.117
+      },
+      {
+        "chunk_id": "c000056",
+        "semantic_id": "3-1-3-0-0",
+        "score": 0.113
+      },
+      {
+        "chunk_id": "c000427",
+        "semantic_id": "4-3-2-2-0",
+        "score": 0.11
+      },
+      {
+        "chunk_id": "c000055",
+        "semantic_id": "3-1-3-2-0",
+        "score": 0.106
+      },
+      {
+        "chunk_id": "c000276",
+        "semantic_id": "3-1-3-1-0",
+        "score": 0.101
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 5.47
+  },
+  {
+    "id": "76",
+    "question": "What is the minimum length of lane marking that must remain ahead of the vehicle after a Lane Departure test is complete?",
+    "reference_answer": "At least 20m[cite: 3].",
+    "generated_answer": "20m",
+    "rephrased_query": "Minimum length lane marking remaining ahead after Lane Departure test",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000271",
+        "semantic_id": "3-2-0-1-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000302",
+        "semantic_id": "3-2-3-2-3-0",
+        "score": 0.155
+      },
+      {
+        "chunk_id": "c000310",
+        "semantic_id": "3-2-3-2-1-0",
+        "score": 0.144
+      },
+      {
+        "chunk_id": "c000290",
+        "semantic_id": "3-2-3-2-4-0",
+        "score": 0.139
+      },
+      {
+        "chunk_id": "c000305",
+        "semantic_id": "3-2-3-2-0-0",
+        "score": 0.139
+      },
+      {
+        "chunk_id": "c000330",
+        "semantic_id": "3-2-1-1-0-0",
+        "score": 0.125
+      },
+      {
+        "chunk_id": "c000297",
+        "semantic_id": "3-2-3-2-2-0",
+        "score": 0.121
+      },
+      {
+        "chunk_id": "c000252",
+        "semantic_id": "3-2-2-1-0",
+        "score": 0.115
+      },
+      {
+        "chunk_id": "c000327",
+        "semantic_id": "3-2-3-1-0",
+        "score": 0.103
+      },
+      {
+        "chunk_id": "c000383",
+        "semantic_id": "3-2-3-3-0",
+        "score": 0.103
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 5.2
+  },
+  {
+    "id": "72",
+    "question": "What does DTLE stand for in the Lane Departure protocol?",
+    "reference_answer": "Distance To Lane Edge[cite: 3].",
+    "generated_answer": "DTLE stands for the limit value for DTLE in Lane Departure \u2013 ELK Road Edge tests, set to -0.1m, meaning the vehicle is only allowed to have a part of the front wheel outside of the road edge.",
+    "rephrased_query": "DTLE stands for Distance To Lane Edge in the Lane Departure protocol.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000327",
+        "semantic_id": "3-2-3-1-0",
+        "score": 0.16
+      },
+      {
+        "chunk_id": "c000251",
+        "semantic_id": "3-0-3-3-0-0",
+        "score": 0.158
+      },
+      {
+        "chunk_id": "c000342",
+        "semantic_id": "3-2-2-4-0",
+        "score": 0.146
+      },
+      {
+        "chunk_id": "c000291",
+        "semantic_id": "3-2-2-3-0",
+        "score": 0.144
+      },
+      {
+        "chunk_id": "c000290",
+        "semantic_id": "3-2-3-2-4-0",
+        "score": 0.13
+      },
+      {
+        "chunk_id": "c000305",
+        "semantic_id": "3-2-3-2-0-0",
+        "score": 0.127
+      },
+      {
+        "chunk_id": "c000383",
+        "semantic_id": "3-2-3-3-0",
+        "score": 0.119
+      },
+      {
+        "chunk_id": "c000333",
+        "semantic_id": "3-4-3-3-0",
+        "score": 0.103
+      },
+      {
+        "chunk_id": "c000338",
+        "semantic_id": "3-4-3-1-0",
+        "score": 0.101
+      },
+      {
+        "chunk_id": "c000281",
+        "semantic_id": "3-4-3-2-0",
+        "score": 0.101
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 6.58
+  },
+  {
+    "id": "81",
+    "question": "What is the specific limit value for DTLE in Lane Departure - ELK Road Edge tests?",
+    "reference_answer": "-0.1m[cite: 3].",
+    "generated_answer": "The limit value for DTLE in Lane Departure - ELK Road Edge tests is set to -0.1m.",
+    "rephrased_query": "specific limit value for DTLE in Lane Departure - ELK Road Edge tests",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000342",
+        "semantic_id": "3-2-2-4-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000291",
+        "semantic_id": "3-2-2-3-0",
+        "score": 0.167
+      },
+      {
+        "chunk_id": "c000290",
+        "semantic_id": "3-2-3-2-4-0",
+        "score": 0.154
+      },
+      {
+        "chunk_id": "c000343",
+        "semantic_id": "3-2-2-2-0",
+        "score": 0.143
+      },
+      {
+        "chunk_id": "c000252",
+        "semantic_id": "3-2-2-1-0",
+        "score": 0.122
+      },
+      {
+        "chunk_id": "c000250",
+        "semantic_id": "3-2-2-0-0",
+        "score": 0.11
+      },
+      {
+        "chunk_id": "c000286",
+        "semantic_id": "3-2-1-2-0",
+        "score": 0.104
+      },
+      {
+        "chunk_id": "c000287",
+        "semantic_id": "3-2-1-2-1",
+        "score": 0.101
+      },
+      {
+        "chunk_id": "c000330",
+        "semantic_id": "3-2-1-1-0-0",
+        "score": 0.1
+      },
+      {
+        "chunk_id": "c000314",
+        "semantic_id": "3-2-3-0-0",
+        "score": 0.098
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 4.64
+  },
+  {
+    "id": "78",
+    "question": "At what speed must the vehicle drive during the sinusoidal tyre conditioning passes?",
+    "reference_answer": "56km/h[cite: 3].",
+    "generated_answer": "56km/h",
+    "rephrased_query": "Sinusoidal tyre conditioning speed",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000178",
+        "semantic_id": "3-1-1-2-0-0",
+        "score": 0.174
+      },
+      {
+        "chunk_id": "c000054",
+        "semantic_id": "3-1-4-0",
+        "score": 0.168
+      },
+      {
+        "chunk_id": "c000321",
+        "semantic_id": "3-1-3-4-0",
+        "score": 0.16
+      },
+      {
+        "chunk_id": "c000320",
+        "semantic_id": "3-1-2-2-0",
+        "score": 0.13
+      },
+      {
+        "chunk_id": "c000007",
+        "semantic_id": "3-1-1-4-0",
+        "score": 0.124
+      },
+      {
+        "chunk_id": "c000009",
+        "semantic_id": "3-1-1-2-2-0",
+        "score": 0.118
+      },
+      {
+        "chunk_id": "c000183",
+        "semantic_id": "3-1-1-2-1-0",
+        "score": 0.117
+      },
+      {
+        "chunk_id": "c000176",
+        "semantic_id": "3-1-1-0-0",
+        "score": 0.115
+      },
+      {
+        "chunk_id": "c000323",
+        "semantic_id": "3-1-2-0-0",
+        "score": 0.105
+      },
+      {
+        "chunk_id": "c000179",
+        "semantic_id": "3-1-1-1-0-0",
+        "score": 0.103
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 4.89
+  },
+  {
+    "id": "77",
+    "question": "During tyre conditioning, what is the exact diameter of the circle the vehicle must drive around?",
+    "reference_answer": "30m[cite: 3].",
+    "generated_answer": "30m",
+    "rephrased_query": "Tyre conditioning circle diameter",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000054",
+        "semantic_id": "3-1-4-0",
+        "score": 0.168
+      },
+      {
+        "chunk_id": "c000321",
+        "semantic_id": "3-1-3-4-0",
+        "score": 0.167
+      },
+      {
+        "chunk_id": "c000178",
+        "semantic_id": "3-1-1-2-0-0",
+        "score": 0.162
+      },
+      {
+        "chunk_id": "c000275",
+        "semantic_id": "3-1-4-1",
+        "score": 0.144
+      },
+      {
+        "chunk_id": "c000183",
+        "semantic_id": "3-1-1-2-1-0",
+        "score": 0.124
+      },
+      {
+        "chunk_id": "c000007",
+        "semantic_id": "3-1-1-4-0",
+        "score": 0.113
+      },
+      {
+        "chunk_id": "c000052",
+        "semantic_id": "3-0-3-0-0",
+        "score": 0.112
+      },
+      {
+        "chunk_id": "c000006",
+        "semantic_id": "3-0-3-3-2-0",
+        "score": 0.111
+      },
+      {
+        "chunk_id": "c000320",
+        "semantic_id": "3-1-2-2-0",
+        "score": 0.11
+      },
+      {
+        "chunk_id": "c000009",
+        "semantic_id": "3-1-1-2-2-0",
+        "score": 0.106
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 4.27
+  },
+  {
+    "id": "75",
+    "question": "What distance must exist between the inner edge of the lane marking and the road edge?",
+    "reference_answer": "0.20 to 0.30m[cite: 3].",
+    "generated_answer": "The inner edge of the lane marking must be at 0.20 to 0.30m from the road edge.",
+    "rephrased_query": "Lane marking inner edge to road edge distance",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000271",
+        "semantic_id": "3-2-0-1-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000290",
+        "semantic_id": "3-2-3-2-4-0",
+        "score": 0.155
+      },
+      {
+        "chunk_id": "c000252",
+        "semantic_id": "3-2-2-1-0",
+        "score": 0.155
+      },
+      {
+        "chunk_id": "c000302",
+        "semantic_id": "3-2-3-2-3-0",
+        "score": 0.125
+      },
+      {
+        "chunk_id": "c000383",
+        "semantic_id": "3-2-3-3-0",
+        "score": 0.122
+      },
+      {
+        "chunk_id": "c000342",
+        "semantic_id": "3-2-2-4-0",
+        "score": 0.122
+      },
+      {
+        "chunk_id": "c000305",
+        "semantic_id": "3-2-3-2-0-0",
+        "score": 0.12
+      },
+      {
+        "chunk_id": "c000387",
+        "semantic_id": "3-2-0-0-0",
+        "score": 0.117
+      },
+      {
+        "chunk_id": "c000250",
+        "semantic_id": "3-2-2-0-0",
+        "score": 0.114
+      },
+      {
+        "chunk_id": "c000291",
+        "semantic_id": "3-2-2-3-0",
+        "score": 0.102
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 3.98
+  },
+  {
+    "id": "80",
+    "question": "How many runs must be performed for a system check before actual Lane Departure testing begins?",
+    "reference_answer": "A maximum of ten runs[cite: 3].",
+    "generated_answer": "Before actual Lane Departure testing begins, a maximum of ten runs must be performed for a system check.",
+    "rephrased_query": "System check runs before Lane Departure testing",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000322",
+        "semantic_id": "3-1-2-4-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000329",
+        "semantic_id": "3-1-2-3-0",
+        "score": 0.16
+      },
+      {
+        "chunk_id": "c000330",
+        "semantic_id": "3-2-1-1-0-0",
+        "score": 0.16
+      },
+      {
+        "chunk_id": "c000053",
+        "semantic_id": "3-1-1-3-0",
+        "score": 0.134
+      },
+      {
+        "chunk_id": "c000342",
+        "semantic_id": "3-2-2-4-0",
+        "score": 0.115
+      },
+      {
+        "chunk_id": "c000273",
+        "semantic_id": "3-2-3-4-0",
+        "score": 0.114
+      },
+      {
+        "chunk_id": "c000343",
+        "semantic_id": "3-2-2-2-0",
+        "score": 0.113
+      },
+      {
+        "chunk_id": "c000291",
+        "semantic_id": "3-2-2-3-0",
+        "score": 0.112
+      },
+      {
+        "chunk_id": "c000328",
+        "semantic_id": "3-1-2-1-0",
+        "score": 0.103
+      },
+      {
+        "chunk_id": "c000320",
+        "semantic_id": "3-1-2-2-0",
+        "score": 0.1
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 3.71
+  },
+  {
+    "id": "74",
+    "question": "What is the specified test lane width when measured from the inside edge of the lane marking?",
+    "reference_answer": "3.5 to 3.7m[cite: 3].",
+    "generated_answer": "The test lane width is 3.5 to 3.7 meters when measured from the inside edge of the lane marking.",
+    "rephrased_query": "Inside edge lane marking width",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000271",
+        "semantic_id": "3-2-0-1-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000290",
+        "semantic_id": "3-2-3-2-4-0",
+        "score": 0.154
+      },
+      {
+        "chunk_id": "c000350",
+        "semantic_id": "3-2-0-2-0",
+        "score": 0.138
+      },
+      {
+        "chunk_id": "c000305",
+        "semantic_id": "3-2-3-2-0-0",
+        "score": 0.133
+      },
+      {
+        "chunk_id": "c000302",
+        "semantic_id": "3-2-3-2-3-0",
+        "score": 0.129
+      },
+      {
+        "chunk_id": "c000383",
+        "semantic_id": "3-2-3-3-0",
+        "score": 0.125
+      },
+      {
+        "chunk_id": "c000252",
+        "semantic_id": "3-2-2-1-0",
+        "score": 0.117
+      },
+      {
+        "chunk_id": "c000297",
+        "semantic_id": "3-2-3-2-2-0",
+        "score": 0.108
+      },
+      {
+        "chunk_id": "c000330",
+        "semantic_id": "3-2-1-1-0-0",
+        "score": 0.108
+      },
+      {
+        "chunk_id": "c000342",
+        "semantic_id": "3-2-2-4-0",
+        "score": 0.108
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 3.43
+  },
+  {
+    "id": "82",
+    "question": "At what lateral speed must the Continuous Intervention Driveability testing be conducted?",
+    "reference_answer": "0.5m/s[cite: 3].",
+    "generated_answer": "The Continuous Intervention Driveability testing must be conducted at a lateral speed of 0.5 m/s.",
+    "rephrased_query": "Continuous Intervention Driveability testing lateral speed",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000282",
+        "semantic_id": "0-1-3-0-0",
+        "score": 0.174
+      },
+      {
+        "chunk_id": "c000336",
+        "semantic_id": "3-4-3-0-0",
+        "score": 0.168
+      },
+      {
+        "chunk_id": "c000284",
+        "semantic_id": "3-2-1-1-1-0",
+        "score": 0.155
+      },
+      {
+        "chunk_id": "c000338",
+        "semantic_id": "3-4-3-1-0",
+        "score": 0.139
+      },
+      {
+        "chunk_id": "c000279",
+        "semantic_id": "3-4-1-0-0",
+        "score": 0.134
+      },
+      {
+        "chunk_id": "c000285",
+        "semantic_id": "3-4-3-4-0",
+        "score": 0.133
+      },
+      {
+        "chunk_id": "c000333",
+        "semantic_id": "3-4-3-3-0",
+        "score": 0.111
+      },
+      {
+        "chunk_id": "c000281",
+        "semantic_id": "3-4-3-2-0",
+        "score": 0.111
+      },
+      {
+        "chunk_id": "c000330",
+        "semantic_id": "3-2-1-1-0-0",
+        "score": 0.102
+      },
+      {
+        "chunk_id": "c000324",
+        "semantic_id": "0-1-3-1-0",
+        "score": 0.098
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 7.81
+  },
+  {
+    "id": "83",
+    "question": "What is the maximum allowed overriding torque during an active lane support system intervention to satisfy the Driveability requirement?",
+    "reference_answer": "3.0Nm + [0.5Nm][cite: 3].",
+    "generated_answer": "The maximum allowed overriding torque during an active lane support system intervention to satisfy the Driveability requirement is 3.0Nm + 0.5Nm.",
+    "rephrased_query": "maximum allowed overriding torque during active lane support system intervention Driveability",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000336",
+        "semantic_id": "3-4-3-0-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000337",
+        "semantic_id": "3-4-4-0",
+        "score": 0.16
+      },
+      {
+        "chunk_id": "c000279",
+        "semantic_id": "3-4-1-0-0",
+        "score": 0.15
+      },
+      {
+        "chunk_id": "c000426",
+        "semantic_id": "4-3-2-1-0",
+        "score": 0.132
+      },
+      {
+        "chunk_id": "c000339",
+        "semantic_id": "3-4-1-2-0",
+        "score": 0.13
+      },
+      {
+        "chunk_id": "c000341",
+        "semantic_id": "3-4-1-4-0",
+        "score": 0.122
+      },
+      {
+        "chunk_id": "c000338",
+        "semantic_id": "3-4-3-1-0",
+        "score": 0.121
+      },
+      {
+        "chunk_id": "c000282",
+        "semantic_id": "0-1-3-0-0",
+        "score": 0.113
+      },
+      {
+        "chunk_id": "c000333",
+        "semantic_id": "3-4-3-3-0",
+        "score": 0.11
+      },
+      {
+        "chunk_id": "c000427",
+        "semantic_id": "4-3-2-2-0",
+        "score": 0.102
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 5.53
+  },
+  {
+    "id": "86",
+    "question": "What lateral velocity range is used for unintentional lane changes in the ELK Car-to-Car Overtaking tests?",
+    "reference_answer": "0.3 to 0.6m/s[cite: 3].",
+    "generated_answer": "0.3 to 0.6 m/s",
+    "rephrased_query": "What lateral velocity range is used for unintentional lane changes in the ELK Car-to-Car Overtaking tests?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000298",
+        "semantic_id": "0-4-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000252",
+        "semantic_id": "3-2-2-1-0",
+        "score": 0.167
+      },
+      {
+        "chunk_id": "c000327",
+        "semantic_id": "3-2-3-1-0",
+        "score": 0.139
+      },
+      {
+        "chunk_id": "c000343",
+        "semantic_id": "3-2-2-2-0",
+        "score": 0.129
+      },
+      {
+        "chunk_id": "c000342",
+        "semantic_id": "3-2-2-4-0",
+        "score": 0.121
+      },
+      {
+        "chunk_id": "c000330",
+        "semantic_id": "3-2-1-1-0-0",
+        "score": 0.115
+      },
+      {
+        "chunk_id": "c000291",
+        "semantic_id": "3-2-2-3-0",
+        "score": 0.111
+      },
+      {
+        "chunk_id": "c000326",
+        "semantic_id": "3-2-1-1-3-0",
+        "score": 0.108
+      },
+      {
+        "chunk_id": "c000174",
+        "semantic_id": "3-3-0-4-0",
+        "score": 0.106
+      },
+      {
+        "chunk_id": "c000286",
+        "semantic_id": "3-2-1-2-0",
+        "score": 0.105
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 5.99
+  },
+  {
+    "id": "84",
+    "question": "For steering response tests >=70km/h at a lateral speed of 0.2m/s, what is the maximum allowed steering wheel velocity?",
+    "reference_answer": "\u00b120\u00b0/sec[cite: 3].",
+    "generated_answer": "\u00b1 20 \u00b0/sec",
+    "rephrased_query": "steering response tests >=70km/h lateral speed 0.2m/s maximum allowed steering wheel velocity",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000336",
+        "semantic_id": "3-4-3-0-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000283",
+        "semantic_id": "3-2-1-1-2-0",
+        "score": 0.16
+      },
+      {
+        "chunk_id": "c000286",
+        "semantic_id": "3-2-1-2-0",
+        "score": 0.138
+      },
+      {
+        "chunk_id": "c000268",
+        "semantic_id": "3-2-1-3-1",
+        "score": 0.136
+      },
+      {
+        "chunk_id": "c000330",
+        "semantic_id": "3-2-1-1-0-0",
+        "score": 0.133
+      },
+      {
+        "chunk_id": "c000284",
+        "semantic_id": "3-2-1-1-1-0",
+        "score": 0.129
+      },
+      {
+        "chunk_id": "c000269",
+        "semantic_id": "3-2-1-4-0",
+        "score": 0.118
+      },
+      {
+        "chunk_id": "c000282",
+        "semantic_id": "0-1-3-0-0",
+        "score": 0.106
+      },
+      {
+        "chunk_id": "c000343",
+        "semantic_id": "3-2-2-2-0",
+        "score": 0.098
+      },
+      {
+        "chunk_id": "c000338",
+        "semantic_id": "3-4-3-1-0",
+        "score": 0.095
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 6.43
+  },
+  {
+    "id": "91",
+    "question": "What is the synchronized impact location for the ELK Car-to-Motorcyclist Oncoming scenario?",
+    "reference_answer": "110%[cite: 3].",
+    "generated_answer": "The synchronized impact location for the ELK Car-to-Motorcyclist Oncoming scenario is 110% of the impact location (assuming no system reaction).",
+    "rephrased_query": "synchronized impact location elk car-to-motorcyclist oncoming",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000305",
+        "semantic_id": "3-2-3-2-0-0",
+        "score": 0.174
+      },
+      {
+        "chunk_id": "c000310",
+        "semantic_id": "3-2-3-2-1-0",
+        "score": 0.162
+      },
+      {
+        "chunk_id": "c000297",
+        "semantic_id": "3-2-3-2-2-0",
+        "score": 0.154
+      },
+      {
+        "chunk_id": "c000344",
+        "semantic_id": "3-2-3-1-1",
+        "score": 0.15
+      },
+      {
+        "chunk_id": "c000302",
+        "semantic_id": "3-2-3-2-3-0",
+        "score": 0.124
+      },
+      {
+        "chunk_id": "c000314",
+        "semantic_id": "3-2-3-0-0",
+        "score": 0.114
+      },
+      {
+        "chunk_id": "c000111",
+        "semantic_id": "2-3-3-2-0",
+        "score": 0.112
+      },
+      {
+        "chunk_id": "c000383",
+        "semantic_id": "3-2-3-3-0",
+        "score": 0.106
+      },
+      {
+        "chunk_id": "c000290",
+        "semantic_id": "3-2-3-2-4-0",
+        "score": 0.102
+      },
+      {
+        "chunk_id": "c000259",
+        "semantic_id": "2-0-0-2-0",
+        "score": 0.101
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 6.04
+  },
+  {
+    "id": "94",
+    "question": "How many points are awarded for a PASS (Avoidance) in the ELK Car & PTW Standard Range tests?",
+    "reference_answer": "1 point[cite: 3].",
+    "generated_answer": "5",
+    "rephrased_query": "How many points are awarded for a PASS in the ELK Car & PTW Standard Range tests",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000185",
+        "semantic_id": "3-3-1-2-0",
+        "score": 0.174
+      },
+      {
+        "chunk_id": "c000168",
+        "semantic_id": "3-3-1-1-0",
+        "score": 0.148
+      },
+      {
+        "chunk_id": "c000305",
+        "semantic_id": "3-2-3-2-0-0",
+        "score": 0.146
+      },
+      {
+        "chunk_id": "c000290",
+        "semantic_id": "3-2-3-2-4-0",
+        "score": 0.144
+      },
+      {
+        "chunk_id": "c000317",
+        "semantic_id": "0-1-1-0",
+        "score": 0.142
+      },
+      {
+        "chunk_id": "c000067",
+        "semantic_id": "3-3-3-1-0",
+        "score": 0.117
+      },
+      {
+        "chunk_id": "c000280",
+        "semantic_id": "0-1-2-0-0",
+        "score": 0.115
+      },
+      {
+        "chunk_id": "c000310",
+        "semantic_id": "3-2-3-2-1-0",
+        "score": 0.108
+      },
+      {
+        "chunk_id": "c000297",
+        "semantic_id": "3-2-3-2-2-0",
+        "score": 0.108
+      },
+      {
+        "chunk_id": "c000302",
+        "semantic_id": "3-2-3-2-3-0",
+        "score": 0.106
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 5.04
+  },
+  {
+    "id": "88",
+    "question": "In the ELK Car-to-Car Oncoming scenario, what is the lateral distance of the target's path from the inner side of the centre dashed lane marking?",
+    "reference_answer": "1.5m[cite: 3].",
+    "generated_answer": "1.5m",
+    "rephrased_query": "ELK Car-to-Car Oncoming scenario lateral distance inner centre dashed lane marking",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000305",
+        "semantic_id": "3-2-3-2-0-0",
+        "score": 0.174
+      },
+      {
+        "chunk_id": "c000297",
+        "semantic_id": "3-2-3-2-2-0",
+        "score": 0.174
+      },
+      {
+        "chunk_id": "c000310",
+        "semantic_id": "3-2-3-2-1-0",
+        "score": 0.148
+      },
+      {
+        "chunk_id": "c000302",
+        "semantic_id": "3-2-3-2-3-0",
+        "score": 0.148
+      },
+      {
+        "chunk_id": "c000327",
+        "semantic_id": "3-2-3-1-0",
+        "score": 0.129
+      },
+      {
+        "chunk_id": "c000383",
+        "semantic_id": "3-2-3-3-0",
+        "score": 0.118
+      },
+      {
+        "chunk_id": "c000139",
+        "semantic_id": "3-0-2-1-0",
+        "score": 0.11
+      },
+      {
+        "chunk_id": "c000290",
+        "semantic_id": "3-2-3-2-4-0",
+        "score": 0.108
+      },
+      {
+        "chunk_id": "c000344",
+        "semantic_id": "3-2-3-1-1",
+        "score": 0.106
+      },
+      {
+        "chunk_id": "c000330",
+        "semantic_id": "3-2-1-1-0-0",
+        "score": 0.1
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 7.58
+  },
+  {
+    "id": "89",
+    "question": "In the ELK Car-to-Motorcyclist Oncoming scenario, what is the lateral distance of the target's path from the inner side of the centre dashed lane marking?",
+    "reference_answer": "1.00m[cite: 3].",
+    "generated_answer": "1m",
+    "rephrased_query": "ELK Car-to-Motorcyclist Oncoming scenario lateral distance inner centre dashed lane marking",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000305",
+        "semantic_id": "3-2-3-2-0-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000310",
+        "semantic_id": "3-2-3-2-1-0",
+        "score": 0.16
+      },
+      {
+        "chunk_id": "c000297",
+        "semantic_id": "3-2-3-2-2-0",
+        "score": 0.16
+      },
+      {
+        "chunk_id": "c000302",
+        "semantic_id": "3-2-3-2-3-0",
+        "score": 0.143
+      },
+      {
+        "chunk_id": "c000327",
+        "semantic_id": "3-2-3-1-0",
+        "score": 0.125
+      },
+      {
+        "chunk_id": "c000383",
+        "semantic_id": "3-2-3-3-0",
+        "score": 0.114
+      },
+      {
+        "chunk_id": "c000344",
+        "semantic_id": "3-2-3-1-1",
+        "score": 0.111
+      },
+      {
+        "chunk_id": "c000290",
+        "semantic_id": "3-2-3-2-4-0",
+        "score": 0.11
+      },
+      {
+        "chunk_id": "c000139",
+        "semantic_id": "3-0-2-1-0",
+        "score": 0.107
+      },
+      {
+        "chunk_id": "c000314",
+        "semantic_id": "3-2-3-0-0",
+        "score": 0.097
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 7.21
+  },
+  {
+    "id": "96",
+    "question": "How many maximum points are available specifically for the Driveability assessment within the Single Vehicle tests?",
+    "reference_answer": "2 points[cite: 3].",
+    "generated_answer": "2",
+    "rephrased_query": "Driveability maximum points Single Vehicle tests",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000335",
+        "semantic_id": "3-4-2-1",
+        "score": 0.168
+      },
+      {
+        "chunk_id": "c000279",
+        "semantic_id": "3-4-1-0-0",
+        "score": 0.167
+      },
+      {
+        "chunk_id": "c000280",
+        "semantic_id": "0-1-2-0-0",
+        "score": 0.144
+      },
+      {
+        "chunk_id": "c000163",
+        "semantic_id": "3-3-2-2-0-0",
+        "score": 0.131
+      },
+      {
+        "chunk_id": "c000178",
+        "semantic_id": "3-1-1-2-0-0",
+        "score": 0.13
+      },
+      {
+        "chunk_id": "c000281",
+        "semantic_id": "3-4-3-2-0",
+        "score": 0.113
+      },
+      {
+        "chunk_id": "c000338",
+        "semantic_id": "3-4-3-1-0",
+        "score": 0.11
+      },
+      {
+        "chunk_id": "c000336",
+        "semantic_id": "3-4-3-0-0",
+        "score": 0.108
+      },
+      {
+        "chunk_id": "c000214",
+        "semantic_id": "3-3-2-2-2-0",
+        "score": 0.106
+      },
+      {
+        "chunk_id": "c000001",
+        "semantic_id": "3-3-3-2-0-0",
+        "score": 0.104
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 5.3
+  },
+  {
+    "id": "85",
+    "question": "For steering response tests >=70km/h at a lateral speed of 0.6m/s, what is the maximum allowed steering wheel velocity?",
+    "reference_answer": "\u00b140\u00b0/sec[cite: 3].",
+    "generated_answer": "\u00b1 40 \u00b0/sec",
+    "rephrased_query": "steering response tests >=70km/h lateral speed 0.6m/s maximum allowed steering wheel velocity",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000336",
+        "semantic_id": "3-4-3-0-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000283",
+        "semantic_id": "3-2-1-1-2-0",
+        "score": 0.16
+      },
+      {
+        "chunk_id": "c000330",
+        "semantic_id": "3-2-1-1-0-0",
+        "score": 0.142
+      },
+      {
+        "chunk_id": "c000286",
+        "semantic_id": "3-2-1-2-0",
+        "score": 0.138
+      },
+      {
+        "chunk_id": "c000268",
+        "semantic_id": "3-2-1-3-1",
+        "score": 0.13
+      },
+      {
+        "chunk_id": "c000284",
+        "semantic_id": "3-2-1-1-1-0",
+        "score": 0.129
+      },
+      {
+        "chunk_id": "c000282",
+        "semantic_id": "0-1-3-0-0",
+        "score": 0.127
+      },
+      {
+        "chunk_id": "c000269",
+        "semantic_id": "3-2-1-4-0",
+        "score": 0.118
+      },
+      {
+        "chunk_id": "c000338",
+        "semantic_id": "3-4-3-1-0",
+        "score": 0.093
+      },
+      {
+        "chunk_id": "c000343",
+        "semantic_id": "3-2-2-2-0",
+        "score": 0.092
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 8.02
+  },
+  {
+    "id": "97",
+    "question": "How many maximum points are available specifically for the Driver State Link assessment within the Single Vehicle tests?",
+    "reference_answer": "3 points[cite: 3].",
+    "generated_answer": "The maximum points available specifically for the Driver State Link assessment within the Single Vehicle tests are 3.",
+    "rephrased_query": "Driver State Link, Single Vehicle, maximum points",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000279",
+        "semantic_id": "3-4-1-0-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000341",
+        "semantic_id": "3-4-1-4-0",
+        "score": 0.167
+      },
+      {
+        "chunk_id": "c000288",
+        "semantic_id": "3-4-1-1-0",
+        "score": 0.138
+      },
+      {
+        "chunk_id": "c000339",
+        "semantic_id": "3-4-1-2-0",
+        "score": 0.132
+      },
+      {
+        "chunk_id": "c000167",
+        "semantic_id": "3-3-2-3-1",
+        "score": 0.119
+      },
+      {
+        "chunk_id": "c000163",
+        "semantic_id": "3-3-2-2-0-0",
+        "score": 0.119
+      },
+      {
+        "chunk_id": "c000330",
+        "semantic_id": "3-2-1-1-0-0",
+        "score": 0.118
+      },
+      {
+        "chunk_id": "c000048",
+        "semantic_id": "3-3-2-3-0",
+        "score": 0.117
+      },
+      {
+        "chunk_id": "c000252",
+        "semantic_id": "3-2-2-1-0",
+        "score": 0.113
+      },
+      {
+        "chunk_id": "c000340",
+        "semantic_id": "3-4-1-3-0",
+        "score": 0.102
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 3.47
+  },
+  {
+    "id": "87",
+    "question": "What lateral velocity range is used for intentional lane changes in the ELK Car-to-Car Overtaking tests?",
+    "reference_answer": "0.5 to 0.7m/s[cite: 3].",
+    "generated_answer": "0.5 to 0.7 m/s",
+    "rephrased_query": "What lateral velocity range is used for intentional lane changes in the ELK Car-to-Car Overtaking tests?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000298",
+        "semantic_id": "0-4-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000252",
+        "semantic_id": "3-2-2-1-0",
+        "score": 0.16
+      },
+      {
+        "chunk_id": "c000302",
+        "semantic_id": "3-2-3-2-3-0",
+        "score": 0.148
+      },
+      {
+        "chunk_id": "c000310",
+        "semantic_id": "3-2-3-2-1-0",
+        "score": 0.129
+      },
+      {
+        "chunk_id": "c000305",
+        "semantic_id": "3-2-3-2-0-0",
+        "score": 0.127
+      },
+      {
+        "chunk_id": "c000327",
+        "semantic_id": "3-2-3-1-0",
+        "score": 0.118
+      },
+      {
+        "chunk_id": "c000344",
+        "semantic_id": "3-2-3-1-1",
+        "score": 0.118
+      },
+      {
+        "chunk_id": "c000343",
+        "semantic_id": "3-2-2-2-0",
+        "score": 0.111
+      },
+      {
+        "chunk_id": "c000297",
+        "semantic_id": "3-2-3-2-2-0",
+        "score": 0.109
+      },
+      {
+        "chunk_id": "c000330",
+        "semantic_id": "3-2-1-1-0-0",
+        "score": 0.102
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 6.82
+  },
+  {
+    "id": "90",
+    "question": "What is the synchronized impact location for the ELK Car-to-Car Oncoming scenario?",
+    "reference_answer": "90%[cite: 3].",
+    "generated_answer": "The synchronized impact location for the ELK Car-to-Car Oncoming scenario is 90% of the impact location.",
+    "rephrased_query": "synchronized impact location elk car-to-car oncoming",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000297",
+        "semantic_id": "3-2-3-2-2-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000305",
+        "semantic_id": "3-2-3-2-0-0",
+        "score": 0.167
+      },
+      {
+        "chunk_id": "c000310",
+        "semantic_id": "3-2-3-2-1-0",
+        "score": 0.139
+      },
+      {
+        "chunk_id": "c000344",
+        "semantic_id": "3-2-3-1-1",
+        "score": 0.139
+      },
+      {
+        "chunk_id": "c000302",
+        "semantic_id": "3-2-3-2-3-0",
+        "score": 0.138
+      },
+      {
+        "chunk_id": "c000029",
+        "semantic_id": "3-0-1-2-0",
+        "score": 0.113
+      },
+      {
+        "chunk_id": "c000314",
+        "semantic_id": "3-2-3-0-0",
+        "score": 0.106
+      },
+      {
+        "chunk_id": "c000111",
+        "semantic_id": "2-3-3-2-0",
+        "score": 0.102
+      },
+      {
+        "chunk_id": "c000327",
+        "semantic_id": "3-2-3-1-0",
+        "score": 0.1
+      },
+      {
+        "chunk_id": "c000383",
+        "semantic_id": "3-2-3-3-0",
+        "score": 0.1
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 4.41
+  },
+  {
+    "id": "93",
+    "question": "At what specific TTC is an ELK test assumed to have failed if no system intervention is observed?",
+    "reference_answer": "TTC = 0.8s[cite: 3].",
+    "generated_answer": "0.8s",
+    "rephrased_query": "ELK test failed at 1.5s TTC",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000327",
+        "semantic_id": "3-2-3-1-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000305",
+        "semantic_id": "3-2-3-2-0-0",
+        "score": 0.15
+      },
+      {
+        "chunk_id": "c000290",
+        "semantic_id": "3-2-3-2-4-0",
+        "score": 0.139
+      },
+      {
+        "chunk_id": "c000328",
+        "semantic_id": "3-1-2-1-0",
+        "score": 0.132
+      },
+      {
+        "chunk_id": "c000319",
+        "semantic_id": "3-3-0-3-0",
+        "score": 0.123
+      },
+      {
+        "chunk_id": "c000310",
+        "semantic_id": "3-2-3-2-1-0",
+        "score": 0.121
+      },
+      {
+        "chunk_id": "c000139",
+        "semantic_id": "3-0-2-1-0",
+        "score": 0.119
+      },
+      {
+        "chunk_id": "c000297",
+        "semantic_id": "3-2-3-2-2-0",
+        "score": 0.118
+      },
+      {
+        "chunk_id": "c000344",
+        "semantic_id": "3-2-3-1-1",
+        "score": 0.118
+      },
+      {
+        "chunk_id": "c000302",
+        "semantic_id": "3-2-3-2-3-0",
+        "score": 0.105
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 3.92
+  },
+  {
+    "id": "95",
+    "question": "What percentage of the total available score in the Standard Range must be achieved to be eligible for Extended Range scoring?",
+    "reference_answer": ">=25%[cite: 3].",
+    "generated_answer": "\u226550% of the total available score in the Standard Range must be achieved to be eligible for Extended Range scoring.",
+    "rephrased_query": "Extended Range scoring eligibility requires achieving a percentage of the total available score in the Standard Range.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000354",
+        "semantic_id": "3-3-1-3-1",
+        "score": 0.174
+      },
+      {
+        "chunk_id": "c000213",
+        "semantic_id": "3-3-0-2-0",
+        "score": 0.15
+      },
+      {
+        "chunk_id": "c000351",
+        "semantic_id": "3-3-1-3-0",
+        "score": 0.15
+      },
+      {
+        "chunk_id": "c000208",
+        "semantic_id": "3-3-1-4-0",
+        "score": 0.144
+      },
+      {
+        "chunk_id": "c000209",
+        "semantic_id": "1-3-1-2-0-0",
+        "score": 0.134
+      },
+      {
+        "chunk_id": "c000357",
+        "semantic_id": "3-3-0-2-1",
+        "score": 0.13
+      },
+      {
+        "chunk_id": "c000207",
+        "semantic_id": "1-3-3-3-0",
+        "score": 0.127
+      },
+      {
+        "chunk_id": "c000185",
+        "semantic_id": "3-3-1-2-0",
+        "score": 0.118
+      },
+      {
+        "chunk_id": "c000336",
+        "semantic_id": "3-4-3-0-0",
+        "score": 0.102
+      },
+      {
+        "chunk_id": "c000168",
+        "semantic_id": "3-3-1-1-0",
+        "score": 0.1
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 5.69
+  },
+  {
+    "id": "92",
+    "question": "What is the minimum required lateral separation between the VUT and the EMT to avoid failing the ELK test?",
+    "reference_answer": ">0.3m[cite: 3].",
+    "generated_answer": "The minimum required lateral separation between the VUT and the EMT to avoid failing the ELK test is 0.3 meters.",
+    "rephrased_query": "minimum required lateral separation VUT EMT to avoid failing ELK test",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000327",
+        "semantic_id": "3-2-3-1-0",
+        "score": 0.174
+      },
+      {
+        "chunk_id": "c000344",
+        "semantic_id": "3-2-3-1-1",
+        "score": 0.168
+      },
+      {
+        "chunk_id": "c000305",
+        "semantic_id": "3-2-3-2-0-0",
+        "score": 0.15
+      },
+      {
+        "chunk_id": "c000310",
+        "semantic_id": "3-2-3-2-1-0",
+        "score": 0.143
+      },
+      {
+        "chunk_id": "c000183",
+        "semantic_id": "3-1-1-2-1-0",
+        "score": 0.136
+      },
+      {
+        "chunk_id": "c000314",
+        "semantic_id": "3-2-3-0-0",
+        "score": 0.125
+      },
+      {
+        "chunk_id": "c000178",
+        "semantic_id": "3-1-1-2-0-0",
+        "score": 0.122
+      },
+      {
+        "chunk_id": "c000383",
+        "semantic_id": "3-2-3-3-0",
+        "score": 0.111
+      },
+      {
+        "chunk_id": "c000328",
+        "semantic_id": "3-1-2-1-0",
+        "score": 0.093
+      },
+      {
+        "chunk_id": "c000179",
+        "semantic_id": "3-1-1-1-0-0",
+        "score": 0.09
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 6.38
+  },
+  {
+    "id": "99",
+    "question": "What does BSM stand for in the Lane Departure protocol?",
+    "reference_answer": "Blind Spot Monitoring[cite: 3].",
+    "generated_answer": "BSM stands for \"Brake System Monitoring.\"",
+    "rephrased_query": "Lane Departure (BSM)",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000355",
+        "semantic_id": "2-0-2-1",
+        "score": 0.174
+      },
+      {
+        "chunk_id": "c000295",
+        "semantic_id": "2-0-3-1",
+        "score": 0.174
+      },
+      {
+        "chunk_id": "c000247",
+        "semantic_id": "2-0-1-1-0",
+        "score": 0.148
+      },
+      {
+        "chunk_id": "c000244",
+        "semantic_id": "2-0-1-0-0",
+        "score": 0.138
+      },
+      {
+        "chunk_id": "c000352",
+        "semantic_id": "2-0-2-0",
+        "score": 0.13
+      },
+      {
+        "chunk_id": "c000292",
+        "semantic_id": "2-0-3-0",
+        "score": 0.121
+      },
+      {
+        "chunk_id": "c000273",
+        "semantic_id": "3-2-3-4-0",
+        "score": 0.117
+      },
+      {
+        "chunk_id": "c000265",
+        "semantic_id": "2-0-1-2-0",
+        "score": 0.108
+      },
+      {
+        "chunk_id": "c000258",
+        "semantic_id": "2-0-0-0-0",
+        "score": 0.106
+      },
+      {
+        "chunk_id": "c000387",
+        "semantic_id": "3-2-0-0-0",
+        "score": 0.106
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 1.06
+  },
+  {
+    "id": "98",
+    "question": "How quickly must the Lane Support sensitivity revert to its nominal setting after the Driver Status Monitoring system detects degraded performance?",
+    "reference_answer": "< 1 second[cite: 3].",
+    "generated_answer": "The Lane Support sensitivity must revert to its nominal setting within < 1 second after the DSM detects its performance is degraded, or the system is non-functional or turned off.",
+    "rephrased_query": "Lane Support sensitivity revert speed to nominal setting after Driver Status Monitoring degraded performance",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000339",
+        "semantic_id": "3-4-1-2-0",
+        "score": 0.182
+      },
+      {
+        "chunk_id": "c000340",
+        "semantic_id": "3-4-1-3-0",
+        "score": 0.167
+      },
+      {
+        "chunk_id": "c000288",
+        "semantic_id": "3-4-1-1-0",
+        "score": 0.148
+      },
+      {
+        "chunk_id": "c000341",
+        "semantic_id": "3-4-1-4-0",
+        "score": 0.138
+      },
+      {
+        "chunk_id": "c000219",
+        "semantic_id": "3-4-0-0",
+        "score": 0.127
+      },
+      {
+        "chunk_id": "c000279",
+        "semantic_id": "3-4-1-0-0",
+        "score": 0.125
+      },
+      {
+        "chunk_id": "c000053",
+        "semantic_id": "3-1-1-3-0",
+        "score": 0.125
+      },
+      {
+        "chunk_id": "c000333",
+        "semantic_id": "3-4-3-3-0",
+        "score": 0.114
+      },
+      {
+        "chunk_id": "c000251",
+        "semantic_id": "3-0-3-3-0-0",
+        "score": 0.106
+      },
+      {
+        "chunk_id": "c000178",
+        "semantic_id": "3-1-1-2-0-0",
+        "score": 0.1
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 3.46
+  },
+  {
+    "id": "100",
+    "question": "How is a Driver Intention Monitoring system defined in the Lane Departure protocol?",
+    "reference_answer": "A system that is effective at distinguishing intentional from unintentional lane crossing and suppressing undesired interventions and/or warnings[cite: 3].",
+    "generated_answer": "A Driver Intention Monitoring (DIM) system is defined as a functionality that allows tests for Driveability \u2013 Overriding Torque and Continuous Intervention to be performed with the DIM operating as intended by the vehicle manufacturer.",
+    "rephrased_query": "Driver Intention Monitoring in Lane Departure protocol",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "c000251",
+        "semantic_id": "3-0-3-3-0-0",
+        "score": 0.168
+      },
+      {
+        "chunk_id": "c000279",
+        "semantic_id": "3-4-1-0-0",
+        "score": 0.168
+      },
+      {
+        "chunk_id": "c000340",
+        "semantic_id": "3-4-1-3-0",
+        "score": 0.155
+      },
+      {
+        "chunk_id": "c000288",
+        "semantic_id": "3-4-1-1-0",
+        "score": 0.155
+      },
+      {
+        "chunk_id": "c000333",
+        "semantic_id": "3-4-3-3-0",
+        "score": 0.125
+      },
+      {
+        "chunk_id": "c000339",
+        "semantic_id": "3-4-1-2-0",
+        "score": 0.122
+      },
+      {
+        "chunk_id": "c000006",
+        "semantic_id": "3-0-3-3-2-0",
+        "score": 0.114
+      },
+      {
+        "chunk_id": "c000341",
+        "semantic_id": "3-4-1-4-0",
+        "score": 0.111
+      },
+      {
+        "chunk_id": "c000452",
+        "semantic_id": "4-0-3-2-0",
+        "score": 0.106
+      },
+      {
+        "chunk_id": "c000394",
+        "semantic_id": "3-0-3-3-1-0",
+        "score": 0.103
+      }
+    ],
+    "react_steps_count": 1,
+    "latency_seconds": 1.16
+  }
+]

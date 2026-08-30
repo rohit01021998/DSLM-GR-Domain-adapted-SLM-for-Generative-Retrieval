@@ -1,0 +1,26 @@
+# Python virtual environment
+.venv/
+venv/
+ENV/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Model checkpoints & large binary weights
+runs/**/*.safetensors
+runs/**/*.bin
+runs/**/*.pt
+runs/**/*.npy
+runs/**/best/
+runs/**/last/
+runs/**/tokenizer*
+runs/**/chat_template*
+runs/dsi_smollm2_multichunk/
+
+# Large exports & digests
+digest.txt
+*.tmp
+.DS_Store
+DUQGen/.git

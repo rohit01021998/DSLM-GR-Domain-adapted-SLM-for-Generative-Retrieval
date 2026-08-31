@@ -24,3 +24,7 @@ digest.txt
 *.tmp
 .DS_Store
 DUQGen/.git
+
+# AWQ Quantized weights
+awq_quantisation/quantised_weights*/
+awq_quantisation/**/*.safetensors

@@ -1,0 +1,163 @@
+{
+  "metrics": {
+    "hits@1": 0.30398230088495576,
+    "hits@5": 0.6115044247787611,
+    "hits@10": 0.7376106194690265,
+    "mrr@10": 0.4333129653041171
+  },
+  "routing_stats": {
+    "total_expert_counts": {
+      "expert_0": 60614883,
+      "expert_1": 58801955,
+      "expert_2": 57746797,
+      "expert_3": 54981645
+    },
+    "layer_breakdown": {
+      "layer_0": {
+        "expert_0": 2073678,
+        "expert_1": 2428316,
+        "expert_2": 2265937,
+        "expert_3": 2904789
+      },
+      "layer_1": {
+        "expert_0": 2058409,
+        "expert_1": 2600272,
+        "expert_2": 2417650,
+        "expert_3": 2596389
+      },
+      "layer_2": {
+        "expert_0": 2564700,
+        "expert_1": 2737089,
+        "expert_2": 2346669,
+        "expert_3": 2024262
+      },
+      "layer_3": {
+        "expert_0": 2687100,
+        "expert_1": 2628088,
+        "expert_2": 2241927,
+        "expert_3": 2115605
+      },
+      "layer_4": {
+        "expert_0": 2415856,
+        "expert_1": 2708217,
+        "expert_2": 2658975,
+        "expert_3": 1889672
+      },
+      "layer_5": {
+        "expert_0": 2676092,
+        "expert_1": 2701100,
+        "expert_2": 2004168,
+        "expert_3": 2291360
+      },
+      "layer_6": {
+        "expert_0": 2181291,
+        "expert_1": 2491392,
+        "expert_2": 2657957,
+        "expert_3": 2342080
+      },
+      "layer_7": {
+        "expert_0": 2293895,
+        "expert_1": 2749500,
+        "expert_2": 2509607,
+        "expert_3": 2119718
+      },
+      "layer_8": {
+        "expert_0": 2979124,
+        "expert_1": 2220027,
+        "expert_2": 2211716,
+        "expert_3": 2261853
+      },
+      "layer_9": {
+        "expert_0": 2816928,
+        "expert_1": 2422595,
+        "expert_2": 2203528,
+        "expert_3": 2229669
+      },
+      "layer_10": {
+        "expert_0": 2129870,
+        "expert_1": 2263768,
+        "expert_2": 2660025,
+        "expert_3": 2619057
+      },
+      "layer_11": {
+        "expert_0": 2720115,
+        "expert_1": 2362151,
+        "expert_2": 2521105,
+        "expert_3": 2069349
+      },
+      "layer_12": {
+        "expert_0": 2767927,
+        "expert_1": 2125674,
+        "expert_2": 2578479,
+        "expert_3": 2200640
+      },
+      "layer_13": {
+        "expert_0": 2285874,
+        "expert_1": 2225224,
+        "expert_2": 2846893,
+        "expert_3": 2314729
+      },
+      "layer_14": {
+        "expert_0": 2188220,
+        "expert_1": 2666596,
+        "expert_2": 2783652,
+        "expert_3": 2034252
+      },
+      "layer_15": {
+        "expert_0": 2784226,
+        "expert_1": 2546976,
+        "expert_2": 2299953,
+        "expert_3": 2041565
+      },
+      "layer_16": {
+        "expert_0": 3219649,
+        "expert_1": 2201844,
+        "expert_2": 2384186,
+        "expert_3": 1867041
+      },
+      "layer_17": {
+        "expert_0": 2750030,
+        "expert_1": 2596559,
+        "expert_2": 2208103,
+        "expert_3": 2118028
+      },
+      "layer_18": {
+        "expert_0": 2436805,
+        "expert_1": 2112421,
+        "expert_2": 2428505,
+        "expert_3": 2694989
+      },
+      "layer_19": {
+        "expert_0": 2752972,
+        "expert_1": 2207038,
+        "expert_2": 2566041,
+        "expert_3": 2146669
+      },
+      "layer_20": {
+        "expert_0": 2247183,
+        "expert_1": 2869697,
+        "expert_2": 1627430,
+        "expert_3": 2928410
+      },
+      "layer_21": {
+        "expert_0": 2351634,
+        "expert_1": 2743749,
+        "expert_2": 2215589,
+        "expert_3": 2361748
+      },
+      "layer_22": {
+        "expert_0": 2846257,
+        "expert_1": 1888051,
+        "expert_2": 2444268,
+        "expert_3": 2494144
+      },
+      "layer_23": {
+        "expert_0": 2387048,
+        "expert_1": 2305611,
+        "expert_2": 2664434,
+        "expert_3": 2315627
+      }
+    }
+  },
+  "evaluated_queries": 2260
+}

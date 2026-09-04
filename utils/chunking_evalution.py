@@ -39,8 +39,11 @@ def main():
     dummy_key = "sk-fake-vllm-key"
     os.environ["OPENAI_API_KEY"] = dummy_key
 
-    corpora_paths = ['Data/corpus.txt']
-    queries_csv_path = 'Data/generated_queries_excerpts.csv'
+    from genret import config
+
+    corpus_path = config.CORPUS_PATH if config.CORPUS_PATH.exists() else (config.DATA_DIR / "corpus.txt")
+    corpora_paths = [str(corpus_path)]
+    queries_csv_path = str(config.DATA_DIR / "generated_queries_excerpts.csv")
     
     print(f"Initializing SyntheticEvaluation with local vLLM model: {vllm_gen_model}")
     print(f"Base URL: {vllm_base_url}")
@@ -91,7 +94,7 @@ def main():
         except Exception as e:
             print(f"Error evaluating {name}: {e}")
 
-    results_path = "Data/evaluation_results.json"
+    results_path = str(config.EVAL_RESULTS_PATH)
     with open(results_path, "w") as f:
         json.dump(results_summary, f, indent=2)
     print(f"\nSaved evaluation metrics report to {results_path}")

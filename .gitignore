@@ -28,3 +28,9 @@ DUQGen/.git
 # AWQ Quantized weights
 awq_quantisation/quantised_weights*/
 awq_quantisation/**/*.safetensors
+awq_quantisation/*.zip
+
+# MoE checkpoints & weights
+MoE approach/checkpoints/best/
+MoE approach/checkpoints/last/
+MoE approach/checkpoints/initial_moe/

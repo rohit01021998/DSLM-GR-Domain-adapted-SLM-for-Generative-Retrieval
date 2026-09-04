@@ -1,5 +1,7 @@
 import os
+os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
 import re
+import sys
 import json
 import time
 import asyncio
@@ -13,26 +15,35 @@ from pydantic import BaseModel
 from contextlib import asynccontextmanager
 import uvicorn
 
+# Ensure MoE approach directory and repo root are on python path
+CURRENT_DIR = Path(__file__).resolve().parent
+REPO_ROOT = CURRENT_DIR.parent
+if str(CURRENT_DIR) not in sys.path:
+    sys.path.insert(0, str(CURRENT_DIR))
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
+
 from genret import config
-from genret.infer import Retriever, rewrite_query_for_retrieval
+import config_moe
+from infer_moe import MoERetriever, rewrite_query_for_retrieval
 
 # Global singleton retriever instance & concurrency lock
-_retriever: Optional[Retriever] = None
+_retriever: Optional[MoERetriever] = None
 _dsi_lock = asyncio.Lock()
 
-def get_retriever() -> Retriever:
+def get_retriever() -> MoERetriever:
     global _retriever
     if _retriever is None:
-        print("Initializing DSLM-GR Retriever...")
-        _retriever = Retriever()
+        print("Initializing MoE DSLM-GR Retriever (Top-2 Sub-Dense 2.92B / 1.71B Active)...")
+        _retriever = MoERetriever()
     return _retriever
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     print("\n" + "=" * 65)
-    print("🔥 Eagerly loading Dense DSI model at startup...")
+    print("🔥 Eagerly loading MoE DSI model at startup...")
     retriever = get_retriever()
-    print("⚡ Warming up Dense DSI model & CUDA kernels for fast first token...")
+    print("⚡ Warming up MoE DSI model & CUDA kernels for fast first token...")
     try:
         _ = retriever.retrieve("Euro NCAP testing protocol", k=1, use_pag=True, use_hybrid=True)
     except Exception as e:
@@ -52,11 +63,11 @@ async def lifespan(app: FastAPI):
         )
     except Exception:
         pass
-    print("🚀 Dense model loaded & warmed up! Ready for instant inference.")
+    print("🚀 MoE model loaded & warmed up! Ready for instant inference.")
     print("=" * 65 + "\n")
     yield
 
-app = FastAPI(title="DSLM-GR ReAct Generative Retrieval App", lifespan=lifespan)
+app = FastAPI(title="MoE DSLM-GR ReAct Generative Retrieval App", lifespan=lifespan)
 
 class QueryRequest(BaseModel):
     query: str
@@ -64,7 +75,7 @@ class QueryRequest(BaseModel):
 def react_agent_loop(
     original_query: str,
     retrieved_chunks: List[Dict[str, Any]],
-    retriever: Retriever,
+    retriever: MoERetriever,
     base_url: str = config.GEN_BASE_URL,
     model_name: str = None,
     max_steps: int = 4
@@ -74,7 +85,7 @@ def react_agent_loop(
     """
     Advanced Generative Retrieval ReAct Agentic Harness:
     1. Evaluates retrieved evidence against the user query.
-    2. Has direct tool access to DSI_Search (queries the trained DSI SLM on the fly for missing context).
+    2. Has direct tool access to DSI_Search (queries the trained MoE DSI SLM on the fly for missing context).
     3. Performs Lookup & Table Verification across accumulated chunks.
     4. Robustly parses Finish actions and guarantees a complete, verified answer.
     """
@@ -92,7 +103,7 @@ def react_agent_loop(
         "You are an expert autonomous reasoning agent for Euro NCAP vehicle testing protocols.\n"
         "You have access to retrieved protocol documentation chunks and specialized tools to find missing facts.\n\n"
         "AVAILABLE TOOLS:\n"
-        "1. DSI_Search[search phrase] -> Queries the neural DSI generative index to retrieve additional relevant protocol chunks.\n"
+        "1. DSI_Search[search phrase] -> Queries the neural MoE DSI generative index to retrieve additional relevant protocol chunks.\n"
         "2. Lookup[exact keyword or table term] -> Scans all retrieved document chunks for exact matching lines or numbers.\n"
         "3. Finish[your detailed reasoned answer] -> Concludes the task once sufficient facts are established.\n\n"
         "FORMAT RULES (strictly follow at every step):\n"
@@ -149,14 +160,14 @@ def react_agent_loop(
             })
             break
 
-        # Check for DSI_Search tool call (Pure Neural Generative Retrieval)
+        # Check for DSI_Search tool call (MoE Neural Generative Retrieval)
         dsi_search_match = re.search(r"DSI_Search\[(.*?)\]", action_raw, re.IGNORECASE)
         lookup_match = re.search(r"Lookup\[(.*?)\]", action_raw, re.IGNORECASE)
 
         observation = ""
         if dsi_search_match:
             search_query = dsi_search_match.group(1).strip()
-            # Query trained DSI + PAG SLM directly for additional chunks
+            # Query trained MoE DSI + PAG SLM directly for additional chunks
             new_chunks = retriever.retrieve(search_query, k=3, use_pag=True)
             added = []
             for nc in new_chunks:
@@ -165,9 +176,9 @@ def react_agent_loop(
                     accumulated_chunks[cid] = nc
                     added.append(f"Chunk {cid}")
             if added:
-                observation = f"DSI retrieved additional relevant context: {', '.join(added)}."
+                observation = f"MoE DSI retrieved additional relevant context: {', '.join(added)}."
             else:
-                observation = "DSI confirmed existing chunks already cover this area."
+                observation = "MoE DSI confirmed existing chunks already cover this area."
         elif lookup_match:
             term = lookup_match.group(1).strip().lower()
             context_all = build_context_str(accumulated_chunks)
@@ -277,12 +288,12 @@ async def api_ask(req: QueryRequest):
     # Step 1: Query Rephrasing (Domain Acronym Expansion)
     rephrased_query = rewrite_query_for_retrieval(query)
 
-    # Step 2: DSI + PAG Generative Retrieval (Initial Top-10 Chunks)
+    # Step 2: MoE DSI + PAG Generative Retrieval (Initial Top-10 Chunks)
     retriever = get_retriever()
     async with _dsi_lock:
         retrieved_results = retriever.retrieve(rephrased_query, k=10, use_pag=True)
 
-    # Step 3: Advanced Agentic ReAct Harness (with Dynamic DSI Search & Lookup Tools)
+    # Step 3: Advanced Agentic ReAct Harness (with Dynamic MoE DSI Search & Lookup Tools)
     react_result = react_agent_loop(
         original_query=query,
         retrieved_chunks=retrieved_results,
@@ -311,14 +322,18 @@ async def api_ask(req: QueryRequest):
         ],
         "react_steps": react_result["steps"],
         "final_answer": final_answer,
-        "elapsed_seconds": elapsed
+        "elapsed_seconds": elapsed,
+        "moe_routing": retriever.last_routing
     }
 
 # ==============================================================================
 # BENCHMARK SUITE BACKEND
 # ==============================================================================
-BENCHMARK_PATH = Path("benchmark.json") if Path("benchmark.json").exists() else config.DATA_DIR / "benchmark.json"
-BENCHMARK_RESULTS_PATH = Path("benchmark_results.json")
+BENCHMARK_PATH = (
+    REPO_ROOT / "benchmark.json" if (REPO_ROOT / "benchmark.json").exists()
+    else (Path("benchmark.json") if Path("benchmark.json").exists() else config.DATA_DIR / "benchmark.json")
+)
+BENCHMARK_RESULTS_PATH = CURRENT_DIR / "benchmark_results.json"
 
 def load_benchmark_questions() -> List[Dict[str, Any]]:
     if BENCHMARK_PATH.exists():
@@ -369,7 +384,7 @@ class SaveResultsRequest(BaseModel):
 # ==============================================================================
 # BENCHMARK LOGGING & PROFILING SYSTEM
 # ==============================================================================
-BENCHMARK_LOGS_DIR = Path("benchmark_logs")
+BENCHMARK_LOGS_DIR = CURRENT_DIR / "benchmark_logs"
 BENCHMARK_LOGS_DIR.mkdir(parents=True, exist_ok=True)
 LATEST_TRACE_LOG = BENCHMARK_LOGS_DIR / "latest_trace.jsonl"
 LATEST_HUMAN_LOG = BENCHMARK_LOGS_DIR / "latest_run.log"
@@ -385,6 +400,7 @@ def log_benchmark_item(
     retrieval_time: float,
     generation_time: float,
     total_time: float,
+    routing_profile: Optional[List[Dict[str, Any]]] = None,
     status: str = "SUCCESS",
     error_msg: Optional[str] = None
 ):
@@ -409,6 +425,7 @@ def log_benchmark_item(
             for c in retrieved_chunks
         ],
         "react_steps": react_steps,
+        "routing_profile": routing_profile,
         "latency_breakdown": {
             "retrieval_sec": round(retrieval_time, 3),
             "generation_sec": round(generation_time, 3),
@@ -418,16 +435,14 @@ def log_benchmark_item(
         "error": error_msg
     }
 
-    # Append to structured JSONL trace
     with open(LATEST_TRACE_LOG, "a", encoding="utf-8") as f:
         f.write(json.dumps(log_entry) + "\n")
 
-    # Append to human-readable diagnostic log
     chunk_ids = [c.get("chunk_id", "") for c in retrieved_chunks]
     log_line = (
         f"[{timestamp}] [{status}] Query #{item_id}: \"{question[:80]}\"\n"
         f"  ├─ Rephrased: \"{rephrased_query[:90]}\"\n"
-        f"  ├─ Retrieved Chunks ({len(chunk_ids)}): {chunk_ids[:6]}\n"
+        f"  ├─ MoE Retrieved Chunks ({len(chunk_ids)}): {chunk_ids[:6]}\n"
         f"  ├─ ReAct Steps: {len(react_steps)} | Latency: {total_time:.2f}s (Retrieval: {retrieval_time:.2f}s | Gen: {generation_time:.2f}s)\n"
         f"  └─ Answer Preview: {generated_answer.replace(chr(10), ' ')[:140]}...\n\n"
     )
@@ -441,7 +456,7 @@ async def api_get_benchmark_logs():
     from fastapi.responses import FileResponse
     return FileResponse(
         path=LATEST_HUMAN_LOG,
-        filename=f"benchmark_debug_{int(time.time())}.log",
+        filename=f"moe_benchmark_debug_{int(time.time())}.log",
         media_type="text/plain"
     )
 
@@ -452,7 +467,7 @@ async def api_get_benchmark_trace_jsonl():
     from fastapi.responses import FileResponse
     return FileResponse(
         path=LATEST_TRACE_LOG,
-        filename=f"benchmark_trace_{int(time.time())}.jsonl",
+        filename=f"moe_benchmark_trace_{int(time.time())}.jsonl",
         media_type="application/x-ndjson"
     )
 
@@ -530,6 +545,7 @@ async def api_benchmark_evaluate_item(req: BenchmarkItemRequest):
     retriever = get_retriever()
     async with _dsi_lock:
         retrieved_results = retriever.retrieve(rephrased_query, k=10, use_pag=True, use_hybrid=True)
+        routing_profile = getattr(retriever, "last_routing", [])
     retrieval_time = time.time() - t_ret_start
 
     t_gen_start = time.time()
@@ -540,7 +556,6 @@ async def api_benchmark_evaluate_item(req: BenchmarkItemRequest):
     generation_time = time.time() - t_gen_start
     elapsed = round(time.time() - start_time, 2)
 
-    # Save to debug logs
     log_benchmark_item(
         item_id=req.id or "unknown",
         question=q,
@@ -551,7 +566,8 @@ async def api_benchmark_evaluate_item(req: BenchmarkItemRequest):
         react_steps=[],
         retrieval_time=retrieval_time,
         generation_time=generation_time,
-        total_time=elapsed
+        total_time=elapsed,
+        routing_profile=routing_profile
     )
 
     return {
@@ -569,7 +585,8 @@ async def api_benchmark_evaluate_item(req: BenchmarkItemRequest):
             for r in retrieved_results
         ],
         "react_steps_count": 1,
-        "latency_seconds": elapsed
+        "latency_seconds": elapsed,
+        "routing_profile": routing_profile
     }
 
 @app.post("/api/benchmark/save_results")
@@ -588,7 +605,7 @@ async def api_benchmark_export():
     from fastapi.responses import FileResponse
     return FileResponse(
         path=BENCHMARK_RESULTS_PATH,
-        filename=f"benchmark_results_{int(time.time())}.json",
+        filename=f"moe_benchmark_results_{int(time.time())}.json",
         media_type="application/json"
     )
 
@@ -615,7 +632,7 @@ async def api_benchmark_evaluate_batch(req: BenchmarkBatchRequest):
             # Step 1: Query expansion with domain glossary grounding
             rephrased = rewrite_query_for_retrieval(q)
             
-            # Step 2: Hybrid DSI + BM25 neural/lexical retrieval
+            # Step 2: Hybrid MoE DSI + BM25 neural/lexical retrieval
             async with _dsi_lock:
                 retrieved = retriever.retrieve(rephrased, k=10, use_pag=True, use_hybrid=True)
             
@@ -676,7 +693,7 @@ async def index():
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DSLM-GR | Protocol Assistant & Benchmark Suite</title>
+    <title>MoE DSLM-GR | Technical Assistant & Benchmark Suite</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -694,6 +711,27 @@ async def index():
             --accent-emerald: #10b981;
             --accent-purple: #a855f7;
             --accent-amber: #f59e0b;
+            --moe-0: #3b82f6; /* Blue */
+            --moe-1: #10b981; /* Green */
+            --moe-2: #f59e0b; /* Yellow */
+            --moe-3: #ef4444; /* Red */
+        }
+
+        .sparkline-container {
+            display: flex;
+            gap: 1px;
+            height: 12px;
+            align-items: center;
+        }
+        .sparkline-block {
+            width: 4px;
+            height: 100%;
+            border-radius: 1px;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .sparkline-block:hover {
+            opacity: 0.7;
         }
 
         * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -1016,8 +1054,8 @@ async def index():
 <body>
     <div class="container">
         <header>
-            <h1>DSLM-GR Technical Assistant</h1>
-            <p class="subtitle">Domain-Adapted Generative Retrieval with Grounded Answering & Benchmark Suite</p>
+            <h1>MoE DSLM-GR Technical Assistant</h1>
+            <p class="subtitle">Mixture-of-Experts Generative Retrieval (2.92B / 1.71B Active) with Grounded Answering & Benchmark Suite</p>
         </header>
 
         <div class="nav-tabs">
@@ -1058,9 +1096,9 @@ async def index():
             <div class="card">
                 <div class="bench-controls">
                     <div>
-                        <h3 style="font-size: 16px; font-weight: 600; color: #fff;">vLLM Continuous-Batching Benchmark</h3>
+                        <h3 style="font-size: 16px; font-weight: 600; color: #fff;">vLLM Continuous-Batching Benchmark (MoE DSI Engine)</h3>
                         <p style="font-size: 12px; color: var(--text-muted); margin-top: 2px;">
-                            Evaluates <span id="benchCountLabel" style="color: var(--accent-cyan); font-weight: 600;">100</span> questions from <code style="color: var(--accent-cyan);">benchmark.json</code> using parallel GPU continuous batching.
+                            Evaluates <span id="benchCountLabel" style="color: var(--accent-cyan); font-weight: 600;">100</span> questions from <code style="color: var(--accent-cyan);">benchmark.json</code> using parallel continuous batching and MoE DSI retrieval.
                         </p>
                     </div>
                     <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
@@ -1110,16 +1148,17 @@ async def index():
                         <thead>
                             <tr>
                                 <th style="width: 50px;">#</th>
-                                <th style="width: 28%;">Question</th>
-                                <th style="width: 32%;">Generated Answer</th>
-                                <th style="width: 25%;">Grounding Chunks</th>
-                                <th style="width: 15%;">Latency</th>
+                                <th style="width: 25%;">Question</th>
+                                <th style="width: 28%;">Generated Answer</th>
+                                <th style="width: 15%;">MoE Routing</th>
+                                <th style="width: 20%;">Grounding Chunks</th>
+                                <th style="width: 12%;">Latency</th>
                             </tr>
                         </thead>
                         <tbody id="benchTableBody">
                             <tr>
-                                <td colspan="5" style="text-align: center; color: var(--text-muted); padding: 30px;">
-                                    Click "⚡ Run Batched Benchmark" to execute continuous-batching evaluation on the 100 questions.
+                                <td colspan="6" style="text-align: center; color: var(--text-muted); padding: 30px;">
+                                    Click "⚡ Run Batched Benchmark" to execute continuous-batching evaluation on the questions.
                                 </td>
                             </tr>
                         </tbody>
@@ -1258,7 +1297,6 @@ async def index():
             let totalLatency = 0;
             const benchStartTime = Date.now();
 
-            // Concurrent Worker Queue
             let queueIndex = 0;
 
             async function worker() {
@@ -1285,16 +1323,32 @@ async def index():
                             benchmarkResults.push(result);
                             totalLatency += result.latency_seconds;
 
-                            // Append row to live table
                             const tr = document.createElement('tr');
                             const chunkBadges = result.retrieved_chunks.slice(0, 3).map(c => 
                                 `<span class="badge" title="${c.semantic_id}">${c.chunk_id}</span>`
                             ).join(' ');
 
+                            let sparklineHtml = '';
+                            if (result.routing_profile && result.routing_profile.length) {
+                                sparklineHtml = '<div class="sparkline-container">';
+                                result.routing_profile.forEach(rp => {
+                                    const primaryExp = rp.primary_expert;
+                                    const colorVar = `var(--moe-${primaryExp})`;
+                                    const titleInfo = Object.entries(rp.expert_counts)
+                                        .map(([exp, count]) => `Exp${exp}:${count}`)
+                                        .join(', ');
+                                    sparklineHtml += `<div class="sparkline-block" style="background-color: ${colorVar};" title="Layer ${rp.layer} | ${titleInfo}"></div>`;
+                                });
+                                sparklineHtml += '</div>';
+                            } else {
+                                sparklineHtml = '<span style="color:var(--text-muted);font-size:10px;">N/A</span>';
+                            }
+
                             tr.innerHTML = `
                                 <td><span style="color: var(--text-muted); font-family: monospace;">#${qId}</span></td>
                                 <td><strong style="color: #fff;">${escapeHtml(qText)}</strong></td>
                                 <td style="color: #cbd5e1;">${escapeHtml(result.generated_answer)}</td>
+                                <td>${sparklineHtml}</td>
                                 <td>${chunkBadges}</td>
                                 <td><span class="badge">${result.latency_seconds}s</span></td>
                             `;
@@ -1317,7 +1371,6 @@ async def index():
                 }
             }
 
-            // Launch concurrent workers based on selected batch concurrency
             const workers = [];
             const numWorkers = Math.min(concurrency, total);
             for (let w = 0; w < numWorkers; w++) {
@@ -1325,7 +1378,6 @@ async def index():
             }
             await Promise.all(workers);
 
-            // Save completed results to backend
             try {
                 await fetch('/api/benchmark/save_results', {
                     method: 'POST',
@@ -1352,7 +1404,7 @@ async def index():
             const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(benchmarkResults, null, 2));
             const downloadAnchor = document.createElement('a');
             downloadAnchor.setAttribute("href", dataStr);
-            downloadAnchor.setAttribute("download", `benchmark_results_${Date.now()}.json`);
+            downloadAnchor.setAttribute("download", `moe_benchmark_results_${Date.now()}.json`);
             document.body.appendChild(downloadAnchor);
             downloadAnchor.click();
             downloadAnchor.remove();
@@ -1375,7 +1427,6 @@ async def index():
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8080))
     print("\n" + "=" * 65)
-    print(f"🚀 DSLM-GR ReAct Webapp running at: http://localhost:{port}")
+    print(f"🚀 MoE DSLM-GR ReAct Webapp running at: http://localhost:{port}")
     print("=" * 65 + "\n")
-    uvicorn.run("app:app", host="0.0.0.0", port=port, reload=False)
-
+    uvicorn.run(app, host="0.0.0.0", port=port)
